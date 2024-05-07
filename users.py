@@ -29,4 +29,7 @@ class User:
   def get_collectibles_list(self):
     return self._collectibles_list
 
+  def add_book(self, name, ADD MORE SOON):
+    self.get_book_list[
+
   
