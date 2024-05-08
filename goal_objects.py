@@ -1,5 +1,5 @@
 class Books:
-  def __init__(self, name, completion_hours, total_hours, times_finished, rating, unique_packs):
+  def __init__(self, name, completion_hours, total_hours, times_finished, rating):
     self._name = name
     self._completion_hours = completion_hours
     self._total_hours = total_hours
@@ -21,6 +21,14 @@ class Books:
 
   def get_rating(self):
     return self._rating
+  
+  def add_total_hours(self, additional_hours):
+    self._total_hours += additional_hours
 
-  def get_unique_packs(self):
-    return self._unique_packs
+  def incr_times_finished(self):
+    self._times_finished += 1
+
+  def update_rating(self, new_rating):
+    self._rating = new_rating
+
+  

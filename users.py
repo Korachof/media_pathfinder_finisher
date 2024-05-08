@@ -1,3 +1,5 @@
+import goal_objects
+
 class User:
   def __init__(self, name, book_list, movie_list, game_list, tv_list, event_list, collectibles_list):
     self._name = name
@@ -29,7 +31,16 @@ class User:
   def get_collectibles_list(self):
     return self._collectibles_list
 
-  def add_book(self, name, ADD MORE SOON):
-    self.get_book_list[
+  def add_book(self, name, completion_hours, rating):
+
+    if name not in self._book_list:
+      self._book_list[name] = goal_objects.Books(name, completion_hours, completion_hours, 1, rating)
+      return f"The Book {name} has been added"
+    
+    else:
+      self._book_list[name].add_total_hours(completion_hours)
+      self._book_list[name].incr_times_finished()
+      self._book_list[name].update_rating(rating)
+      return f"The Book {name} has been updated"
 
   
