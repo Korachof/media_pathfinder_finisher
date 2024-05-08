@@ -31,10 +31,10 @@ class User:
   def get_collectibles_list(self):
     return self._collectibles_list
 
-  def add_book(self, name, completion_hours, rating):
+  def add_book(self, name, author, completion_hours, rating):
 
     if name not in self._book_list:
-      self._book_list[name] = goal_objects.Books(name, completion_hours, completion_hours, 1, rating)
+      self._book_list[name] = goal_objects.Books(name, author, completion_hours, completion_hours, 1, rating)
       return f"The Book {name} has been added"
     
     else:
@@ -44,3 +44,8 @@ class User:
       return f"The Book {name} has been updated"
 
   
+Korachof = User("Korachof", {}, {}, {}, {}, {}, {})
+
+Korachof.add_book("Lost Gods", "Brom", 21, 8)
+
+print(Korachof.get_book_list()["Lost Gods"].get_name())

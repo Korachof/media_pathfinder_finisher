@@ -1,0 +1,22 @@
+[{
+    "sets":
+    {
+       "setName":"Forest",
+       "setContents":
+       [{
+        "title": "Faerie Dragon",
+        "category": "Faerie Dragon",
+        "trait": "Dragon",
+        "rarity": "Uncommon",
+        "cardNumber": 1
+       }, 
+       {
+        "title": "Jabberwock",
+        "category": "Dragon",
+        "trait":"Jabberwock",
+        "rarity": "Rare",
+        "cardNumber": 2
+       }]
+    }
+    
+}]

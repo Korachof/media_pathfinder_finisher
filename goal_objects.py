@@ -1,14 +1,17 @@
 class Books:
-  def __init__(self, name, completion_hours, total_hours, times_finished, rating):
+  def __init__(self, name, author, completion_hours, total_hours, times_finished, rating):
     self._name = name
+    self._author = author
     self._completion_hours = completion_hours
     self._total_hours = total_hours
     self._times_finished = times_finished
     self._rating = rating
-    self._unique_packs = unique_packs
 
   def get_name(self):
     return self._name
+  
+  def get_author(self):
+    return self._author
 
   def get_completion_hours(self):
     return self._completion_hours
