@@ -32,20 +32,27 @@ class User:
     return self._collectibles_list
 
   def add_book(self, name, author, completion_hours, rating):
-
-    if name not in self._book_list:
-      self._book_list[name] = goal_objects.Books(name, author, completion_hours, completion_hours, 1, rating)
-      return f"The Book {name} has been added"
+    if f"{name}: {author}" not in self._book_list:
+      self._book_list[f"{name}: {author}"] = goal_objects.Books(name, author, completion_hours, completion_hours, 1, rating)
+      return f"The Book {name} by {author} has been added"
     
     else:
-      self._book_list[name].add_total_hours(completion_hours)
-      self._book_list[name].incr_times_finished()
-      self._book_list[name].update_rating(rating)
-      return f"The Book {name} has been updated"
+      self._book_list[f"{name}: {author}"].add_total_hours(completion_hours)
+      self._book_list[f"{name}: {author}"].incr_times_finished()
+      self._book_list[f"{name}: {author}"].update_rating(rating)
+      return f"The Book {name} by {author} has been updated"
 
   
 Korachof = User("Korachof", {}, {}, {}, {}, {}, {})
 
 Korachof.add_book("Lost Gods", "Brom", 21, 8)
 
-print(Korachof.get_book_list()["Lost Gods"].get_name())
+print(Korachof.get_book_list()["Lost Gods: Brom"].get_total_hours())
+
+Korachof.add_book("Lost Gods", "Brom", 23, 8)
+
+Korachof.add_book
+
+print(Korachof.get_book_list()["Lost Gods: Brom"].get_total_hours())
+
+print(Korachof.get_book_list()["Lost Gods: Brom"].get_name())
