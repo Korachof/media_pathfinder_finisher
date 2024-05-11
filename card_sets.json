@@ -1,6 +1,6 @@
 [{
     "sets":
-    {
+    [{
        "setName":"Forest",
        "setContents":
        [
@@ -31,8 +31,54 @@
         "trait":"Plant",
         "rarity": "Common",
         "cardNumber": 4
-       }
-    ]
-    }
+       },
+       {
+        "title": "Treerazer",
+        "category": "Treerazer",
+        "trait":"Fiend",
+        "rarity": "Unique",
+        "cardNumber": 5
+       }]
+    },
+    {
+        "setName":"Monstrous Ground",
+        "setContents":
+        [
+         {
+         "title": "Orc Brute",
+         "category": "Orc",
+         "trait": "Humanoid",
+         "rarity": "Common",
+         "cardNumber": 1
+        }, 
+        {
+         "title": "Chupacabra",
+         "category": "Chupacabra",
+         "trait":"Beast",
+         "rarity": "Common",
+         "cardNumber": 2
+        },
+        {
+         "title": "Ancient Copper Dragon",
+         "category": "Dragon, Metallic",
+         "trait":"Dragon",
+         "rarity": "Uncommon",
+         "cardNumber": 3
+        },
+        {
+         "title": "Rune Giant",
+         "category": "Giant",
+         "trait":"Giant",
+         "rarity": "Uncommon",
+         "cardNumber": 4
+        },
+        {
+         "title": "Ancient Cloud Dragon",
+         "category": "Treerazer",
+         "trait":"Fiend",
+         "rarity": "Unique",
+         "cardNumber": 5
+        }]  
+    }]
     
 }]
