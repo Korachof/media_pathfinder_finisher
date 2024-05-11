@@ -34,4 +34,14 @@ class Books:
   def update_rating(self, new_rating):
     self._rating = new_rating
 
+
+class Movies:
+  def __init__(self, title, director, completion_hours, total_hours, times_finished, rating):
+    self._title = title
+    self._director = director
+    self._completion_hours = completion_hours
+    self._total_hours = total_hours
+    self._times_finished = times_finished
+    self._rating = rating
+
   
