@@ -34,9 +34,9 @@
         "trait":"Fiend",
         "rarity": "Unique",
         "cardNumber": 5
-       }],
-       "Monstrous Ground":
-       [{
+    }],
+    "Monstrous Ground":
+    [{
         "title": "Orc Brute",
         "category": "Orc",
         "trait": "Humanoid",
@@ -70,5 +70,5 @@
         "trait":"Fiend",
         "rarity": "Unique",
         "cardNumber": 5
-       }]
+    }]
 }
