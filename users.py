@@ -31,6 +31,14 @@ class User:
   def get_collectibles_list(self):
     return self._collectibles_list
 
+  def filter_collectibles_by_set(self, set_name):
+    set_list = []
+    for card in self._collectibles_list[set_name]:
+      set_list.append(card)
+    
+    return set_list
+
+
   def add_book(self, name, author, completion_hours, rating):
     if f"{name}: {author}" not in self._book_list:
       self._book_list[f"{name}: {author}"] = goal_objects.Books(name, author, completion_hours, completion_hours, 1, rating)
