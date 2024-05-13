@@ -1,7 +1,8 @@
 [{
     "sets":
     [{
-       "setName":"Forest",
+       "setName":"Wildlife Mayhem",
+       "goalConnection": "Books",
        "setContents":
        [
         {
@@ -42,6 +43,7 @@
     },
     {
         "setName":"Monstrous Ground",
+        "goalConnection": "Movies",
         "setContents":
         [
          {
