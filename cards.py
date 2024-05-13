@@ -19,8 +19,7 @@ class CardSet:
     
     return card_list_data
     
-    
-  def get_card_from_db(self, card_list_data):
+  def add_card_from_db(self, card_list_data):
 
 
 
