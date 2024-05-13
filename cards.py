@@ -29,7 +29,7 @@ class CardSet:
         card["cardNumber"])
 
   def add_card(self, title, category, trait, rarity, card_num):
-    self._set_list[title] = Cards(title, category, trait, rarity, card_num)
+    self._set_list_hash[title] = Cards(title, category, trait, rarity, card_num)
 
 
 class Cards:
@@ -54,3 +54,12 @@ class Cards:
 
   def get_card_num(self):
     return self._card_num
+
+
+wildlife_mayhem = CardSet("Wildlife Mayhem", {})
+
+card_dict = wildlife_mayhem.open_card_list_db()
+
+wildlife_mayhem.add_cards_from_db(card_dict)
+
+print(wildlife_mayhem.get_set_list())
