@@ -1,0 +1,74 @@
+{
+    "Wildlife Mayhem":
+    [{
+        "title": "Faerie Dragon",
+        "category": "Faerie Dragon",
+        "trait": "Dragon",
+        "rarity": "Uncommon",
+        "cardNumber": 1
+       }, 
+       {
+        "title": "Jabberwock",
+        "category": "Dragon",
+        "trait":"Jabberwock",
+        "rarity": "Rare",
+        "cardNumber": 2
+       },
+       {
+        "title": "Verdurous Ooze",
+        "category": "Ooze",
+        "trait":"Ooze",
+        "rarity": "Common",
+        "cardNumber": 3
+       },
+       {
+        "title": "Scythe Tree",
+        "category": "Scythe Tree",
+        "trait":"Plant",
+        "rarity": "Common",
+        "cardNumber": 4
+       },
+       {
+        "title": "Treerazer",
+        "category": "Treerazer",
+        "trait":"Fiend",
+        "rarity": "Unique",
+        "cardNumber": 5
+       }],
+       "Monstrous Ground":
+       [{
+        "title": "Orc Brute",
+        "category": "Orc",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 1
+       }, 
+       {
+        "title": "Chupacabra",
+        "category": "Chupacabra",
+        "trait":"Beast",
+        "rarity": "Common",
+        "cardNumber": 2
+       },
+       {
+        "title": "Ancient Copper Dragon",
+        "category": "Dragon, Metallic",
+        "trait":"Dragon",
+        "rarity": "Uncommon",
+        "cardNumber": 3
+       },
+       {
+        "title": "Rune Giant",
+        "category": "Giant",
+        "trait":"Giant",
+        "rarity": "Uncommon",
+        "cardNumber": 4
+       },
+       {
+        "title": "Ancient Cloud Dragon",
+        "category": "Treerazer",
+        "trait":"Fiend",
+        "rarity": "Unique",
+        "cardNumber": 5
+       }]
+}
