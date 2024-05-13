@@ -1,3 +1,5 @@
+import json
+
 class CardSet:
   def __init__(self, name, set_list_hash):
     self._name = name
@@ -9,7 +11,20 @@ class CardSet:
   def get_set_list(self):
     return self._set_list_hash
 
-  def get_card_from_db(self):
+  def open_card_list_db(self):
+    with open("card_sets.json") as card_set_file:
+      card_list_data = json.load(card_set_file)
+
+    card_set_file.close()
+    
+    return card_list_data
+    
+    
+  def get_card_from_db(self, card_list_data):
+
+
+
+
 
   
   # def add_card(self, title, category, trait, rarity, card_num):
