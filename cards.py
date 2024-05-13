@@ -12,7 +12,7 @@ class CardSet:
     return self._set_list_hash
 
   def open_card_list_db(self):
-    with open("card_sets.json") as card_set_file:
+    with open("card_set_db.json") as card_set_file:
       card_list_data = json.load(card_set_file)
 
     card_set_file.close()
