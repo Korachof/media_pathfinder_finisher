@@ -37,6 +37,10 @@ class User:
       set_list.append(card)
     
     return set_list
+  
+  def filter_collectibles_by_category(self, category_name):
+    set_list = []
+
 
 
   def add_book(self, name, author, completion_hours, rating):
