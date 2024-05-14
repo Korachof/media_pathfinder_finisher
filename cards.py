@@ -38,8 +38,8 @@ class CardPacks:
   def __init__(self, card_set, contents):
     self._card_set = card_set
     self._contents = contents
-    self._COMMON_MAX = 21
-    self._UNCOMMON_MAX = 41
+    self._COMMON_MAX = 31
+    self._UNCOMMON_MAX = 47
     self._RARE_MAX = 59
     self._UNIQUE_MAX = 7
 

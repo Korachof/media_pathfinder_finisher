@@ -1,74 +1,243 @@
 {
     "Wildlife Mayhem":
-    [{
-        "title": "Faerie Dragon",
-        "category": "Faerie Dragon",
-        "trait": "Dragon",
-        "rarity": "Uncommon",
+    [   {
+        "title": "Elephant",
+        "category": "Elephant",
+        "trait": "Animal",
+        "rarity": "Common",
         "cardNumber": 1
-       }, 
-       {
-        "title": "Jabberwock",
-        "category": "Dragon",
-        "trait":"Jabberwock",
-        "rarity": "Rare",
+        },
+        {
+        "title": "Triceratops",
+        "category": "Dinosaur",
+        "trait": "Animal",
+        "rarity": "Common",
         "cardNumber": 2
-       },
-       {
-        "title": "Verdurous Ooze",
-        "category": "Ooze",
-        "trait":"Ooze",
+        },
+        {
+        "title": "Black Bear",
+        "category": "Bear",
+        "trait": "Animal",
         "rarity": "Common",
         "cardNumber": 3
-       },
-       {
+        },
+        {
+        "title": "Wolverine",
+        "category": "Wolverine",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 4
+        },
+        {
+        "title": "Mastodon",
+        "category": "Elephant",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 5
+        },
+        {
+        "title": "Drainberry Bush",
+        "category": "Drainberry Bush",
+        "trait": "Plant",
+        "rarity": "Common",
+        "cardNumber": 6
+        },
+        {
+        "title": "Spear Frog",
+        "category": "Frog",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 7
+        },
+        {
+        "title": "Dryad",
+        "category": "Nymph",
+        "trait": "Fey",
+        "rarity": "Common",
+        "cardNumber": 8
+        },
+        {
+        "title": "Army Ant Swarm",
+        "category": "Ant",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 9
+        },
+        {
+        "title": "Megalania",
+        "category": "Lizard",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 10
+        },
+        {
+        "title": "Graveknight",
+        "category": "Graveknight",
+        "trait": "Undead",
+        "rarity": "Common",
+        "cardNumber": 11
+        },
+        {
+        "title": "Gnoll Hunter",
+        "category": "Gnoll",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 12
+        },
+        {
+        "title": "Gnoll Sargeant",
+        "category": "Gnoll",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 13
+        },
+        {
+        "title": "Sunflower Leshy",
+        "category": "Leshy",
+        "trait": "Plant",
+        "rarity": "Common",
+        "cardNumber": 14
+        },
+        {
+        "title": "Cockatrice",
+        "category": "Cockatrice",
+        "trait": "Beast",
+        "rarity": "Common",
+        "cardNumber": 15
+        },
+        {
+        "title": "Owlbear",
+        "category": "Owlbear",
+        "trait": "Beast",
+        "rarity": "Common",
+        "cardNumber": 16
+        },
+        {
+        "title": "Warg",
+        "category": "Warg",
+        "trait": "Beast",
+        "rarity": "Common",
+        "cardNumber": 17
+        },
+        {
+        "title": "Smilodon",
+        "category": "Cat",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 18
+        },
+        {
         "title": "Scythe Tree",
         "category": "Scythe Tree",
         "trait":"Plant",
         "rarity": "Common",
-        "cardNumber": 4
-       },
-       {
+        "cardNumber": 19
+        },
+        {
+        "title": "Verdurous Ooze",
+        "category": "Ooze",
+        "trait":"Ooze",
+        "rarity": "Common",
+        "cardNumber": 20
+        },
+        {
+        "title": "Faerie Dragon",
+        "category": "Faerie Dragon",
+        "trait": "Dragon",
+        "rarity": "Uncommon",
+        "cardNumber": 26
+        },
+        {
+        "title": "Ancient Forest Dragon",
+        "category": "Imperial Dragon",
+        "trait": "Dragon Plant",
+        "rarity": "Common",
+        "cardNumber": 41
+        },
+        {
+        "title": "Jabberwock",
+        "category": "Dragon",
+        "trait":"Jabberwock",
+        "rarity": "Rare",
+        "cardNumber": 58
+        },
+        {
         "title": "Treerazer",
         "category": "Treerazer",
         "trait":"Fiend",
         "rarity": "Unique",
-        "cardNumber": 5
-    }],
+        "cardNumber": 59
+        },
+        {
+        "title": "Alasen",
+        "category": "Beast Human",
+        "trait": "Humanoid",
+        "rarity": "Unique",
+        "cardNumber": 60
+        }],
+
     "Monstrous Ground":
-    [{
+        [{
+        "title": "Elephant",
+        "category": "Elephant",
+        "trait": "Mammal",
+        "rarity": "Common",
+        "cardNumber": 1
+        },
+        {
+            "title": "",
+            "category": "Elephant",
+            "trait": "Mammal",
+            "rarity": "Common",
+            "cardNumber": 2
+        },
+        {
         "title": "Orc Brute",
         "category": "Orc",
         "trait": "Humanoid",
         "rarity": "Common",
-        "cardNumber": 1
-       }, 
-       {
+        "cardNumber": 5
+        }, 
+        {
         "title": "Chupacabra",
         "category": "Chupacabra",
         "trait":"Beast",
         "rarity": "Common",
-        "cardNumber": 2
-       },
-       {
+        "cardNumber": 11
+        },
+        {
         "title": "Ancient Copper Dragon",
         "category": "Dragon, Metallic",
         "trait":"Dragon",
         "rarity": "Uncommon",
         "cardNumber": 3
-       },
-       {
+        },
+        {
         "title": "Rune Giant",
         "category": "Giant",
         "trait":"Giant",
         "rarity": "Uncommon",
         "cardNumber": 4
-       },
-       {
+        },
+        {
         "title": "Ancient Cloud Dragon",
         "category": "Treerazer",
         "trait":"Fiend",
         "rarity": "Unique",
         "cardNumber": 5
-    }]
+        },
+        {
+            "title": "Lizardfolk Defender",
+            "category": "Lizardfolk",
+            "trait": "Humanoid",
+            "rarity": "Common",
+            "cardNumber": 8
+            },
+            {
+            "title": "Lizardfolk Stargazer",
+            "category": "Lizardfolk",
+            "trait": "Humanoid",
+            "rarity": "Common",
+            "cardNumber": 9
+            }]
 }
