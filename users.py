@@ -1,7 +1,7 @@
 import goal_objects
 
 class User:
-  def __init__(self, name, book_list, movie_list, game_list, tv_list, event_list, collectibles_list):
+  def __init__(self, name: str, book_list: dict, movie_list: dict, game_list: dict, tv_list: dict, event_list: dict, collectibles_list: dict):
     self._name = name
     self._book_list = book_list
     self._movie_list = movie_list
@@ -31,14 +31,14 @@ class User:
   def get_collectibles_list(self):
     return self._collectibles_list
 
-  def filter_collectibles_by_set(self, set_name):
+  def filter_collectibles_by_set(self, set_name: str):
     set_list = []
     for card in self._collectibles_list[set_name]:
       set_list.append(card)
     
     return set_list
   
-  def filter_collectibles_by_title(self, set_list, card_title):
+  def filter_collectibles_by_title(self, set_list, card_title: str):
     filtered_list = []
     for card in set_list:
       if card["title"] == card_title:
@@ -46,7 +46,7 @@ class User:
 
       return filtered_list
   
-  def filter_collectibles_by_category(self, set_list, category_name):
+  def filter_collectibles_by_category(self, set_list, category_name: str):
     filtered_list = []
     for card in set_list:
       if card["category"] == category_name:
@@ -54,7 +54,7 @@ class User:
 
     return filtered_list
 
-  def filter_collectibles_by_trait(self, set_list, trait_name):
+  def filter_collectibles_by_trait(self, set_list, trait_name: str):
     filtered_list = []
     for card in set_list:
       if card["trait"] == trait_name:
@@ -62,7 +62,7 @@ class User:
 
       return filtered_list
     
-  def filter_collectibles_by_rarity(self, set_list, rarity_name):
+  def filter_collectibles_by_rarity(self, set_list, rarity_name: str):
     filtered_list = []
     for card in set_list:
       if card["rarity"] == rarity_name:
@@ -70,7 +70,7 @@ class User:
 
       return filtered_list
 
-  def add_book(self, name, author, completion_hours, rating):
+  def add_book(self, name: str, author: str, completion_hours: int, rating: int):
     if f"{name}: {author}" not in self._book_list:
       self._book_list[f"{name}: {author}"] = goal_objects.Books(name, author, completion_hours, completion_hours, 1, rating)
       return f"The Book {name} by {author} has been added"
