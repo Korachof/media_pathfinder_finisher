@@ -53,10 +53,10 @@ class CardPacks:
     return self._contents
   
   def set_pack_registry(self):
-    """3 Common, 1 Uncommon, 1 Rare/Unique"""
+    """2 Common, 1 Uncommon, 1 Common/Uncommon, 1 Rare/Unique"""
     card1 = randrange(1, self._COMMON_MAX)
     card2 = randrange(1, self._COMMON_MAX)
-    card3 = randrange(1, self._COMMON_MAX)
+    card3 = randrange(1, self._UNCOMMON_MAX)
     card4 = randrange(self._COMMON_MAX, self._UNCOMMON_MAX)
     card5 = randrange(self._UNCOMMON_MAX, self._RARE_MAX)
   

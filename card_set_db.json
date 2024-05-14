@@ -145,14 +145,84 @@
         "category": "Faerie Dragon",
         "trait": "Dragon",
         "rarity": "Uncommon",
-        "cardNumber": 26
+        "cardNumber": 31
         },
         {
         "title": "Ancient Forest Dragon",
         "category": "Imperial Dragon",
         "trait": "Dragon Plant",
-        "rarity": "Common",
-        "cardNumber": 41
+        "rarity": "Rare",
+        "cardNumber": 47
+        },
+        {
+        "title": "Kirin",
+        "category": "Kirin",
+        "trait": "Beast",
+        "rarity": "Rare",
+        "cardNumber": 48
+        },
+        {
+        "title": "Toshigami",
+        "category": "Kami",
+        "trait": "Spirit",
+        "rarity": "Rare",
+        "cardNumber": 49
+        },
+        {
+        "title": "Green Man",
+        "category": "Green Man",
+        "trait": "Plant",
+        "rarity": "Rare",
+        "cardNumber": 50
+        },
+        {
+        "title": "Canopy Elder",
+        "category": "Canopy Elder",
+        "trait": "Plant",
+        "rarity": "Rare",
+        "cardNumber": 51
+        },
+        {
+        "title": "Wild Hunt Scout",
+        "category": "Wild Hunt",
+        "trait": "Fey",
+        "rarity": "Rare",
+        "cardNumber": 52
+        },
+        {
+        "title": "Convergent Giant Eagle",
+        "category": "Eagle",
+        "trait": "Beast",
+        "rarity": "Rare",
+        "cardNumber": 53
+        },
+        {
+        "title": "Mandragora Swarm",
+        "category": "Swarm",
+        "trait": "Plant",
+        "rarity": "Rare",
+        "cardNumber": 54
+        },
+        {
+        "title": "Sard",
+        "category": "Sard",
+        "trait": "Plant",
+        "rarity": "Rare",
+        "cardNumber": 55
+        },
+        {
+        "title": "Phantom Wolf",
+        "category": "Phantom Wolf",
+        "trait": "Ethereal Animal",
+        "rarity": "Rare",
+        "cardNumber": 56
+        },
+        {
+        "title": "Arboreal Tar Tree",
+        "category": "Tar Tree",
+        "trait": "Undead Plant",
+        "rarity": "Rare",
+        "cardNumber": 57
         },
         {
         "title": "Jabberwock",
