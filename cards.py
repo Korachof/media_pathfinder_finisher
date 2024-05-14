@@ -1,5 +1,5 @@
 import json
-import random
+from random import randrange
 
 
 class CardSet:
@@ -35,17 +35,16 @@ class CardSet:
 
 
 class CardPacks:
-  def __init__(self, set_name, card_set, contents):
-    self._set_name = set_name
+  def __init__(self, card_set, contents):
     self._card_set = card_set
     self._contents = contents
-    self._COMMON_MAX = 20
-    self._UNCOMMON_MAX = 20
-    self._RARE_MAX = 18
-    self._UNIQUE_MAX = 6
+    self._COMMON_MAX = 21
+    self._UNCOMMON_MAX = 21
+    self._RARE_MAX = 19
+    self._UNIQUE_MAX = 7
 
   def get_set_name(self):
-    return self._set_name
+    return self._card_set.get_name()
 
   def get_card_set(self):
     return self._card_set
@@ -53,16 +52,16 @@ class CardPacks:
   def get_contents(self):
     return self._contents
   
-  def set_contents(self):
+  def set_pack_registry(self):
     """3 Common, 1 Uncommon, 1 Rare/Unique"""
-    card1 = random(1, self._COMMON_MAX)
-    card2 = random(1, self._COMMON_MAX)
-    card3 = random(1, self._COMMON_MAX)
-    card4 = random(1, self._UNCOMMON_MAX)
-    card5 = random(1, self._RARE_MAX)
-    
+    card1 = randrange(1, self._COMMON_MAX)
+    card2 = randrange(1, self._COMMON_MAX)
+    card3 = randrange(1, self._COMMON_MAX)
+    card4 = randrange(1, self._UNCOMMON_MAX)
+    card5 = randrange(1, self._RARE_MAX)
+  
     if card5 == 1 or card5 == 3 or card5 == 7 or card5 == 11 or card5 == 18:
-      unique_chance = random(1, self._UNIQUE_MAX)
+      unique_chance = randrange(1, self._UNIQUE_MAX)
       if unique_chance == 1:
         card5 = 19
 
@@ -81,6 +80,11 @@ class CardPacks:
           booster_pack.append(set_list[key])
           pack_registry.remove(set_list[key].get_card_num())
 
+    return self.set_contents(booster_pack)
+  
+  def set_contents(self, booster_pack):
+    for card in booster_pack:
+      self._contents.append(card)
 
 
 class Cards:
@@ -113,4 +117,14 @@ card_dict = wildlife_mayhem.open_card_list_db()
 
 wildlife_mayhem.add_cards_from_db(card_dict)
 
-print(wildlife_mayhem.get_set_list())
+# print(wildlife_mayhem.get_set_list())
+print(1.0)
+
+cardpack1 = CardPacks(wildlife_mayhem, [])
+
+print(1.1)
+
+cardpack1.set_pack_registry()
+
+print(cardpack1)
+print(1.2)

@@ -200,13 +200,21 @@ class TvShow:
 
   
 class TvShowSeason:
-  def __init__(self, tv_show, season_num, completion_hours, total_hours, times_finished, rating):
+  def __init__(self, tv_show: str, season_num: int, completion_hours: int, total_hours: int, times_finished: int, rating: int):
     self._tv_show = tv_show
     self._season_num = season_num
     self._completion_hours = completion_hours
     self._total_hours = total_hours
     self._times_finished = times_finished
     self._rating = rating
+
+  def get_tv_show(self):
+    """Returns the TV Show Season Tv Show name as STR"""
+    return self._tv_show
+  
+  def get_season_num(self):
+    """Returns the TV Show Season Number as INT"""
+    return self._season_num
 
   def get_completion_hours(self):
     """Returns the TV Show Season first completion hours as INT"""
