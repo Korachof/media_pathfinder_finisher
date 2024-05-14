@@ -58,4 +58,41 @@ class Movies:
     self._times_finished = times_finished
     self._rating = rating
 
+  def get_title(self):
+    """Returns the Book name as STR"""
+    return self._title
   
+  def get_director(self):
+    """Returns the Book author as STR"""
+    return self._director
+
+  def get_completion_hours(self):
+    """Returns the Book first completion hours as INT"""
+    return self._completion_hours
+
+  def get_total_hours(self):
+    """Returns the Book total hours as INT"""
+    return self._total_hours
+
+  def get_times_finished(self):
+    """Returns the book times finished as INT"""
+    return self._times_finished
+
+  def get_rating(self):
+    """Returns the book rating as INT"""
+    return self._rating
+  
+  def add_total_hours(self, additional_hours: int):
+    """Add additional_hours to total_hours and return new total hours as INT"""
+    self._total_hours += additional_hours
+    return self._total_hours
+
+  def incr_times_finished(self):
+    """Increment the times finished and return the new times_finished as INT"""
+    self._times_finished += 1
+    return self._times_finished
+
+  def update_rating(self, new_rating: int):
+    """Update the rating to new_rating and return rating as INT"""
+    self._rating = new_rating
+    return self._rating
