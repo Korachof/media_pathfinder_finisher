@@ -38,10 +38,37 @@ class User:
     
     return set_list
   
-  def filter_collectibles_by_category(self, category_name):
-    set_list = []
+  def filter_collectibles_by_title(self, set_list, card_title):
+    filtered_list = []
+    for card in set_list:
+      if card["title"] == card_title:
+        filtered_list.append(card)
 
+      return filtered_list
+  
+  def filter_collectibles_by_category(self, set_list, category_name):
+    filtered_list = []
+    for card in set_list:
+      if card["category"] == category_name:
+        filtered_list.append(card)
 
+    return filtered_list
+
+  def filter_collectibles_by_trait(self, set_list, trait_name):
+    filtered_list = []
+    for card in set_list:
+      if card["trait"] == trait_name:
+        filtered_list.append(card)
+
+      return filtered_list
+    
+  def filter_collectibles_by_rarity(self, set_list, rarity_name):
+    filtered_list = []
+    for card in set_list:
+      if card["rarity"] == rarity_name:
+        filtered_list.append(card)
+
+      return filtered_list
 
   def add_book(self, name, author, completion_hours, rating):
     if f"{name}: {author}" not in self._book_list:

@@ -1,4 +1,6 @@
 import json
+import random
+
 
 class CardSet:
   def __init__(self, name, set_list_hash):
@@ -30,6 +32,55 @@ class CardSet:
 
   def add_card(self, title, category, trait, rarity, card_num):
     self._set_list_hash[title] = Cards(title, category, trait, rarity, card_num)
+
+
+class CardPacks:
+  def __init__(self, set_name, card_set, contents):
+    self._set_name = set_name
+    self._card_set = card_set
+    self._contents = contents
+    self._COMMON_MAX = 20
+    self._UNCOMMON_MAX = 20
+    self._RARE_MAX = 18
+    self._UNIQUE_MAX = 6
+
+  def get_set_name(self):
+    return self._set_name
+
+  def get_card_set(self):
+    return self._card_set
+  
+  def get_contents(self):
+    return self._contents
+  
+  def set_contents(self):
+    """3 Common, 1 Uncommon, 1 Rare/Unique"""
+    card1 = random(1, self._COMMON_MAX)
+    card2 = random(1, self._COMMON_MAX)
+    card3 = random(1, self._COMMON_MAX)
+    card4 = random(1, self._UNCOMMON_MAX)
+    card5 = random(1, self._RARE_MAX)
+    
+    if card5 == 1 or card5 == 3 or card5 == 7 or card5 == 11 or card5 == 18:
+      unique_chance = random(1, self._UNIQUE_MAX)
+      if unique_chance == 1:
+        card5 = 19
+
+      elif unique_chance == 6:
+        card5 = 20
+
+    return self.fill_packs([card1, card2, card3, card4, card5])
+
+  def fill_packs(self, pack_registry):
+    set_list = self._card_set.get_set_list()
+    booster_pack = []
+
+    while len(pack_registry) > 0:
+      for key in set_list:
+        if set_list[key].get_card_num() in pack_registry:
+          booster_pack.append(set_list[key])
+          pack_registry.remove(set_list[key].get_card_num())
+
 
 
 class Cards:
