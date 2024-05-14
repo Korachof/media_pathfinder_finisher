@@ -56,11 +56,17 @@ class CardPacks:
     """2 Common, 1 Uncommon, 1 Common/Uncommon, 1 Rare/Unique"""
     card1 = randrange(1, self._COMMON_MAX)
     card2 = randrange(1, self._COMMON_MAX)
+    while card2 == card1:
+      card2 = randrange(1, self._COMMON_MAX)
     card3 = randrange(1, self._UNCOMMON_MAX)
+    while card3 == card1 or card3 == card2:
+      card3 = randrange(1, self._COMMON_MAX)
     card4 = randrange(self._COMMON_MAX, self._UNCOMMON_MAX)
+    while card4 == card1 or card4 == card2 or card4 == card3:
+      card4 = randrange(1, self._COMMON_MAX)
     card5 = randrange(self._UNCOMMON_MAX, self._RARE_MAX)
   
-    if card5 == 41 or card5 == 43 or card5 == 47 or card5 == 51 or card5 == 58:
+    if card5 == 47 or card5 == 51 or card5 == 58:
       unique_chance = randrange(1, self._UNIQUE_MAX)
       if unique_chance == 1:
         card5 = 59
@@ -96,7 +102,7 @@ class Cards:
     self._card_num = card_num
 
   def get_name(self):
-    return self._name
+    return self._title
 
   def get_category(self):
     return self._category
@@ -127,4 +133,10 @@ print(1.1)
 cardpack1.set_pack_registry()
 
 print(cardpack1)
+
+pack_contents = cardpack1.get_contents()
+
+for card in pack_contents:
+  print(card.get_name())
+
 print(1.2)

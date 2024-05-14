@@ -113,32 +113,102 @@
         "cardNumber": 16
         },
         {
+        "title": "Giant Viper",
+        "category": "Snake",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 17
+        },
+        {
+        "title": "Satyr",
+        "category": "Satyr",
+        "trait": "Fey",
+        "rarity": "Common",
+        "cardNumber": 18
+        },
+        {
+        "title": "Ghost Mage",
+        "category": "Ghost",
+        "trait": "Undead",
+        "rarity": "Common",
+        "cardNumber": 19
+        },
+        {
+        "title": "Goblin Warior",
+        "category": "Goblin",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 20
+        },
+        {
+        "title": "Goblin Dog",
+        "category": "Goblin Dog",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 21
+        },
+        {
+        "title": "Goblin Pyro",
+        "category": "Goblin",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 22
+        },
+        {
+        "title": "Centaur",
+        "category": "Centaur",
+        "trait": "Beast",
+        "rarity": "Common",
+        "cardNumber": 23
+        },
+        {
+        "title": "Velociraptor",
+        "category": "Dinosaur",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 24
+        },
+        {
+        "title": "Unicorn",
+        "category": "Unicorn",
+        "trait": "Fey",
+        "rarity": "Common",
+        "cardNumber": 25
+        },
+        {
+        "title": "Grimstalker",
+        "category": "Grimstalker",
+        "trait": "Fey",
+        "rarity": "Common",
+        "cardNumber": 26
+        },
+        {
         "title": "Warg",
         "category": "Warg",
         "trait": "Beast",
         "rarity": "Common",
-        "cardNumber": 17
+        "cardNumber": 27
         },
         {
         "title": "Smilodon",
         "category": "Cat",
         "trait": "Animal",
         "rarity": "Common",
-        "cardNumber": 18
+        "cardNumber": 28
         },
         {
         "title": "Scythe Tree",
         "category": "Scythe Tree",
         "trait":"Plant",
         "rarity": "Common",
-        "cardNumber": 19
+        "cardNumber": 29
         },
         {
         "title": "Verdurous Ooze",
         "category": "Ooze",
         "trait":"Ooze",
         "rarity": "Common",
-        "cardNumber": 20
+        "cardNumber": 30
         },
         {
         "title": "Faerie Dragon",
@@ -146,6 +216,111 @@
         "trait": "Dragon",
         "rarity": "Uncommon",
         "cardNumber": 31
+        },
+        {
+        "title": "Quickling",
+        "category": "Quickling",
+        "trait": "Fey",
+        "rarity": "Uncommon",
+        "cardNumber": 32
+        },
+        {
+        "title": "Poracha",
+        "category": "Poracha",
+        "trait": "Beast",
+        "rarity": "Uncommon",
+        "cardNumber": 33
+        },
+        {
+        "title": "Werebear",
+        "category": "Werecreature",
+        "trait": "Humanoid",
+        "rarity": "Uncommon",
+        "cardNumber": 34
+        },
+        {
+        "title": "Dweomercat",
+        "category": "Dweomercat",
+        "trait": "Beast",
+        "rarity": "Uncommon",
+        "cardNumber": 35
+        },
+        {
+        "title": "Great Cyclops",
+        "category": "Cyclops",
+        "trait": "Giant",
+        "rarity": "Uncommon",
+        "cardNumber": 36
+        },
+        {
+        "title": "Dryad Queen",
+        "category": "Nymph",
+        "trait": "Fey",
+        "rarity": "Uncommon",
+        "cardNumber": 37
+        },
+        {
+        "title": "Gorgon",
+        "category": "Gorgon",
+        "trait": "Beast",
+        "rarity": "Uncommon",
+        "cardNumber": 38
+        },
+        {
+        "title": "Dracolisk",
+        "category": "Basilisk",
+        "trait": "Beast Dragon",
+        "rarity": "Uncommon",
+        "cardNumber": 39
+        },
+        {
+        "title": "Blodeuwedd",
+        "category": "Blodeuwedd",
+        "trait": "Fey Plant",
+        "rarity": "Uncommon",
+        "cardNumber": 40
+        },
+        {
+        "title": "Banshee",
+        "category": "Banshee",
+        "trait": "Undead",
+        "rarity": "Uncommon",
+        "cardNumber": 41
+        },
+        {
+        "title": "Hive Mother",
+        "category": "Ankhrav",
+        "trait": "Animal",
+        "rarity": "Uncommon",
+        "cardNumber": 42
+        },
+        {
+        "title": "Ancient Gold Dragon",
+        "category": "Dragon Metallic",
+        "trait": "Dragon",
+        "rarity": "Uncommon",
+        "cardNumber": 43
+        },
+        {
+        "title": "Ancient Green Dragon",
+        "category": "Dragon Chromatic",
+        "trait": "Dragon",
+        "rarity": "Uncommon",
+        "cardNumber": 44
+        },
+        {
+        "title": "Baobhan sith",
+        "category": "Baobhan sith",
+        "trait": "Fey",
+        "rarity": "Uncommon",
+        "cardNumber": 45
+        },
+        {
+        "title": "Emperor Bird",
+        "category": "Emperor Bird",
+        "trait": "Animal",
+        "rarity": "Uncommon",
+        "cardNumber": 46
         },
         {
         "title": "Ancient Forest Dragon",
