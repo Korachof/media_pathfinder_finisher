@@ -39,8 +39,8 @@ class CardPacks:
     self._card_set = card_set
     self._contents = contents
     self._COMMON_MAX = 21
-    self._UNCOMMON_MAX = 21
-    self._RARE_MAX = 19
+    self._UNCOMMON_MAX = 41
+    self._RARE_MAX = 59
     self._UNIQUE_MAX = 7
 
   def get_set_name(self):
@@ -57,16 +57,16 @@ class CardPacks:
     card1 = randrange(1, self._COMMON_MAX)
     card2 = randrange(1, self._COMMON_MAX)
     card3 = randrange(1, self._COMMON_MAX)
-    card4 = randrange(1, self._UNCOMMON_MAX)
-    card5 = randrange(1, self._RARE_MAX)
+    card4 = randrange(self._COMMON_MAX, self._UNCOMMON_MAX)
+    card5 = randrange(self._UNCOMMON_MAX, self._RARE_MAX)
   
-    if card5 == 1 or card5 == 3 or card5 == 7 or card5 == 11 or card5 == 18:
+    if card5 == 41 or card5 == 43 or card5 == 47 or card5 == 51 or card5 == 58:
       unique_chance = randrange(1, self._UNIQUE_MAX)
       if unique_chance == 1:
-        card5 = 19
+        card5 = 59
 
       elif unique_chance == 6:
-        card5 = 20
+        card5 = 60
 
     return self.fill_packs([card1, card2, card3, card4, card5])
 
