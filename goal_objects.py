@@ -248,3 +248,36 @@ class TvShowSeason:
     return self._rating
 
   
+class Events:
+  def __init__(self, name: str, location: str, date: str, completion_hours: int, keyword: str, rating):
+    self._name = name
+    self._location = location
+    self._date = date
+    self._completion_hours = completion_hours
+    self._keyword = keyword
+    self._rating = rating
+
+  def get_name(self):
+    """Returns the Event name as STR"""
+    return self._name
+  
+  def get_location(self):
+    """Returns the Event location as STR"""
+    return self._location
+  
+  def get_date(self):
+    """Returns the Event date as STR"""
+    return self._date
+  
+  def get_completion_hours(self):
+    """Returns the Event completion hours as INT"""
+    return self._completion_hours
+  
+  def get_keyword(self):
+    """Returns the Event keyword as STR"""
+    return self._keyword
+  
+  def get_rating(self):
+    """Returns the Event rating as INT"""
+    return self._rating
+

@@ -35,6 +35,13 @@ class User:
   def get_collectibles_list(self):
     return self._collectibles_list
   
+  def open_booster_pack(self, booster_pack):
+    for card in booster_pack:
+      pass
+
+  def save_cards_from_booster(self):
+    pass
+  
   def filter_booster_packs_by_set(self, set_name: str):
     set_list = []
     for pack in self._booster_pack_list[set_name]:
