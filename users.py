@@ -1,4 +1,5 @@
 import goal_objects
+import cards
 
 class User:
   def __init__(self, name: str, book_list: dict, movie_list: dict, game_list: dict, tv_list: dict, event_list: dict, booster_pack_list: dict, collectibles_list: dict):
@@ -34,14 +35,22 @@ class User:
 
   def get_collectibles_list(self):
     return self._collectibles_list
+
+  def select_booster_to_open(self, set_name):
+    booster_pack = None
+    if len(self._booster_pack_list[set_name]) > 0:
+      booster_pack = self._booster_pack_list[set_name][0]
+      self._booster_pack_list[set_name].pop([0])
+
+    return self.open_booster_pack(booster_pack)
   
   def open_booster_pack(self, booster_pack):
     for card in booster_pack:
-      pass
+      self._collectibles_list[booster_pack.get_set_name()].append(card)
+      print(f"Opened {card.get_name()} from {booster_pack.get_set_name()}")
 
-  def save_cards_from_booster(self):
-    pass
-  
+    del booster_pack
+
   def filter_booster_packs_by_set(self, set_name: str):
     set_list = []
     for pack in self._booster_pack_list[set_name]:
@@ -141,6 +150,10 @@ class User:
     else:
       self._tv_list[f"{tv_show}: {creator}"].add_season(goal_objects.TvShowSeason(tv_show, season_num, completion_hours, completion_hours, 1, rating))
       return f"Season {season_num} of {tv_show} by {creator} has been created"
+    
+  def add_booster_pack(self, set_name):
+    if set_name not in self._booster_pack_list:
+      self._booster_pack_list[set_name] = [cards.CardPacks(set_name, )]
 
   
 Korachof = User("Korachof", {}, {}, {}, {}, {}, {})

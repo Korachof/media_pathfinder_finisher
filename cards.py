@@ -6,6 +6,8 @@ class CardSet:
   def __init__(self, name, set_list_hash):
     self._name = name
     self._set_list_hash = set_list_hash
+    self._set_contents = self.open_card_list_db()
+    self.add_cards_from_db(self._set_contents)
 
   def get_name(self):
     return self._name
@@ -35,13 +37,14 @@ class CardSet:
 
 
 class CardPacks:
-  def __init__(self, card_set, contents):
+  def __init__(self, card_set):
     self._card_set = card_set
-    self._contents = contents
     self._COMMON_MAX = 31
     self._UNCOMMON_MAX = 47
     self._RARE_MAX = 59
     self._UNIQUE_MAX = 7
+    self._contents = []
+    self.set_pack_registry()
 
   def get_set_name(self):
     return self._card_set.get_name()
@@ -64,8 +67,13 @@ class CardPacks:
     card4 = randrange(self._COMMON_MAX, self._UNCOMMON_MAX)
     while card4 == card1 or card4 == card2 or card4 == card3:
       card4 = randrange(1, self._COMMON_MAX)
+
+    card5= self.check_for_unique()
+    return self.fill_packs([card1, card2, card3, card4, card5])
+
+  def check_for_unique(self):
     card5 = randrange(self._UNCOMMON_MAX, self._RARE_MAX)
-  
+
     if card5 == 47 or card5 == 51 or card5 == 58:
       unique_chance = randrange(1, self._UNIQUE_MAX)
       if unique_chance == 1:
@@ -74,7 +82,7 @@ class CardPacks:
       elif unique_chance == 6:
         card5 = 60
 
-    return self.fill_packs([card1, card2, card3, card4, card5])
+    return card5
 
   def fill_packs(self, pack_registry):
     set_list = self._card_set.get_set_list()
@@ -119,18 +127,12 @@ class Cards:
 
 wildlife_mayhem = CardSet("Wildlife Mayhem", {})
 
-card_dict = wildlife_mayhem.open_card_list_db()
-
-wildlife_mayhem.add_cards_from_db(card_dict)
-
 # print(wildlife_mayhem.get_set_list())
 print(1.0)
 
-cardpack1 = CardPacks(wildlife_mayhem, [])
+cardpack1 = CardPacks(wildlife_mayhem)
 
 print(1.1)
-
-cardpack1.set_pack_registry()
 
 print(cardpack1)
 
@@ -140,3 +142,7 @@ for card in pack_contents:
   print(card.get_name())
 
 print(1.2)
+
+# card_dict = wildlife_mayhem.open_card_list_db()
+
+# wildlife_mayhem.add_cards_from_db(card_dict)
