@@ -430,11 +430,11 @@
         "cardNumber": 1
         },
         {
-            "title": "",
-            "category": "Elephant",
-            "trait": "Mammal",
-            "rarity": "Common",
-            "cardNumber": 2
+        "title": "",
+        "category": "Elephant",
+        "trait": "Mammal",
+        "rarity": "Common",
+        "cardNumber": 2
         },
         {
         "title": "Orc Brute",
@@ -455,14 +455,14 @@
         "category": "Dragon, Metallic",
         "trait":"Dragon",
         "rarity": "Uncommon",
-        "cardNumber": 3
+        "cardNumber": 31
         },
         {
         "title": "Rune Giant",
         "category": "Giant",
         "trait":"Giant",
         "rarity": "Uncommon",
-        "cardNumber": 4
+        "cardNumber": 46
         },
         {
         "title": "Ancient Cloud Dragon",
@@ -470,19 +470,21 @@
         "trait":"Fiend",
         "rarity": "Unique",
         "cardNumber": 5
+        }],
+
+    "Murderous Wetlands":
+        [{
+        "title": "Lizardfolk Defender",
+        "category": "Lizardfolk",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 8
         },
         {
-            "title": "Lizardfolk Defender",
-            "category": "Lizardfolk",
-            "trait": "Humanoid",
-            "rarity": "Common",
-            "cardNumber": 8
-            },
-            {
-            "title": "Lizardfolk Stargazer",
-            "category": "Lizardfolk",
-            "trait": "Humanoid",
-            "rarity": "Common",
-            "cardNumber": 9
-            }]
+        "title": "Lizardfolk Stargazer",
+        "category": "Lizardfolk",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 9
+        }]
 }
