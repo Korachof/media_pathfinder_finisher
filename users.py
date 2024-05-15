@@ -1,5 +1,6 @@
 import goal_objects
 import cards
+import json
 
 class User:
   def __init__(self, name: str, book_list: dict, movie_list: dict, game_list: dict, tv_list: dict, event_list: dict, booster_pack_list: dict, collectibles_list: dict):
@@ -11,6 +12,9 @@ class User:
     self._event_list = event_list
     self._booster_pack_list = booster_pack_list
     self._collectibles_list = collectibles_list
+    self._card_sets = {}
+    self._card_file = self.open_card_list_db()
+    self.update_card_sets(self._card_file)
 
   def get_name(self):
     return self._name
@@ -40,13 +44,18 @@ class User:
     booster_pack = None
     if len(self._booster_pack_list[set_name]) > 0:
       booster_pack = self._booster_pack_list[set_name][0]
-      self._booster_pack_list[set_name].pop([0])
+      self._booster_pack_list[set_name].pop(0)
 
     return self.open_booster_pack(booster_pack)
   
   def open_booster_pack(self, booster_pack):
-    for card in booster_pack:
-      self._collectibles_list[booster_pack.get_set_name()].append(card)
+    for card in booster_pack.get_contents():
+      if booster_pack.get_set_name() in self._collectibles_list:
+        self._collectibles_list[booster_pack.get_set_name()].append(card)
+        
+      else:
+        self._collectibles_list[booster_pack.get_set_name()] = [card]
+      
       print(f"Opened {card.get_name()} from {booster_pack.get_set_name()}")
 
     del booster_pack
@@ -151,21 +160,34 @@ class User:
       self._tv_list[f"{tv_show}: {creator}"].add_season(goal_objects.TvShowSeason(tv_show, season_num, completion_hours, completion_hours, 1, rating))
       return f"Season {season_num} of {tv_show} by {creator} has been created"
     
-  def add_booster_pack(self, set_name):
+  def add_booster_pack(self, set_name: str):
     if set_name not in self._booster_pack_list:
-      self._booster_pack_list[set_name] = [cards.CardPacks(set_name, )]
+      self._booster_pack_list[set_name] = [cards.CardPacks(self._card_sets[set_name])]
+
+  def open_card_list_db(self):
+    with open("card_set_db.json") as card_set_file:
+      card_list_data = json.load(card_set_file)
+
+    card_set_file.close()
+    
+    return card_list_data
+
+  def update_card_sets(self, card_list_data):
+    for key in card_list_data:
+      self._card_sets[key] = cards.CardSet(key, card_list_data)
+    
 
   
-Korachof = User("Korachof", {}, {}, {}, {}, {}, {})
+Korachof = User("Korachof", {}, {}, {}, {}, {}, {}, {})
+
+print(Korachof._card_sets)
 
 Korachof.add_book("Lost Gods", "Brom", 21, 8)
 
-print(Korachof.get_book_list()["Lost Gods: Brom"].get_total_hours())
-
-Korachof.add_book("Lost Gods", "Brom", 23, 8)
-
-Korachof.add_book
-
-print(Korachof.get_book_list()["Lost Gods: Brom"].get_total_hours())
-
 print(Korachof.get_book_list()["Lost Gods: Brom"].get_name())
+
+Korachof.add_booster_pack("Wildlife Mayhem")
+
+Korachof.select_booster_to_open("Wildlife Mayhem")
+
+print(Korachof.get_collectibles_list())

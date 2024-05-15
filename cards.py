@@ -3,10 +3,10 @@ from random import randrange
 
 
 class CardSet:
-  def __init__(self, name, set_list_hash):
+  def __init__(self, name, set_contents):
     self._name = name
-    self._set_list_hash = set_list_hash
-    self._set_contents = self.open_card_list_db()
+    self._set_list_hash = {}
+    self._set_contents = set_contents
     self.add_cards_from_db(self._set_contents)
 
   def get_name(self):
@@ -37,7 +37,7 @@ class CardSet:
 
 
 class CardPacks:
-  def __init__(self, card_set):
+  def __init__(self, card_set: CardSet):
     self._card_set = card_set
     self._COMMON_MAX = 31
     self._UNCOMMON_MAX = 47
@@ -123,26 +123,3 @@ class Cards:
 
   def get_card_num(self):
     return self._card_num
-
-
-wildlife_mayhem = CardSet("Wildlife Mayhem", {})
-
-# print(wildlife_mayhem.get_set_list())
-print(1.0)
-
-cardpack1 = CardPacks(wildlife_mayhem)
-
-print(1.1)
-
-print(cardpack1)
-
-pack_contents = cardpack1.get_contents()
-
-for card in pack_contents:
-  print(card.get_name())
-
-print(1.2)
-
-# card_dict = wildlife_mayhem.open_card_list_db()
-
-# wildlife_mayhem.add_cards_from_db(card_dict)
