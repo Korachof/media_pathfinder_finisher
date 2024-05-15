@@ -155,11 +155,11 @@ class VideoGames:
 
 class TvShow:
   """Creates a TV Show object to represent a tv show with at least one finished season by the user."""
-  def __init__(self, title: str, creator: str, seasons_list: list, avg_rating: int):
+  def __init__(self, title: str, creator: str, seasons_list: list):
     self._title = title
     self._creator = creator
     self._seasons_list = seasons_list
-    self._avg_rating = avg_rating
+    self._avg_rating = self.get_avg_rating()
 
   def get_title(self):
     """Returns the TV Show title as STR"""

@@ -113,7 +113,27 @@ class User:
       self._game_list[f"{title}: {publisher}: {year}"].incr_times_finished()
       self._game_list[f"{title}: {publisher}: {year}"].update_rating(rating)
       return f"The Video Game {title} by {publisher} from {year} has been updated"
+    
+  def add_tv_show(self, title: str, creator: str, seasons_list):
+    if f"{title}: {creator}" not in self._tv_list:
+      self._tv_list[f"{title}: {creator}"] = goal_objects.TvShow(title, creator, seasons_list)
+      return f"The TV Show {title} by {creator} has been added"
+    
+    else:
+      return f"The TV Show {title} by {creator} already exists"
 
+  def add_tv_season(self, tv_show: str, creator: str, season_num: int, completion_hours: int, rating: int):
+    self.add_tv_show(tv_show, creator, {})
+
+    if self._tv_list[f"{tv_show}: {creator}"].get_seasons_list()[season_num]:
+      self._tv_list[f"{tv_show}: {creator}"].add_total_hours(completion_hours)
+      self._tv_list[f"{tv_show}: {creator}"].incr_times_finished()
+      self._tv_list[f"{tv_show}: {creator}"].update_rating(rating)
+      return f"Season {season_num} of {tv_show} by {creator} has been updated"
+    
+    else:
+      self._tv_list[f"{tv_show}: {creator}"].add_season(goal_objects.TvShowSeason(tv_show, season_num, completion_hours, completion_hours, 1, rating))
+      return f"Season {season_num} of {tv_show} by {creator} has been created"
 
   
 Korachof = User("Korachof", {}, {}, {}, {}, {}, {})
