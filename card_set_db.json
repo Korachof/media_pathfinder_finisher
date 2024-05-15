@@ -423,18 +423,32 @@
 
     "Monstrous Ground":
         [{
-        "title": "Elephant",
-        "category": "Elephant",
-        "trait": "Mammal",
+        "title": "Dire Wolf",
+        "category": "Wolf",
+        "trait": "Animal",
         "rarity": "Common",
         "cardNumber": 1
         },
         {
-        "title": "",
-        "category": "Elephant",
-        "trait": "Mammal",
+        "title": "Griffon",
+        "category": "Griffon",
+        "trait": "Animal",
         "rarity": "Common",
         "cardNumber": 2
+        },
+        {
+        "title": "Hobgoblin Archer",
+        "category": "Hobgoblin",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 3
+        },
+        {
+        "title": "Hobgoblin General",
+        "category": "Hobgoblin",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 4
         },
         {
         "title": "Orc Brute",
@@ -442,7 +456,42 @@
         "trait": "Humanoid",
         "rarity": "Common",
         "cardNumber": 5
-        }, 
+        },
+        {
+        "title": "Orc Warchief",
+        "category": "Orc",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 6
+        },
+        {
+        "title": "Pegasus",
+        "category": "Pegasus",
+        "trait": "Beast",
+        "rarity": "Common",
+        "cardNumber": 7
+        },
+        {
+        "title": "Troll",
+        "category": "Troll",
+        "trait": "Giant",
+        "rarity": "Common",
+        "cardNumber": 8
+        },
+        {
+        "title": "Cave Giant",
+        "category": "Giant",
+        "trait": "Giant",
+        "rarity": "Common",
+        "cardNumber": 9
+        },
+        {
+        "title": "Garuda",
+        "category": "Garuda",
+        "trait":"Celestial",
+        "rarity": "Common",
+        "cardNumber": 10
+        },
         {
         "title": "Chupacabra",
         "category": "Chupacabra",
@@ -451,11 +500,39 @@
         "cardNumber": 11
         },
         {
+        "title": "Manticore",
+        "category": "Manticore",
+        "trait": "Beast",
+        "rarity": "Common",
+        "cardNumber": 12
+        },
+        {
+        "title": "Ogre Boss",
+        "category": "Ogre",
+        "trait": "Giant",
+        "rarity": "Common",
+        "cardNumber": 13
+        },
+        {
+        "title": "Behir",
+        "category": "Behir",
+        "trait": "Beast",
+        "rarity": "Common",
+        "cardNumber": 30
+        },
+        {
         "title": "Ancient Copper Dragon",
-        "category": "Dragon, Metallic",
+        "category": "Dragon Metallic",
         "trait":"Dragon",
         "rarity": "Uncommon",
         "cardNumber": 31
+        },
+        {
+        "title": "Two-Headed Troll",
+        "category": "Troll",
+        "trait":"Giant",
+        "rarity": "Uncommon",
+        "cardNumber": 32
         },
         {
         "title": "Rune Giant",
@@ -465,11 +542,102 @@
         "cardNumber": 46
         },
         {
+        "title": "Ancient Sky Dragon",
+        "category": "Imperial Dragon",
+        "trait":"Dragon",
+        "rarity": "Rare",
+        "cardNumber": 47
+        },
+        {
         "title": "Ancient Cloud Dragon",
-        "category": "Treerazer",
-        "trait":"Fiend",
+        "category": "Dragon Primal",
+        "trait":"Dragon Elemental",
+        "rarity": "Rare",
+        "cardNumber": 48
+        },
+        {
+        "title": "Ararda",
+        "category": "Earth Elemental",
+        "trait":"Elemental",
+        "rarity": "Rare",
+        "cardNumber": 49
+        },
+        {
+        "title": "Crimson Worm",
+        "category": "Cave Worm",
+        "trait":"Beast",
+        "rarity": "Rare",
+        "cardNumber": 50
+        },
+        {
+        "title": "Flying Mountain Kaminari",
+        "category": "Kami",
+        "trait":"Humanoid",
+        "rarity": "Rare",
+        "cardNumber": 51
+        },
+        {
+        "title": "Harpy Warbird",
+        "category": "Harpy Warbird",
+        "trait":"Humanoid",
+        "rarity": "Rare",
+        "cardNumber": 52
+        },
+        {
+        "title": "Hill Giant Butcher",
+        "category": "Earth Giant",
+        "trait":"Giant",
+        "rarity": "Rare",
+        "cardNumber": 53
+        },
+        {
+        "title": "Red Guard Ant",
+        "category": "Gigantic Ant",
+        "trait":"Beast",
+        "rarity": "Rare",
+        "cardNumber": 54
+        },
+        {
+        "title": "Troll Guard",
+        "category": "Troll",
+        "trait":"Giant",
+        "rarity": "Rare",
+        "cardNumber": 55
+        },
+        {
+        "title": "Whimwyrm",
+        "category": "Air Dragon",
+        "trait": "Dragon",
+        "rarity": "Rare",
+        "cardNumber": 56
+        },
+        {
+        "title": "Tyrannosaurus Imperator",
+        "category": "Dinosaur",
+        "trait": "Animal",
+        "rarity": "Rare",
+        "cardNumber": 57
+        },
+        {
+        "title": "Norn",
+        "category": "Norn",
+        "trait":"Fey",
+        "rarity": "Rare",
+        "cardNumber": 58
+        },
+        {
+        "title": "Enormous Flame Drake",
+        "category": "Flame Dragon",
+        "trait":"Dragon",
         "rarity": "Unique",
-        "cardNumber": 5
+        "cardNumber": 59
+        },
+        {
+        "title": "Arzuu",
+        "category": "Earth Elemental",
+        "trait":"Elemental",
+        "rarity": "Unique",
+        "cardNumber": 60
         }],
 
     "Murderous Wetlands":
