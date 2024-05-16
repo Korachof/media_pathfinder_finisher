@@ -654,6 +654,13 @@
         "cardNumber": 33
         },
         {
+        "title": "Iron Golem",
+        "category": "Golem",
+        "trait":"Construct",
+        "rarity": "Uncommon",
+        "cardNumber": 34
+        },
+        {
         "title": "Sasquatch",
         "category": "Sasquatch",
         "trait":"Humanoid",
