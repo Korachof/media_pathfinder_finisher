@@ -514,6 +514,118 @@
         "cardNumber": 13
         },
         {
+        "title": "Wyvern",
+        "category": "Drake",
+        "trait": "Dragon",
+        "rarity": "Common",
+        "cardNumber": 14
+        },
+        {
+        "title": "Ogre Spider",
+        "category": "Spider",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 15
+        },
+        {
+        "title": "Hippogriff",
+        "category": "Hippogriff",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 16
+        },
+        {
+        "title": "Roc",
+        "category": "Roc",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 17
+        },
+        {
+        "title": "Trollhound",
+        "category": "Trollhound",
+        "trait": "Beast",
+        "rarity": "Common",
+        "cardNumber": 18
+        },
+        {
+        "title": "Bugbear Thug",
+        "category": "Bugbear",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 19
+        },
+        {
+        "title": "War Pony",
+        "category": "Horse",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 20
+        },
+        {
+        "title": "Wereboar",
+        "category": "Werereature",
+        "trait": "Beast Humanoid",
+        "rarity": "Common",
+        "cardNumber": 21
+        },
+        {
+        "title": "Basilisk",
+        "category": "Basilisk",
+        "trait": "Beast",
+        "rarity": "Common",
+        "cardNumber": 22
+        },
+        {
+        "title": "Giant Slug",
+        "category": "Slug",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 23
+        },
+        {
+        "title": "Duergar Bombardier",
+        "category": "Duergar",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 24
+        },
+        {
+        "title": "Duergar Sharpshooter",
+        "category": "Duergar",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 25
+        },
+        {
+        "title": "Viper Swarm",
+        "category": "Snake",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 26
+        },
+        {
+        "title": "Moose",
+        "category": "Moose",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 27
+        },
+        {
+        "title": "Cunning Fox",
+        "category": "Spirit Guide",
+        "trait": "Beast Spirit",
+        "rarity": "Common",
+        "cardNumber": 28
+        },
+        {
+        "title": "Ringhorn Ram",
+        "category": "Ram",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 29
+        },
+        {
         "title": "Behir",
         "category": "Behir",
         "trait": "Beast",
