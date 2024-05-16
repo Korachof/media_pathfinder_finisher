@@ -12,6 +12,7 @@ class User:
     self._event_list = event_list
     self._booster_pack_list = booster_pack_list
     self._collectibles_list = collectibles_list
+    self._booster_pack_quantity = {}
     self._card_sets = {}
     self._card_file = self.open_card_list_db()
     self.update_card_sets(self._card_file)
@@ -39,6 +40,13 @@ class User:
 
   def get_collectibles_list(self):
     return self._collectibles_list
+  
+  def get_pack_quantity(self, set_name):
+    qty = 0
+    if set_name in self._packs_quantity:
+      qty = self._packs_quantity[set_name]
+
+    return qty
 
   def select_booster_to_open(self, set_name):
     booster_pack = None
@@ -57,6 +65,8 @@ class User:
         self._collectibles_list[booster_pack.get_set_name()] = [card]
       
       print(f"Opened {card.get_name()} from {booster_pack.get_set_name()}")
+    
+    self._booster_pack_quantity[booster_pack.get_set_name()] -= 1
 
     del booster_pack
 
@@ -161,8 +171,23 @@ class User:
       return f"Season {season_num} of {tv_show} by {creator} has been created"
     
   def add_booster_pack(self, set_name: str):
+    booster = cards.CardPacks(self._card_sets[set_name])
     if set_name not in self._booster_pack_list:
-      self._booster_pack_list[set_name] = [cards.CardPacks(self._card_sets[set_name])]
+      self._booster_pack_list[set_name] = [booster]
+
+    else:
+      self._booster_pack_list[set_name].append(booster)
+
+    print(f"The booster pack from {set_name} has been added.")
+
+    self.increment_booster_pack(set_name)
+
+  def increment_booster_pack(self, set_name: str):
+    if set_name in self._booster_pack_quantity:
+      self._booster_pack_quantity[set_name] += 1
+
+    else:
+      self._booster_pack_quantity[set_name] = 1
 
   def open_card_list_db(self):
     with open("card_set_db.json") as card_set_file:
