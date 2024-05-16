@@ -647,6 +647,20 @@
         "cardNumber": 32
         },
         {
+        "title": "Chimera",
+        "category": "Chimera",
+        "trait":"Beast",
+        "rarity": "Uncommon",
+        "cardNumber": 33
+        },
+        {
+        "title": "Sasquatch",
+        "category": "Sasquatch",
+        "trait":"Humanoid",
+        "rarity": "Uncommon",
+        "cardNumber": 45
+        },
+        {
         "title": "Rune Giant",
         "category": "Giant",
         "trait":"Giant",
