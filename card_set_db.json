@@ -661,6 +661,76 @@
         "cardNumber": 34
         },
         {
+        "title": "Thunderbird",
+        "category": "Thunderbird",
+        "trait":"Beast",
+        "rarity": "Uncommon",
+        "cardNumber": 35
+        },
+        {
+        "title": "Stone Lion Cub",
+        "category": "Guardian Beast",
+        "trait":"Celestial",
+        "rarity": "Uncommon",
+        "cardNumber": 36
+        },
+        {
+        "title": "Strix Kinmate",
+        "category": "Strix",
+        "trait":"Humanoid",
+        "rarity": "Uncommon",
+        "cardNumber": 37
+        },
+        {
+        "title": "Manticore Paaridar",
+        "category": "Paaridar",
+        "trait":"Beast Humanoid",
+        "rarity": "Uncommon",
+        "cardNumber": 38
+        },
+        {
+        "title": "Shantak",
+        "category": "Shantak",
+        "trait":"Beast",
+        "rarity": "Uncommon",
+        "cardNumber": 39
+        },
+        {
+        "title": "Kongamato",
+        "category": "Kongamato",
+        "trait":"Dragon",
+        "rarity": "Uncommon",
+        "cardNumber": 40
+        },
+        {
+        "title": "Jorogumo",
+        "category": "Jorogumo",
+        "trait":"Humanoid",
+        "rarity": "Uncommon",
+        "cardNumber": 41
+        },
+        {
+        "title": "Clay Golem",
+        "category": "Golem",
+        "trait":"Construct",
+        "rarity": "Uncommon",
+        "cardNumber": 42
+        },
+        {
+        "title": "Stone Golem",
+        "category": "Shantak",
+        "trait":"Beast",
+        "rarity": "Uncommon",
+        "cardNumber": 43
+        },
+        {
+        "title": "Bauble Beast",
+        "category": "Earth Beast",
+        "trait":"Beast",
+        "rarity": "Uncommon",
+        "cardNumber": 44
+        },
+        {
         "title": "Sasquatch",
         "category": "Sasquatch",
         "trait":"Humanoid",
