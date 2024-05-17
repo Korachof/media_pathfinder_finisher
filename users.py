@@ -11,8 +11,8 @@ class User:
     self._tv_list = tv_list
     self._event_list = event_list
     self._booster_pack_list = booster_pack_list
-    self._collectibles_list = collectibles_list
     self._booster_pack_quantity = {}
+    self._collectibles_list = collectibles_list
     self._card_sets = {}
     self._card_file = self.open_card_list_db()
     self.update_card_sets(self._card_file)
@@ -57,14 +57,23 @@ class User:
     return self.open_booster_pack(booster_pack)
   
   def open_booster_pack(self, booster_pack):
+    if booster_pack is None:
+      print(f"You do not have any booster packs of this type")
+      return
+
     for card in booster_pack.get_contents():
       if booster_pack.get_set_name() in self._collectibles_list:
-        self._collectibles_list[booster_pack.get_set_name()].append(card)
+        if card.get_name() in self._collectibles_list[booster_pack.get_set_name()]:
+          self._collectibles_list[booster_pack.get_set_name()][card.get_name()].increment_quantity()
+
+        else:
+          self._collectibles_list[booster_pack.get_set_name()][card.get_name()] = card
         
       else:
-        self._collectibles_list[booster_pack.get_set_name()] = [card]
+        self._collectibles_list[booster_pack.get_set_name()] = {card.get_name(): card}
       
       print(f"Opened {card.get_name()} from {booster_pack.get_set_name()}")
+      print(card._quantity)
     
     self._booster_pack_quantity[booster_pack.get_set_name()] -= 1
 
@@ -212,7 +221,21 @@ Korachof.add_book("Lost Gods", "Brom", 21, 8)
 print(Korachof.get_book_list()["Lost Gods: Brom"].get_name())
 
 Korachof.add_booster_pack("Wildlife Mayhem")
+Korachof.add_booster_pack("Wildlife Mayhem")
+Korachof.add_booster_pack("Wildlife Mayhem")
+Korachof.add_booster_pack("Monstrous Ground")
+Korachof.add_booster_pack("Wildlife Mayhem")
+
+print(f"Number of Wildlife Mayhem Boosters is: {Korachof._booster_pack_quantity['Wildlife Mayhem']}")
+print(f"Number of Monstrous Ground Boosters is: {Korachof._booster_pack_quantity['Monstrous Ground']}")
 
 Korachof.select_booster_to_open("Wildlife Mayhem")
+Korachof.select_booster_to_open("Wildlife Mayhem")
+Korachof.select_booster_to_open("Wildlife Mayhem")
+Korachof.select_booster_to_open("Wildlife Mayhem")
+Korachof.select_booster_to_open("Wildlife Mayhem")
+Korachof.select_booster_to_open("Monstrous Ground")
+
+print(f"Number of Wildlife Mayhem Boosters is: {Korachof._booster_pack_quantity['Wildlife Mayhem']}")
 
 print(Korachof.get_collectibles_list())

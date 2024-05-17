@@ -33,7 +33,7 @@ class CardSet:
         card["cardNumber"])
 
   def add_card(self, title, category, trait, rarity, card_num):
-    self._set_list_hash[title] = Cards(title, category, trait, rarity, card_num)
+    self._set_list_hash[title] = Cards(title, category, trait, rarity, card_num, 1)
 
 
 class CardPacks:
@@ -102,12 +102,13 @@ class CardPacks:
 
 
 class Cards:
-  def __init__(self, title, category, trait, rarity, card_num):
+  def __init__(self, title, category, trait, rarity, card_num, quantity):
     self._title = title
     self._category = category
     self._trait = trait
     self._rarity = rarity
     self._card_num = card_num
+    self._quantity = quantity
 
   def get_name(self):
     return self._title
@@ -123,3 +124,6 @@ class Cards:
 
   def get_card_num(self):
     return self._card_num
+  
+  def increment_quantity(self):
+    self._quantity += 1
