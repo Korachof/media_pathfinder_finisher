@@ -239,3 +239,14 @@ Korachof.select_booster_to_open("Monstrous Ground")
 print(f"Number of Wildlife Mayhem Boosters is: {Korachof._booster_pack_quantity['Wildlife Mayhem']}")
 
 print(Korachof.get_collectibles_list())
+
+
+def odds_opening_rare(num_of_packs):
+  odds = 0.917
+  print(range(num_of_packs + 1))
+  for num in range(num_of_packs + 1):
+    odds = odds * 0.917
+
+  return odds
+
+print(odds_opening_rare(3))

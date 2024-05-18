@@ -1,8 +1,9 @@
 class Books:
   """Creates a Book object to represent a finished book by the user."""
-  def __init__(self, name: str, author: str, completion_hours: int, total_hours: int, times_finished: int, rating: int):
+  def __init__(self, name: str, author: str, page_count: int, completion_hours: int, total_hours: int, times_finished: int, rating: int):
     self._name = name
     self._author = author
+    self._page_count = page_count
     self._completion_hours = completion_hours
     self._total_hours = total_hours
     self._times_finished = times_finished
@@ -15,6 +16,10 @@ class Books:
   def get_author(self):
     """Returns the Book author as STR"""
     return self._author
+  
+  def get_page_count(self):
+    """Returns the Book page count as INT"""
+    return self._page_count
 
   def get_completion_hours(self):
     """Returns the Book first completion hours as INT"""
@@ -50,13 +55,18 @@ class Books:
 
 class Movies:
   """Creates a Movie object to represent a finished movie by the user."""
-  def __init__(self, title: str, director: str, completion_hours: int, total_hours: int, times_finished: int, rating: int):
+  def __init__(self, title: str, director: str, completion_minutes: int, total_minutes: int, times_finished: int, rating: int):
     self._title = title
     self._director = director
-    self._completion_hours = completion_hours
-    self._total_hours = total_hours
+    self._completion_minutes = completion_minutes
+    self._total_minutes = total_minutes
     self._times_finished = times_finished
     self._rating = rating
+    self._MAX_REWARD1 = 80
+    self._MAX_REWARD2 = 130
+    self._MAX_REWARD3 = 180
+#   self._MAX_REWARD4 = >210
+    self._HARDCORE_TO_THE_MEGA_FINISHED_REWARD = 7
 
   def get_title(self):
     """Returns the Movie title as STR"""
@@ -66,9 +76,9 @@ class Movies:
     """Returns the Movie Director as STR"""
     return self._director
 
-  def get_completion_hours(self):
+  def get_completion_minutes(self):
     """Returns the Movie first completion hours as INT"""
-    return self._completion_hours
+    return self._completion_minutes
 
   def get_total_hours(self):
     """Returns the Movie total hours as INT"""
@@ -108,6 +118,12 @@ class VideoGames:
     self._total_hours = total_hours
     self._times_finished = times_finished
     self._rating = rating
+    self._MAX_REWARD1 = 15
+    self._MAX_REWARD2 = 40
+    self._MAX_REWARD3 = 80
+    self._MAX_REWARD4 = 120
+#   self._MAX_REWARD5 = >120
+    self._HARDCORE_TO_THE_MEGA_TOTAL_HOURS = 200
 
   def get_title(self):
     """Returns the Video Game title as STR"""
