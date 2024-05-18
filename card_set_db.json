@@ -844,7 +844,57 @@
         }],
 
     "Murderous Wetlands":
-        [{
+        [
+        {
+        "title": "Boggard Scout",
+        "category": "Boggard",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 1
+        },
+        {
+        "title": "Boggard Warrior",
+        "category": "Boggard",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 2
+        },
+        {
+        "title": "Boggard Swampseer",
+        "category": "Boggard",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 3
+        },
+        {
+        "title": "Giant Frog",
+        "category": "Frog",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 4
+        },
+        {
+        "title": "Crocodile",
+        "category": "Crocodile",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 5
+        },
+        {
+        "title": "Giant Leech",
+        "category": "Leech",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 6
+        },
+        {
+        "title": "Gray ooze",
+        "category": "Ooze",
+        "trait": "Ooze",
+        "rarity": "Common",
+        "cardNumber": 7
+        },
+        {
         "title": "Lizardfolk Defender",
         "category": "Lizardfolk",
         "trait": "Humanoid",
@@ -857,5 +907,90 @@
         "trait": "Humanoid",
         "rarity": "Common",
         "cardNumber": 9
-        }]
+        },
+        {
+        "title": "Green Hag",
+        "category": "Hag",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 10
+        },
+        {
+        "title": "Brood Leech Swarm",
+        "category": "Leech",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 11
+        },
+        {
+        "title": "Bog Mummy",
+        "category": "Mummy",
+        "trait": "Undead",
+        "rarity": "Common",
+        "cardNumber": 12
+        },
+        {
+        "title": "Hydra",
+        "category": "Hydra",
+        "trait": "Beast",
+        "rarity": "Common",
+        "cardNumber": 13
+        },
+        {
+        "title": "Shambler",
+        "category": "Shambler",
+        "trait": "Plant",
+        "rarity": "Common",
+        "cardNumber": 14
+        },
+        {
+        "title": "Emperor Cobra",
+        "category": "Snake",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 15
+        },
+        {
+        "title": "Will-o'-Wisp",
+        "category": "Will-o'-Wisp",
+        "trait": "Aberration",
+        "rarity": "Common",
+        "cardNumber": 16
+        },
+        {
+        "title": "Medusa",
+        "category": "Medusa",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 17
+        },
+        {
+        "title": "Marsh Giant",
+        "category": "Giant",
+        "trait": "Giant",
+        "rarity": "Common",
+        "cardNumber": 18
+        },
+        {
+        "title": "Giant Snapping Turtle",
+        "category": "Turtle",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 19
+        },
+        {
+        "title": "Fungus Leshy",
+        "category": "Leshy",
+        "trait": "Plant",
+        "rarity": "Common",
+        "cardNumber": 20
+        },
+        {
+        "title": "Shocker Lizard",
+        "category": "Shocker Lizard",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 21
+        }
+    ]
 }
