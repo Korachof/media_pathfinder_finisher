@@ -1270,6 +1270,76 @@
         "trait": "Animal",
         "rarity": "Common",
         "cardNumber": 1
+        },
+        {
+        "title": "Cave Fisher",
+        "category": "Cave Fisher",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 2
+        },
+        {
+        "title": "Kobold Dragon Mage",
+        "category": "Kobold",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 3
+        },
+        {
+        "title": "Kobold Scout",
+        "category": "Kobold",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 4
+        },
+        {
+        "title": "Kobold Warrior",
+        "category": "Kobold",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 5
+        },
+        {
+        "title": "Ghonhatine",
+        "category": "Fleshwarp",
+        "trait": "Aberration",
+        "rarity": "Common",
+        "cardNumber": 6
+        },
+        {
+        "title": "Wererat",
+        "category": "Werecreature",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 7
+        },
+        {
+        "title": "Cloaker",
+        "category": "Cloaker",
+        "trait": "Aberration",
+        "rarity": "Common",
+        "cardNumber": 8
+        },
+        {
+        "title": "Ochre Jelly",
+        "category": "Ooze",
+        "trait": "Ooze",
+        "rarity": "Common",
+        "cardNumber": 9
+        },
+        {
+        "title": "Deep Gnome Rockwarden",
+        "category": "Deep Gnome",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 10
+        },
+        {
+        "title": "Minotaur",
+        "category": "Minotaur",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 11
         }
     ]
 }
