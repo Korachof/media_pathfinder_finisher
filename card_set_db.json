@@ -842,10 +842,8 @@
         "rarity": "Unique",
         "cardNumber": 60
         }],
-
     "Nightmare Wetlands":
-        [
-        {
+        [{
         "title": "Boggard Scout",
         "category": "Boggard",
         "trait": "Humanoid",
@@ -1173,6 +1171,105 @@
         "trait": "Beast",
         "rarity": "Rare",
         "cardNumber": 47
+        },
+        {
+        "title": "Jotund Troll",
+        "category": "Troll",
+        "trait": "Giant",
+        "rarity": "Rare",
+        "cardNumber": 48
+        },
+        {
+        "title": "Slithering Pit",
+        "category": "Slithering Pit",
+        "trait": "Ooze",
+        "rarity": "Rare",
+        "cardNumber": 49
+        },
+        {
+        "title": "Lifeleecher Brawler",
+        "category": "Mortic",
+        "trait": "Humanoid",
+        "rarity": "Rare",
+        "cardNumber": 50
+        },
+        {
+        "title": "Gurgist Mauler",
+        "category": "Mortic",
+        "trait": "Humanoid",
+        "rarity": "Rare",
+        "cardNumber": 51
+        },
+        {
+        "title": "Angheuvore  flesh-gnawer",
+        "category": "Mortic",
+        "trait": "Humanoid",
+        "rarity": "Rare",
+        "cardNumber": 52
+        },
+        {
+        "title": "Etioling blightmage",
+        "category": "Mortic",
+        "trait": "Humanoid",
+        "rarity": "Rare",
+        "cardNumber": 53
+        },
+        {
+        "title": "Quintessivore",
+        "category": "Quintessivore",
+        "trait": "Beast",
+        "rarity": "Rare",
+        "cardNumber": 54
+        },
+        {
+        "title": "Mezlan",
+        "category": "Mezlan",
+        "trait": "Ooze",
+        "rarity": "Rare",
+        "cardNumber": 55
+        },
+        {
+        "title": "Sorcerous Skull Swarm",
+        "category": "Skull Swarm",
+        "trait": "Undead",
+        "rarity": "Rare",
+        "cardNumber": 56
+        },
+        {
+        "title": "Tolokand",
+        "category": "Tolokand",
+        "trait": "Aberration",
+        "rarity": "Rare",
+        "cardNumber": 57
+        },
+        {
+        "title": "Wyrmwraith",
+        "category": "Wyrmwraith",
+        "trait": "Dragon Undead",
+        "rarity": "Rare",
+        "cardNumber": 58
+        },
+        {
+        "title": "Bargott",
+        "category": "Nymph",
+        "trait": "Fey Plant",
+        "rarity": "Unique",
+        "cardNumber": 59
+        },
+        {
+        "title": "Bloom of Lamashtu",
+        "category": "Bloom of Lamashtu",
+        "trait": "Fiend Plant",
+        "rarity": "Unique",
+        "cardNumber": 60
+        }],
+    "Underrealm Gateaway":
+        [{
+        "title": "Giant Bat",
+        "category": "Bat",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 1
         }
     ]
 }
