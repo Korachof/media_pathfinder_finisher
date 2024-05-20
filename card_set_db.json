@@ -1167,5 +1167,12 @@
         "rarity": "Uncommon",
         "cardNumber": 46
         },
+        {
+        "title": "Carbuncle",
+        "category": "Carbuncle",
+        "trait": "Beast",
+        "rarity": "Rare",
+        "cardNumber": 47
+        }
     ]
 }
