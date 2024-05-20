@@ -843,7 +843,7 @@
         "cardNumber": 60
         }],
 
-    "Murderous Wetlands":
+    "Nightmare Wetlands":
         [
         {
         "title": "Boggard Scout",
@@ -991,6 +991,181 @@
         "trait": "Animal",
         "rarity": "Common",
         "cardNumber": 21
-        }
+        },
+        {
+        "title": "Harpy",
+        "category": "Harpy",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 22
+        },
+        {
+        "title": "Giant Stag Beetle",
+        "category": "Beetle",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 23
+        },
+        {
+        "title": "Rat Swarm",
+        "category": "Rat",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 24
+        },
+        {
+        "title": "Werecrocodile",
+        "category": "Werereature",
+        "trait": "Beast Humanoid",
+        "rarity": "Common",
+        "cardNumber": 25
+        },
+        {
+        "title": "Myceloid",
+        "category": "Myceloid",
+        "trait": "Fungus",
+        "rarity": "Common",
+        "cardNumber": 26
+        },
+        {
+        "title": "Wizard Sponge",
+        "category": "Wizard Sponge",
+        "trait": "Fungus",
+        "rarity": "Common",
+        "cardNumber": 27
+        },
+        {
+        "title": "Blood Hag",
+        "category": "Hag",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 28
+        },
+        {
+        "title": "Tylosaurus",
+        "category": "Mosasaur",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 29
+        },
+        {
+        "title": "Clacking Skull Swarm",
+        "category": "Skull Swarm",
+        "trait": "Undead",
+        "rarity": "Common",
+        "cardNumber": 30
+        },
+        {
+        "title": "Bog Strider",
+        "category": "Bog Strider",
+        "trait": "Aberration",
+        "rarity": "Uncommon",
+        "cardNumber": 31
+        },
+        {
+        "title": "Ahuizotl",
+        "category": "Ahuizotl",
+        "trait": "Beast",
+        "rarity": "Uncommon",
+        "cardNumber": 32
+        },
+        {
+        "title": "Spirit Naga",
+        "category": "Naga",
+        "trait": "Aberration",
+        "rarity": "Uncommon",
+        "cardNumber": 33
+        },
+        {
+        "title": "Isqulug",
+        "category": "Isqulug",
+        "trait": "Beast",
+        "rarity": "Uncommon",
+        "cardNumber": 34
+        },
+        {
+        "title": "Witchfire",
+        "category": "Witchfire",
+        "trait": "Undead",
+        "rarity": "Uncommon",
+        "cardNumber": 35
+        },
+        {
+        "title": "Ancient Black Dragon",
+        "category": "Dragon Chromatic",
+        "trait": "Dragon",
+        "rarity": "Uncommon",
+        "cardNumber": 36
+        },
+        {
+        "title": "Nightgaunt",
+        "category": "Nightgaunt",
+        "trait": "Aberration Dream",
+        "rarity": "Uncommon",
+        "cardNumber": 37
+        },
+        {
+        "title": "Phantom Knight",
+        "category": "Phantom",
+        "trait": "Ethereal",
+        "rarity": "Uncommon",
+        "cardNumber": 38
+        },
+        {
+        "title": "Mi-Go",
+        "category": "Mi-Go",
+        "trait": "Fungus",
+        "rarity": "Uncommon",
+        "cardNumber": 39
+        },
+        {
+        "title": "Pukwudgie",
+        "category": "Pukwudgie",
+        "trait": "Fey",
+        "rarity": "Uncommon",
+        "cardNumber": 40
+        },
+        {
+        "title": "Seething Spirit",
+        "category": "Seething Spirit",
+        "trait": "Undead",
+        "rarity": "Uncommon",
+        "cardNumber": 41
+        },
+        {
+        "title": "Lunar Naga",
+        "category": "Naga",
+        "trait": "Aberration",
+        "rarity": "Uncommon",
+        "cardNumber": 42
+        },
+        {
+        "title": "Witchwyrd",
+        "category": "Witchwyrd",
+        "trait": "Humanoid",
+        "rarity": "Uncommon",
+        "cardNumber": 43
+        },
+        {
+        "title": "Animate Dream",
+        "category": "Animate Dream",
+        "trait": "Dream",
+        "rarity": "Uncommon",
+        "cardNumber": 44
+        },
+        {
+        "title": "Brain Collector",
+        "category": "Brain Collector",
+        "trait": "Aberration",
+        "rarity": "Uncommon",
+        "cardNumber": 45
+        },
+        {
+        "title": "Bodak",
+        "category": "Bodak",
+        "trait": "Undead",
+        "rarity": "Uncommon",
+        "cardNumber": 46
+        },
     ]
 }
