@@ -1510,19 +1510,19 @@
         "cardNumber": 35
         },
         {
-        "title": "Adult Crystal Dragon",
-        "category": "Dragon Primal",
-        "trait": "Dragon Elemental",
-        "rarity": "Uncommon",
-        "cardNumber": 36
-        },
-        {
-        "title": "Adult Underworld Dragon",
-        "category": "Imperial Dragon",
-        "trait": "Dragon",
-        "rarity": "Uncommon",
-        "cardNumber": 37
-        },
+            "title": "Duende",
+            "category": "Duende",
+            "trait": "Fey",
+            "rarity": "Uncommon",
+            "cardNumber": 36
+            },
+            {
+            "title": "Gimmerling",
+            "category": "Gimmerling",
+            "trait": "Fey",
+            "rarity": "Uncommon",
+            "cardNumber": 37
+            },
         {
         "title": "Dark Naga",
         "category": "Naga",
@@ -1585,6 +1585,27 @@
         "trait": "Aberration",
         "rarity": "Uncommon",
         "cardNumber": 46
+        },
+        {
+        "title": "Chyzaedu",
+        "category": "Chyzaedu",
+        "trait": "Aberration",
+        "rarity": "Rare",
+        "cardNumber": 47
+        },
+        {
+        "title": "Ancient Crystal Dragon",
+        "category": "Dragon Primal",
+        "trait": "Dragon Elemental",
+        "rarity": "Rare",
+        "cardNumber": 48
+        },
+        {
+        "title": "Ancient Underworld Dragon",
+        "category": "Imperial Dragon",
+        "trait": "Dragon",
+        "rarity": "Rare",
+        "cardNumber": 49
         }
     ]
 }
