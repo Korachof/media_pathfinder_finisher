@@ -1683,6 +1683,14 @@
         "trait": "Aberration",
         "rarity": "Unique",
         "cardNumber": 60
-        }
-    ]
+        }],
+    "Extraplanar Activity":
+        [{
+        "title": "Lemure",
+        "category": "Devil",
+        "trait": "Fiend",
+        "rarity": "Common",
+        "cardNumber": 1
+        }]
+
 }
