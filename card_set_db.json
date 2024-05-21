@@ -1606,6 +1606,83 @@
         "trait": "Dragon",
         "rarity": "Rare",
         "cardNumber": 49
+        },
+        {
+        "title": "Shoggoth",
+        "category": "Shoggoth",
+        "trait": "Aberration",
+        "rarity": "Rare",
+        "cardNumber": 50
+        },
+        {
+        "title": "Caligni vanguard",
+        "category": "Caligni",
+        "trait": "Humanoid",
+        "rarity": "Rare",
+        "cardNumber": 51
+        },
+        {
+        "title": "Fossil Golem",
+        "category": "Golem",
+        "trait": "Construct",
+        "rarity": "Rare",
+        "cardNumber": 52
+        },
+        {
+        "title": "Arcane Living Rune",
+        "category": "Living Symbol",
+        "trait": "Construct",
+        "rarity": "Rare",
+        "cardNumber": 53
+        },
+        {
+        "title": "Mithral Golem",
+        "category": "Golem",
+        "trait": "Construct",
+        "rarity": "Rare",
+        "cardNumber": 54
+        },
+        {
+        "title": "Elder Wyrmwraith",
+        "category": "Wyrmwraith",
+        "trait": "Dragon Undead",
+        "rarity": "Rare",
+        "cardNumber": 55
+        },
+        {
+        "title": "Corrupted relic",
+        "category": "Corrupted relic",
+        "trait": "Undead",
+        "rarity": "Rare",
+        "cardNumber": 56
+        },
+        {
+        "title": "Mummy pharaoh",
+        "category": "Mummy",
+        "trait": "Undead",
+        "rarity": "Rare",
+        "cardNumber": 57
+        },
+        {
+        "title": "Amalgamite",
+        "category": "Amalgamite",
+        "trait": "Aberration",
+        "rarity": "Rare",
+        "cardNumber": 58
+        },
+        {
+        "title": "Dragonshard Guardian",
+        "category": "Dragonshard Guardian",
+        "trait": "Construct",
+        "rarity": "Unique",
+        "cardNumber": 59
+        },
+        {
+        "title": "Helg Eats-the-Eaters",
+        "category": "Helg Eats-the-Eaters",
+        "trait": "Aberration",
+        "rarity": "Unique",
+        "cardNumber": 60
         }
     ]
 }
