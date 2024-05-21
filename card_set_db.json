@@ -1452,7 +1452,27 @@
         "trait": "Undead",
         "rarity": "Common",
         "cardNumber": 27
+        },
+        {
+        "title": "Trilobite",
+        "category": "Trilobite",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 28
+        },
+        {
+        "title": "Skeleton Infantry",
+        "category": "Skeleton",
+        "trait": "Undead",
+        "rarity": "Common",
+        "cardNumber": 29
+        },
+        {
+        "title": "Tyrannosaurus Skeleton",
+        "category": "Skeleton",
+        "trait": "Undead",
+        "rarity": "Common",
+        "cardNumber": 30
         }
-        
     ]
 }
