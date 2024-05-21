@@ -1340,6 +1340,119 @@
         "trait": "Humanoid",
         "rarity": "Common",
         "cardNumber": 11
+        },
+        {
+        "title": "Ratfolk Grenadier",
+        "category": "Ratfolk",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 12
+        },
+        {
+        "title": "Violet Fungus",
+        "category": "Violet Fungus",
+        "trait": "Fungus",
+        "rarity": "Common",
+        "cardNumber": 13
+        },
+        {
+        "title": "Gelatinous Cube",
+        "category": "Gelatinous Cube",
+        "trait": "Ooze",
+        "rarity": "Common",
+        "cardNumber": 14
+        },
+        {
+        "title": "Nuglub",
+        "category": "Gremlin",
+        "trait": "Fey",
+        "rarity": "Common",
+        "cardNumber": 15
+        },
+        {
+        "title": "Empress Bore Worm",
+        "category": "Bore Worm",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 16
+        },
+        {
+        "title": "Shining Soul",
+        "category": "Shining Soul",
+        "trait": "Astral",
+        "rarity": "Common",
+        "cardNumber": 17
+        },
+        {
+        "title": "Flash Beetle",
+        "category": "Beetle",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 18
+        },
+        {
+        "title": "Drow Rogue",
+        "category": "Drow",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 19
+        },
+        {
+        "title": "Drow Priestess",
+        "category": "Drow",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 20
+        },
+        {
+        "title": "Drow Fighter",
+        "category": "Drow",
+        "trait": "Humanoid",
+        "rarity": "Common",
+        "cardNumber": 21
+        },
+        {
+        "title": "Aurumvorax",
+        "category": "Aurumvorax",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 22
+        },
+        {
+        "title": "Slurk",
+        "category": "Slurk",
+        "trait": "Animal",
+        "rarity": "Common",
+        "cardNumber": 23
+        },
+        {
+        "title": "Irlgaunt",
+        "category": "Irlgaunt",
+        "trait": "Aberration",
+        "rarity": "Common",
+        "cardNumber": 24
+        },
+        {
+        "title": "Sewer Ooze",
+        "category": "Sewer Ooze",
+        "trait": "Ooze",
+        "rarity": "Common",
+        "cardNumber": 25
+        },
+        {
+        "title": "Sulfur Zombie",
+        "category": "Zombie",
+        "trait": "Undead",
+        "rarity": "Common",
+        "cardNumber": 26
+        },
+        {
+        "title": "Nightmarchers",
+        "category": "Nightmarchers",
+        "trait": "Undead",
+        "rarity": "Common",
+        "cardNumber": 27
         }
+        
     ]
 }
