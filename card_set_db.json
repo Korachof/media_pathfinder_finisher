@@ -1473,6 +1473,118 @@
         "trait": "Undead",
         "rarity": "Common",
         "cardNumber": 30
+        },
+        {
+        "title": "Zyss Serpentfolk",
+        "category": "Serpentfolk",
+        "trait": "Humanoid",
+        "rarity": "Uncommon",
+        "cardNumber": 31
+        },
+        {
+        "title": "Aapoph serpentfolk",
+        "category": "Serpentfolk",
+        "trait": "Humanoid",
+        "rarity": "Uncommon",
+        "cardNumber": 32
+        },
+        {
+        "title": "Coil Spy",
+        "category": "Serpentfolk",
+        "trait": "Humanoid",
+        "rarity": "Uncommon",
+        "cardNumber": 33
+        },
+        {
+        "title": "Dero Magister",
+        "category": "Dero",
+        "trait": "Humanoid",
+        "rarity": "Uncommon",
+        "cardNumber": 34
+        },
+        {
+        "title": "Cavern Troll",
+        "category": "Troll",
+        "trait": "Giant",
+        "rarity": "Uncommon",
+        "cardNumber": 35
+        },
+        {
+        "title": "Adult Crystal Dragon",
+        "category": "Dragon Primal",
+        "trait": "Dragon Elemental",
+        "rarity": "Uncommon",
+        "cardNumber": 36
+        },
+        {
+        "title": "Adult Underworld Dragon",
+        "category": "Imperial Dragon",
+        "trait": "Dragon",
+        "rarity": "Uncommon",
+        "cardNumber": 37
+        },
+        {
+        "title": "Dark Naga",
+        "category": "Naga",
+        "trait": "Aberration",
+        "rarity": "Uncommon",
+        "cardNumber": 38
+        },
+        {
+        "title": "Intellect Devourer",
+        "category": "Intellect Devourer",
+        "trait": "Aberration",
+        "rarity": "Uncommon",
+        "cardNumber": 39
+        },
+        {
+        "title": "Bone Prophet",
+        "category": "Serpentfolk",
+        "trait": "Humanoid",
+        "rarity": "Uncommon",
+        "cardNumber": 40
+        },
+        {
+        "title": "Guardian Naga",
+        "category": "Naga",
+        "trait": "Aberration",
+        "rarity": "Uncommon",
+        "cardNumber": 41
+        },
+        {
+        "title": "Roper",
+        "category": "Roper",
+        "trait": "Aberration",
+        "rarity": "Uncommon",
+        "cardNumber": 42
+        },
+        {
+        "title": "Calikang",
+        "category": "Calikang",
+        "trait": "Humanoid",
+        "rarity": "Uncommon",
+        "cardNumber": 43
+        },
+        {
+        "title": "Froghemoth",
+        "category": "Froghemoth",
+        "trait": "Aberration",
+        "rarity": "Uncommon",
+        "cardNumber": 44
+        },
+        {
+        "title": "Azure Worm",
+        "category": "Cave Worm",
+        "trait": "Animal",
+        "rarity": "Uncommon",
+        "cardNumber": 45
+        },
+        {
+        "title": "Neothelid",
+        "category": "Neothelid",
+        "trait": "Aberration",
+        "rarity": "Uncommon",
+        "cardNumber": 46
         }
     ]
 }
