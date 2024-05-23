@@ -1691,6 +1691,84 @@
         "trait": "Fiend",
         "rarity": "Common",
         "cardNumber": 1
-        }]
+        },
+        {
+        "title": "Air Wisp",
+        "category": "Elemental",
+        "trait": "Elemental",
+        "rarity": "Common",
+        "cardNumber": 2
+        },
+        {
+        "title": "Earth Wisp",
+        "category": "Elemental",
+        "trait": "Elemental",
+        "rarity": "Common",
+        "cardNumber": 2
+        },
+        {
+        "title": "Fire Wisp",
+        "category": "Elemental",
+        "trait": "Elemental",
+        "rarity": "Common",
+        "cardNumber": 3
+        },
+        {
+        "title": "Water Wisp",
+        "category": "Elemental",
+        "trait": "Elemental",
+        "rarity": "Common",
+        "cardNumber": 4
+        },
+        {
+        "title": "Arbiter",
+        "category": "Aeon",
+        "trait": "Monitor",
+        "rarity": "Common",
+        "cardNumber": 5
+        },
+        {
+        "title": "Lantern Archon",
+        "category": "Archon",
+        "trait": "Celestial",
+        "rarity": "Common",
+        "cardNumber": 6
+        },
+        {
+        "title": "Quasit",
+        "category": "Demon",
+        "trait": "Fiend",
+        "rarity": "Common",
+        "cardNumber": 7
+        },
+        {
+        "title": "Imp",
+        "category": "Devil",
+        "trait": "Fiend",
+        "rarity": "Common",
+        "cardNumber": 8
+        },
+        {
+        "title": "Ember Fox",
+        "category": "Elemental Fire",
+        "trait": "Elemental",
+        "rarity": "Common",
+        "cardNumber": 9
+        },
+        {
+        "title": "Living Boulder",
+        "category": "Elemental Earth",
+        "trait": "Elemental",
+        "rarity": "Common",
+        "cardNumber": 10
+        },
+        {
+        "title": "Voidworm",
+        "category": "Protean",
+        "trait": "Monitor",
+        "rarity": "Common",
+        "cardNumber": 11
+        }
+]
 
 }
