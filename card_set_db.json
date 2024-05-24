@@ -1777,15 +1777,8 @@
         "cardNumber": 12
         },
         {
-        "title": "Mudwretch",
-        "category": "Elemental",
-        "trait": "Elemental",
-        "rarity": "Common",
-        "cardNumber": 13
-        },
-        {
-        "title": "Djinni",
-        "category": "Genie",
+        "title": "Air Mephit",
+        "category": "Elemental Mephit",
         "trait": "Elemental",
         "rarity": "Common",
         "cardNumber": 13
@@ -1909,6 +1902,118 @@
         "rarity": "Common",
         "cardNumber": 30
         },
+        {
+        "title": "Dust Mephit",
+        "category": "Elemental Mephit",
+        "trait": "Elemental",
+        "rarity": "Uncommon",
+        "cardNumber": 31
+        },
+        {
+        "title": "Ice Mephit",
+        "category": "Elemental Mephit",
+        "trait": "Elemental",
+        "rarity": "Uncommon",
+        "cardNumber": 32
+        },
+        {
+        "title": "Ooze Mephit",
+        "category": "Elemental Mephit",
+        "trait": "Elemental",
+        "rarity": "Uncommon",
+        "cardNumber": 33
+        },
+        {
+        "title": "Steam Mephit",
+        "category": "Elemental Mephit",
+        "trait": "Elemental",
+        "rarity": "Uncommon",
+        "cardNumber": 34
+        },
+        {
+        "title": "Shulsaga",
+        "category": "Ennosite",
+        "trait": "Astral",
+        "rarity": "Uncommon",
+        "cardNumber": 35
+        },
+        {
+        "title": "Hellbound Attorney",
+        "category": "Devil",
+        "trait": "Fiend Humanoid",
+        "rarity": "Uncommon",
+        "cardNumber": 36
+        },
+        {
+        "title": "Xill",
+        "category": "Xill",
+        "trait": "Aberation Ethereal",
+        "rarity": "Uncommon",
+        "cardNumber": 37
+        },
+        {
+        "title": "Djinni",
+        "category": "Genie",
+        "trait": "Elemental",
+        "rarity": "Uncommon",
+        "cardNumber": 38
+        },
+        {
+        "title": "Caulborn",
+        "category": "Ennosite",
+        "trait": "Astral",
+        "rarity": "Uncommon",
+        "cardNumber": 39
+        },
+        {
+        "title": "Shaitan",
+        "category": "Genie",
+        "trait": "Elemental",
+        "rarity": "Uncommon",
+        "cardNumber": 40
+        },
+        {
+        "title": "Shoggti",
+        "category": "Qlippoth",
+        "trait": "Fiend",
+        "rarity": "Uncommon",
+        "cardNumber": 41
+        },
+        {
+        "title": "Soul Eater",
+        "category": "Soul Eater",
+        "trait": "Fiend",
+        "rarity": "Uncommon",
+        "cardNumber": 42
+        },
+        {
+        "title": "Mix Couatl",
+        "category": "Couatl",
+        "trait": "Beast",
+        "rarity": "Uncommon",
+        "cardNumber": 43
+        },
+        {
+        "title": "Efreeti",
+        "category": "Genie",
+        "trait": "Elemental",
+        "rarity": "Uncommon",
+        "cardNumber": 44
+        },
+        {
+        "title": "Marid",
+        "category": "Genie",
+        "trait": "Elemental",
+        "rarity": "Uncommon",
+        "cardNumber": 45
+        },
+        {
+        "title": "Leng Spider",
+        "category": "Leng Spider",
+        "trait": "Aberration Dream",
+        "rarity": "Uncommon",
+        "cardNumber": 46
+        }
 ]
 
 }
