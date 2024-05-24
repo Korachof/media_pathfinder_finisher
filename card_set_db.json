@@ -2013,6 +2013,104 @@
         "trait": "Aberration Dream",
         "rarity": "Uncommon",
         "cardNumber": 46
+        },
+        {
+        "title": "Void Zombie",
+        "category": "Void Zombie",
+        "trait": "Undead",
+        "rarity": "Rare",
+        "cardNumber": 47
+        },
+        {
+        "title": "Hound of Tindalos",
+        "category": "Hound of Tindalos",
+        "trait": "Aberration Time",
+        "rarity": "Rare",
+        "cardNumber": 48
+        },
+        {
+        "title": "Sceaduinar",
+        "category": "Sceaduinar",
+        "trait": "Aberration Negative",
+        "rarity": "Rare",
+        "cardNumber": 49
+        },
+        {
+        "title": "Xiuh Couatl",
+        "category": "Couatl",
+        "trait": "Beast",
+        "rarity": "Rare",
+        "cardNumber": 50
+        },
+        {
+        "title": "Shuln",
+        "category": "Shuln",
+        "trait": "Beast",
+        "rarity": "Rare",
+        "cardNumber": 51
+        },
+        {
+        "title": "Veiled Master",
+        "category": "Algholthu",
+        "trait": "Aberation",
+        "rarity": "Rare",
+        "cardNumber": 52
+        },
+        {
+        "title": "Ancient Magma Dragon",
+        "category": "Dragon Primal",
+        "trait": "Dragon Elemental",
+        "rarity": "Rare",
+        "cardNumber": 53
+        },
+        {
+        "title": "Ancient Umbral Dragon",
+        "category": "Dragon Primal",
+        "trait": "Dragon Shadow",
+        "rarity": "Rare",
+        "cardNumber": 54
+        },
+        {
+        "title": "Gliminal",
+        "category": "Gliminal",
+        "trait": "Positive Spirit",
+        "rarity": "Rare",
+        "cardNumber": 55
+        },
+        {
+        "title": "Yithian",
+        "category": "Yithian",
+        "trait": "Aberration",
+        "rarity": "Rare",
+        "cardNumber": 56
+        },
+        {
+        "title": "Love Siktempora",
+        "category": "Siktempora",
+        "trait": "Time",
+        "rarity": "Rare",
+        "cardNumber": 57
+        },
+        {
+        "title": "Solar",
+        "category": "Angel",
+        "trait": "Celestial",
+        "rarity": "Rare",
+        "cardNumber": 58
+        },
+        {
+        "title": "Lorthact",
+        "category": "Devil",
+        "trait": "Fiend",
+        "rarity": "Unique",
+        "cardNumber": 59
+        },
+        {
+        "title": "Ixame'",
+        "category": "Air Dragon",
+        "trait": "Elemental Undead",
+        "rarity": "Unique",
+        "cardNumber": 60
         }
 ]
 
