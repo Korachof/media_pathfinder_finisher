@@ -2490,6 +2490,34 @@
                 "trait": "Animal",
                 "rarity": "Common",
                 "cardNumber": 10
+            },
+            {
+                "title": "Giant Silverfish",
+                "category": "Silverfish",
+                "trait": "Animal",
+                "rarity": "Uncommon",
+                "cardNumber": 11
+            },
+            {
+                "title": "Naiad Queen",
+                "category": "Nymph",
+                "trait": "Fey",
+                "rarity": "Uncommon",
+                "cardNumber": 12
+            },
+            {
+                "title": "Shoal Linnorm",
+                "category": "Linnorm",
+                "trait": "Dragon",
+                "rarity": "Uncommon",
+                "cardNumber": 13
+            },
+            {
+                "title": "Kraken",
+                "category": "Kraken",
+                "trait": "Beast",
+                "rarity": "Uncommon",
+                "cardNumber": 14
             }
         ]
 
