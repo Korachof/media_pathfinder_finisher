@@ -2111,7 +2111,129 @@
         "trait": "Elemental Undead",
         "rarity": "Unique",
         "cardNumber": 60
-        }
-]
+        }],
+    "Arctic Passage":
+        [
+            {
+                "title": "Calathgar",
+                "category": "Calathgar",
+                "trait": "Plant",
+                "rarity": "Common",
+                "cardNumber": 1
+            },
+            {
+                "title": "Polar Bear",
+                "category": "Bear",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 2
+            },
+            {
+                "title": "Winter Wolf",
+                "category": "Warg",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 3
+            },
+            {
+                "title": "Woolly Rhinoceros",
+                "category": "Rhinoceros",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 4
+            },
+            {
+                "title": "Frost Drake",
+                "category": "Drake",
+                "trait": "Dragon",
+                "rarity": "Common",
+                "cardNumber": 5
+            },
+            {
+                "title": "Gug",
+                "category": "Gug",
+                "trait": "Aberration",
+                "rarity": "Common",
+                "cardNumber": 6
+            },
+            {
+                "title": "Frost Worm",
+                "category": "Frost Worm",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 7
+            },
+            {
+                "title": "Taiga Giant",
+                "category": "Giant",
+                "trait": "Giant Humanoid",
+                "rarity": "Common",
+                "cardNumber": 8
+            },
+            {
+                "title": "Ice Yai",
+                "category": "Oni Fiend",
+                "trait": "Giant Humanoid",
+                "rarity": "Common",
+                "cardNumber": 9
+            },
+            {
+                "title": "Adlet",
+                "category": "Adlet",
+                "trait": "Humanoid",
+                "rarity": "Common",
+                "cardNumber": 10
+            },
+            {
+                "title": "Frost Troll",
+                "category": "Troll",
+                "trait": "Giant",
+                "rarity": "Uncommon",
+                "cardNumber": 11
+            },
+            {
+                "title": "Ice Golem",
+                "category": "Golem",
+                "trait": "Construct",
+                "rarity": "Uncommon",
+                "cardNumber": 12
+            },
+            {
+                "title": "Remorhaz",
+                "category": "Remorhaz",
+                "trait": "Beast",
+                "rarity": "Uncommon",
+                "cardNumber": 13
+            },
+            {
+                "title": "Ancient White Dragon",
+                "category": "Dragon Chromatic",
+                "trait": "Dragon",
+                "rarity": "Uncommon",
+                "cardNumber": 14
+            },
+            {
+                "title": "Ancient Silver Dragon",
+                "category": "Dragon Metallic",
+                "trait": "Dragon",
+                "rarity": "Uncommon",
+                "cardNumber": 15
+            },
+            {
+                "title": "Wendigo",
+                "category": "Wendigo",
+                "trait": "Beast",
+                "rarity": "Uncommon",
+                "cardNumber": 16
+            },
+            {
+                "title": "Little Man in the Woods",
+                "category": "Little Man in the Woods",
+                "trait": "Undead",
+                "rarity": "Rare",
+                "cardNumber": 17
+            },
+        ]
+
 
 }
