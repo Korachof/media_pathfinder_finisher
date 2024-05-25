@@ -2418,6 +2418,79 @@
                 "rarity": "Unique",
                 "cardNumber": 22
             }
+        ],
+    "Hazardous Waters 2":
+        [
+            {
+                "title": "Stingray",
+                "category": "Ray",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 1
+            },
+            {
+                "title": "Coral Capuchin",
+                "category": "Coral Capuchin",
+                "trait": "Beast",
+                "rarity": "Common",
+                "cardNumber": 2
+            },
+            {
+                "title": "Electric Eel",
+                "category": "Eel",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 3
+            },
+            {
+                "title": "Reef Octopus",
+                "category": "Octopus",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 4
+            },
+            {
+                "title": "Reefclaw",
+                "category": "Reefclaw",
+                "trait": "Aberration",
+                "rarity": "Common",
+                "cardNumber": 5
+            },
+            {
+                "title": "Draugr",
+                "category": "Draugr",
+                "trait": "Undead",
+                "rarity": "Common",
+                "cardNumber": 6
+            },
+            {
+                "title": "Triton",
+                "category": "Triton",
+                "trait": "Humanoid",
+                "rarity": "Common",
+                "cardNumber": 7
+            },
+            {
+                "title": "River Drake",
+                "category": "Drake",
+                "trait": "Dragon",
+                "rarity": "Common",
+                "cardNumber": 8
+            },
+            {
+                "title": "Kelpie",
+                "category": "Kelpie",
+                "trait": "Fey",
+                "rarity": "Common",
+                "cardNumber": 9
+            },
+            {
+                "title": "Elasmosaurus",
+                "category": "Elasmosaurus",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 10
+            }
         ]
 
 
