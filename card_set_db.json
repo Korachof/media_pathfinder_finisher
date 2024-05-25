@@ -2268,6 +2268,156 @@
                 "rarity": "Rare",
                 "cardNumber": 22
             }
+        ],
+    "Hazardous Waters":
+        [
+            {
+                "title": "Bottlenose Dolphin",
+                "category": "Dolphin",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 1
+            },
+            {
+                "title": "Grindylow",
+                "category": "Grindylow",
+                "trait": "Aberration",
+                "rarity": "Common",
+                "cardNumber": 2
+            },
+            {
+                "title": "Blue-Ringed Octopus",
+                "category": "Octopus",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 3
+            },
+            {
+                "title": "Vampire Squid",
+                "category": "Squid",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 4
+            },
+            {
+                "title": "Merfolk Warrior",
+                "category": "Merfolk",
+                "trait": "Humanoid",
+                "rarity": "Common",
+                "cardNumber": 5
+            },
+            {
+                "title": "Giant Crab",
+                "category": "Crab",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 6
+            },
+            {
+                "title": "Merfolk Wavecaller",
+                "category": "Merfolk",
+                "trait": "Humanoid",
+                "rarity": "Common",
+                "cardNumber": 8
+            },
+            {
+                "title": "Sea Devil Scout",
+                "category": "Sea Devil",
+                "trait": "Humanoid",
+                "rarity": "Common",
+                "cardNumber": 9
+            },
+            {
+                "title": "Sea Devil Brute",
+                "category": "Sea Devil",
+                "trait": "Humanoid",
+                "rarity": "Common",
+                "cardNumber": 10
+            },
+            {
+                "title": "Alghollthu Master",
+                "category": "Alghollthu",
+                "trait": "Aberration",
+                "rarity": "Uncommon",
+                "cardNumber": 11
+            },
+            {
+                "title": "Giant Hippocampus",
+                "category": "Hippocampus",
+                "trait": "Animal",
+                "rarity": "Uncommon",
+                "cardNumber": 12
+            },
+            {
+                "title": "Megalodon",
+                "category": "Shark",
+                "trait": "Animal",
+                "rarity": "Uncommon",
+                "cardNumber": 13
+            },
+            {
+                "title": "Sea Serpent",
+                "category": "Sea Serpent",
+                "trait": "Animal",
+                "rarity": "Uncommon",
+                "cardNumber": 14
+            },
+            {
+                "title": "Umonlee",
+                "category": "Umonlee",
+                "trait": "Beast",
+                "rarity": "Uncommon",
+                "cardNumber": 15
+            },
+            {
+                "title": "Ancient Bronze Dragon",
+                "category": "Dragon Metallic",
+                "trait": "Animal",
+                "rarity": "Uncommon",
+                "cardNumber": 16
+            },
+            {
+                "title": "Water Orm",
+                "category": "Water Orm",
+                "trait": "Beast",
+                "rarity": "Rare",
+                "cardNumber": 17
+            },
+            {
+                "title": "Ancient Brine Dragon",
+                "category": "Dragon Primal",
+                "trait": "Dragon",
+                "rarity": "Rare",
+                "cardNumber": 18
+            },
+            {
+                "title": "Bone Ship",
+                "category": "Bone Ship",
+                "trait": "Undead",
+                "rarity": "Rare",
+                "cardNumber": 19
+            },
+            {
+                "title": "Ancient Sea Dragon",
+                "category": "Imperial Dragon",
+                "trait": "Dragon",
+                "rarity": "Rare",
+                "cardNumber": 20
+            },
+            {
+                "title": "Sandpoint Devil",
+                "category": "Sandpoint Devil",
+                "trait": "Beast Fiend",
+                "rarity": "Unique",
+                "cardNumber": 21
+            },
+            {
+                "title": "Grave Spinosaurus",
+                "category": "Dinosaur",
+                "trait": "Animal",
+                "rarity": "Unique",
+                "cardNumber": 22
+            }
         ]
 
 
