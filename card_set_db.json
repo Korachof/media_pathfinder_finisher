@@ -2233,6 +2233,41 @@
                 "rarity": "Rare",
                 "cardNumber": 17
             },
+            {
+                "title": "Troll Guard",
+                "category": "Troll",
+                "trait": "Giant",
+                "rarity": "Rare",
+                "cardNumber": 18
+            },
+            {
+                "title": "Runecarved Lich",
+                "category": "Lich",
+                "trait": "Undead",
+                "rarity": "Rare",
+                "cardNumber": 19
+            },
+            {
+                "title": "Stone Sister",
+                "category": "Stone Sister",
+                "trait": "Undead",
+                "rarity": "Rare",
+                "cardNumber": 20
+            },
+            {
+                "title": "Benthic Reaver",
+                "category": "Benthic Reaver",
+                "trait": "Cold Undead",
+                "rarity": "Rare",
+                "cardNumber": 21
+            },
+            {
+                "title": "Grendel",
+                "category": "Grendel",
+                "trait": "Giant Humanoid",
+                "rarity": "Rare",
+                "cardNumber": 22
+            },
         ]
 
 
