@@ -2647,6 +2647,90 @@
                 "trait": "Elemental",
                 "rarity": "Common",
                 "cardNumber": 10
+            },
+            {
+                "title": "Jann Shuyookh",
+                "category": "Genie",
+                "trait": "Elemental",
+                "rarity": "Uncommon",
+                "cardNumber": 11
+            },
+            {
+                "title": "Kvernknurr",
+                "category": "Kvernknurr",
+                "trait": "Fey",
+                "rarity": "Uncommon",
+                "cardNumber": 12
+            },
+            {
+                "title": "Bregdi",
+                "category": "Bregdi",
+                "trait": "Animal",
+                "rarity": "Uncommon",
+                "cardNumber": 13
+            },
+            {
+                "title": "Deepwater Dhuthorex",
+                "category": "Dhuthorex",
+                "trait": "Aberration",
+                "rarity": "Uncommon",
+                "cardNumber": 14
+            },
+            {
+                "title": "Kun",
+                "category": "Kun",
+                "trait": "Aquatic Beast",
+                "rarity": "Uncommon",
+                "cardNumber": 15
+            },
+            {
+                "title": "Scrapborn",
+                "category": "Scrapborn",
+                "trait": "Aberration",
+                "rarity": "Uncommon",
+                "cardNumber": 16
+            },
+            {
+                "title": "Vitalia",
+                "category": "Vitalia",
+                "trait": "Aberration",
+                "rarity": "Rare",
+                "cardNumber": 17
+            },
+            {
+                "title": "Defaced Naiad Queen",
+                "category": "Nymph",
+                "trait": "Fey",
+                "rarity": "Rare",
+                "cardNumber": 18
+            },
+            {
+                "title": "Minchgorm",
+                "category": "Minchgorm",
+                "trait": "Fey",
+                "rarity": "Rare",
+                "cardNumber": 19
+            },
+            {
+                "title": "Danava Titan",
+                "category": "Titan",
+                "trait": "Titan",
+                "rarity": "Rare",
+                "cardNumber": 20
+            },
+            {
+                "title": "Bolti Sorrinson",
+                "category": "Bolti Sorrinson",
+                "trait": "Undead",
+                "rarity": "Unique",
+                "cardNumber": 21
+            },
+            {
+                "title": "Basiri, Wellspring Keeper",
+                "category": "Aquatic Skeleton",
+                "trait": "Undead",
+                "rarity": "Unique",
+                "cardNumber": 22
             }
         ]
 
