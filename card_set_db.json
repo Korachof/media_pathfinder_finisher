@@ -2518,8 +2518,136 @@
                 "trait": "Beast",
                 "rarity": "Uncommon",
                 "cardNumber": 14
+            },
+            {
+                "title": "Elemental Vessel, Water",
+                "category": "Elemental Water",
+                "trait": "Elemental",
+                "rarity": "Uncommon",
+                "cardNumber": 15
+            },
+            {
+                "title": "Drenchdead",
+                "category": "Drenchdead",
+                "trait": "Undead",
+                "rarity": "Uncommon",
+                "cardNumber": 16
+            },
+            {
+                "title": "Mammoth Turtle",
+                "category": "Turtle",
+                "trait": "Animal",
+                "rarity": "Rare",
+                "cardNumber": 17
+            },
+            {
+                "title": "Drowned Mummy",
+                "category": "Amphibious Mummy",
+                "trait": "Undead",
+                "rarity": "Rare",
+                "cardNumber": 18
+            },
+            {
+                "title": "Ghostly Guard",
+                "category": "Spirit",
+                "trait": "Undead",
+                "rarity": "Rare",
+                "cardNumber": 19
+            },
+            {
+                "title": "Riekanoy",
+                "category": "Riekanoy",
+                "trait": "Fey",
+                "rarity": "Rare",
+                "cardNumber": 20
+            },
+            {
+                "title": "Evindra",
+                "category": "Evindra",
+                "trait": "Fey",
+                "rarity": "Unique",
+                "cardNumber": 21
+            },
+            {
+                "title": "Great Grodair",
+                "category": "Great Grodair",
+                "trait": "Amphibious Beast",
+                "rarity": "Unique",
+                "cardNumber": 22
+            }
+        ],
+    "Hazardous Waters 3":
+        [
+            {
+                "title": "Nixie",
+                "category": "Nixie",
+                "trait": "Fey",
+                "rarity": "Common",
+                "cardNumber": 1
+            },
+            {
+                "title": "Manta Ray",
+                "category": "Ray",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 2
+            },
+            {
+                "title": "Piranha Swarm",
+                "category": "Fish",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 3
+            },
+            {
+                "title": "Sea Hag",
+                "category": "Hag",
+                "trait": "Humanoid",
+                "rarity": "Common",
+                "cardNumber": 4
+            },
+            {
+                "title": "Giant Seahorse",
+                "category": "Seahorse",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 5
+            },
+            {
+                "title": "Great White Shark",
+                "category": "Shark",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 6
+            },
+            {
+                "title": "Spiny Eurypterid",
+                "category": "Eurypterid",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 7
+            },
+            {
+                "title": "Chuul",
+                "category": "Chuul",
+                "trait": "Aberration",
+                "rarity": "Common",
+                "cardNumber": 8
+            },
+            {
+                "title": "Elasmosaurus",
+                "category": "Elasmosaurus",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 9
+            },
+            {
+                "title": "Storm Lord",
+                "category": "Elemental Air",
+                "trait": "Elemental",
+                "rarity": "Common",
+                "cardNumber": 10
             }
         ]
-
 
 }
