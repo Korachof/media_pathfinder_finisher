@@ -2732,6 +2732,30 @@
                 "rarity": "Unique",
                 "cardNumber": 22
             }
+        ],
+    "Hazardous Waters 4":
+        [
+            {
+                "title": "Fire Jellyfish Swarm",
+                "category": "Jellyfish",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 1
+            },
+            {
+                "title": "Nuckelavee",
+                "category": "Nuckelavee",
+                "trait": "Fey",
+                "rarity": "Common",
+                "cardNumber": 2
+            },
+            {
+                "title": "Dragon Turtle",
+                "category": "Dragon Turtle",
+                "trait": "Dragon",
+                "rarity": "Common",
+                "cardNumber": 3
+            }
         ]
 
 }
