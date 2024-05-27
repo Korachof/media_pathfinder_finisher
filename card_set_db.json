@@ -1947,7 +1947,7 @@
         {
         "title": "Xill",
         "category": "Xill",
-        "trait": "Aberation Ethereal",
+        "trait": "Aberration Ethereal",
         "rarity": "Uncommon",
         "cardNumber": 37
         },
@@ -2051,8 +2051,8 @@
         },
         {
         "title": "Veiled Master",
-        "category": "Algholthu",
-        "trait": "Aberation",
+        "category": "Alghollthu",
+        "trait": "Aberration",
         "rarity": "Rare",
         "cardNumber": 52
         },
@@ -2755,6 +2755,296 @@
                 "trait": "Dragon",
                 "rarity": "Common",
                 "cardNumber": 3
+            },
+            {
+                "title": "Rusalka",
+                "category": "Rusalka",
+                "trait": "Fey",
+                "rarity": "Common",
+                "cardNumber": 4
+            },
+            {
+                "title": "Uthul",
+                "category": "Uthul",
+                "trait": "Elemental",
+                "rarity": "Common",
+                "cardNumber": 5
+            },
+            {
+                "title": "Water Yai",
+                "category": "Oni Fiend",
+                "trait": "Giant Humanoid",
+                "rarity": "Common",
+                "cardNumber": 6
+            },
+            {
+                "title": "Sea Devil Baron",
+                "category": "Sea Devil",
+                "trait": "Humanoid",
+                "rarity": "Common",
+                "cardNumber": 7
+            },
+            {
+                "title": "Pirate",
+                "category": "Seafarer",
+                "trait": "Humanoid",
+                "rarity": "Common",
+                "cardNumber": 8
+            },
+            {
+                "title": "Vaspercham",
+                "category": "Vaspercham",
+                "trait": "Aberration",
+                "rarity": "Common",
+                "cardNumber": 9
+            },
+            {
+                "title": "Pufferfish",
+                "category": "Fish",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 10
+            },
+            {
+                "title": "Mamlambo",
+                "category": "Mamlambo",
+                "trait": "Beast",
+                "rarity": "Uncommon",
+                "cardNumber": 11
+            },
+            {
+                "title": "Lusca",
+                "category": "Lusca",
+                "trait": "Aberration",
+                "rarity": "Uncommon",
+                "cardNumber": 12
+            },
+            {
+                "title": "Seetangeist",
+                "category": "Verdorite",
+                "trait": "Undead",
+                "rarity": "Uncommon",
+                "cardNumber": 13
+            },
+            {
+                "title": "Lophiithu",
+                "category": "Lophiithu",
+                "trait": "Aberration",
+                "rarity": "Uncommon",
+                "cardNumber": 14
+            },
+            {
+                "title": "Ghoul Crocodile",
+                "category": "Ghoul Crocodile",
+                "trait": "Undead",
+                "rarity": "Uncommon",
+                "cardNumber": 15
+            },
+            {
+                "title": "Avarek",
+                "category": "Avarek",
+                "trait": "Fey",
+                "rarity": "Uncommon",
+                "cardNumber": 16
+            },
+            {
+                "title": "Aboleth",
+                "category": "Alghollthu",
+                "trait": "Beast",
+                "rarity": "Rare",
+                "cardNumber": 17
+            },
+            {
+                "title": "Skum",
+                "category": "Skum",
+                "trait": "Humanoid",
+                "rarity": "Rare",
+                "cardNumber": 18
+            },
+            {
+                "title": "Ship Captain",
+                "category": "Seafarer",
+                "trait": "Humanoid",
+                "rarity": "Rare",
+                "cardNumber": 19
+            },
+            {
+                "title": "Orochi",
+                "category": "Orochi",
+                "trait": "Amphibious Beast",
+                "rarity": "Rare",
+                "cardNumber": 20
+            },
+            {
+                "title": "Melianse",
+                "category": "Melianse",
+                "trait": "Fey",
+                "rarity": "Unique",
+                "cardNumber": 21
+            },
+            {
+                "title": "Tehialai-Thief-Of-Ships",
+                "category": "Tehialai-Thief-Of-Ships",
+                "trait": "Aquatic Beast",
+                "rarity": "Unique",
+                "cardNumber": 22
+            }
+        ],
+    "Sands of Death":
+        [
+            {
+                "title": "Camel",
+                "category": "Camel",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 1
+            },
+            {
+                "title": "Giant Solifugid",
+                "category": "Solifugid",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 2
+            },
+            {
+                "title": "Desert Drake",
+                "category": "Drake",
+                "trait": "Dragon",
+                "rarity": "Common",
+                "cardNumber": 3
+            },
+            {
+                "title": "Sphinx",
+                "category": "Sphinx",
+                "trait": "Beast",
+                "rarity": "Common",
+                "cardNumber": 4
+            },
+            {
+                "title": "Giant Scorpion",
+                "category": "Scorpion",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 5
+            },
+            {
+                "title": "Giant Toad",
+                "category": "Toad",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 6
+            },
+            {
+                "title": "Duneshaker Solifugid",
+                "category": "Solifugid",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 7
+            },
+            {
+                "title": "Suli Dune Danger",
+                "category": "Planar Scion Geniekin",
+                "trait": "Humanoid",
+                "rarity": "Common",
+                "cardNumber": 8
+            },
+            {
+                "title": "Scorpion Swarm",
+                "category": "Scorpion",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 9
+            },
+            {
+                "title": "Carnivorous Crystal",
+                "category": "Carnivorous Crystal",
+                "trait": "Ooze",
+                "rarity": "Common",
+                "cardNumber": 10
+            },
+            {
+                "title": "Ancient Brass Dragon",
+                "category": "Dragon Metallic",
+                "trait": "Dragon",
+                "rarity": "Uncommon",
+                "cardNumber": 11
+            },
+            {
+                "title": "Ancient Blue Dragon",
+                "category": "Dragon Chromatic",
+                "trait": "Dragon",
+                "rarity": "Uncommon",
+                "cardNumber": 12
+            },
+            {
+                "title": "Kasesh",
+                "category": "Earth Elemental",
+                "trait": "Elemental",
+                "rarity": "Uncommon",
+                "cardNumber": 13
+            },
+            {
+                "title": "Mechanical Laborer",
+                "category": "Mechanical Laborer",
+                "trait": "Construct",
+                "rarity": "Uncommon",
+                "cardNumber": 14
+            },
+            {
+                "title": "Sand Wolf",
+                "category": "Sand Wolf",
+                "trait": "Beast",
+                "rarity": "Uncommon",
+                "cardNumber": 15
+            },
+            {
+                "title": "Thoqqua",
+                "category": "Earth Fire Elemental",
+                "trait": "Elemental",
+                "rarity": "Uncommon",
+                "cardNumber": 16
+            },
+            {
+                "title": "Simurgh",
+                "category": "Simurgh",
+                "trait": "Beast",
+                "rarity": "Rare",
+                "cardNumber": 17
+            },
+            {
+                "title": "Crystalline Sentinel",
+                "category": "Earth Elemental",
+                "trait": "Elemental",
+                "rarity": "Rare",
+                "cardNumber": 18
+            },
+            {
+                "title": "Mutant Desert Drake",
+                "category": "Drake",
+                "trait": "Dragon",
+                "rarity": "Rare",
+                "cardNumber": 19
+            },
+            {
+                "title": "Phoenix",
+                "category": "Phoenix",
+                "trait": "Beast",
+                "rarity": "Rare",
+                "cardNumber": 20
+            },
+            {
+                "title": "Kobb Moleg",
+                "category": "Kobb Moleg",
+                "trait": "Giant Humanoid",
+                "rarity": "Unique",
+                "cardNumber": 21
+            },
+            {
+                "title": "Gedovius",
+                "category": "Gedovius",
+                "trait": "Beast",
+                "rarity": "Unique",
+                "cardNumber": 22
             }
         ]
 
