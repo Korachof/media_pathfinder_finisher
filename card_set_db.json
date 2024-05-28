@@ -3360,6 +3360,16 @@
                 "rarity": "Unique",
                 "cardNumber": 22
             }
+        ],
+    "Mountain Clash":
+        [
+            {
+                "title": "Giant Eagle",
+                "category": "Eagle",
+                "trait": "Beast",
+                "rarity": "Common",
+                "cardNumber": 1
+            },
         ]
 
 }
