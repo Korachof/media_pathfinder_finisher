@@ -3118,6 +3118,90 @@
                 "trait": "Elemental",
                 "rarity": "Common",
                 "cardNumber": 10
+            },
+            {
+                "title": "Guecubu",
+                "category": "Guecubu",
+                "trait": "Undead",
+                "rarity": "Uncommon",
+                "cardNumber": 11
+            },
+            {
+                "title": "Sturzstromer",
+                "category": "Cobble Mite",
+                "trait": "Aberration",
+                "rarity": "Uncommon",
+                "cardNumber": 12
+            },
+            {
+                "title": "Stygira",
+                "category": "Stygira",
+                "trait": "Fey",
+                "rarity": "Uncommon",
+                "cardNumber": 13
+            },
+            {
+                "title": "Obsidian Golem",
+                "category": "Golem",
+                "trait": "Construct",
+                "rarity": "Uncommon",
+                "cardNumber": 14
+            },
+            {
+                "title": "Glass Golem",
+                "category": "Golem",
+                "trait": "Construct",
+                "rarity": "Uncommon",
+                "cardNumber": 15
+            },
+            {
+                "title": "Kobold Tunnelrunner",
+                "category": "Kobold",
+                "trait": "Humanoid",
+                "rarity": "Uncommon",
+                "cardNumber": 16
+            },
+            {
+                "title": "Dark Talon Kobold",
+                "category": "Kobold",
+                "trait": "Humanoid",
+                "rarity": "Rare",
+                "cardNumber": 17
+            },
+            {
+                "title": "Lithic Locus",
+                "category": "Elemental Earth",
+                "trait": "Construct",
+                "rarity": "Rare",
+                "cardNumber": 18
+            },
+            {
+                "title": "Shadowbound Monk Statue",
+                "category": "Shadowbound Monk Statue",
+                "trait": "Construct",
+                "rarity": "Rare",
+                "cardNumber": 19
+            },
+            {
+                "title": "Ancient Soveriegn Dragon",
+                "category": "Dragon Sovereign",
+                "trait": "Dragon",
+                "rarity": "Rare",
+                "cardNumber": 20
+            },
+            {
+                "title": "Calcifda",
+                "category": "Calcifda",
+                "trait": "Fey",
+                "rarity": "Unique",
+                "cardNumber": 21
+            },
+            {
+                "title": "Vehanezhad",
+                "category": "Dragon Elemental",
+                "trait": "Dragon",
+                "rarity": "Unique",
+                "cardNumber": 22
             }
         ]
 
