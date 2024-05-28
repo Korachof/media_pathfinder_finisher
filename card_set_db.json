@@ -3317,6 +3317,48 @@
                 "trait": "Beast",
                 "rarity": "Uncommon",
                 "cardNumber": 16
+            },
+            {
+                "title": "Akata",
+                "category": "Akata",
+                "trait": "Aberration",
+                "rarity": "Rare",
+                "cardNumber": 17
+            },
+            {
+                "title": "Animated Dragonstorms",
+                "category": "Animated Dragonstorms",
+                "trait": "Construct",
+                "rarity": "Rare",
+                "cardNumber": 18
+            },
+            {
+                "title": "Bakeneko",
+                "category": "Bakeneko",
+                "trait": "Beast",
+                "rarity": "Rare",
+                "cardNumber": 19
+            },
+            {
+                "title": "Bloom Cultist",
+                "category": "Bloom Cultist",
+                "trait": "Humanoid",
+                "rarity": "Rare",
+                "cardNumber": 20
+            },
+            {
+                "title": "Belmazog",
+                "category": "Belmazog",
+                "trait": "Dragon",
+                "rarity": "Unique",
+                "cardNumber": 21
+            },
+            {
+                "title": "Chea",
+                "category": "Beastkin",
+                "trait": "Humanoid",
+                "rarity": "Unique",
+                "cardNumber": 22
             }
         ]
 
