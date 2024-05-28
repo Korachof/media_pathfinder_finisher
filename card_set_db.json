@@ -3203,6 +3203,121 @@
                 "rarity": "Unique",
                 "cardNumber": 22
             }
+        ],
+    "Hidden Jungle":
+        [
+            {
+                "title": "Dream Spider",
+                "category": "Spider",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 1
+            },
+            {
+                "title": "Catfolk Pouncer",
+                "category": "Catfolk",
+                "trait": "Humanoid",
+                "rarity": "Common",
+                "cardNumber": 2
+            },
+            {
+                "title": "Ball Python",
+                "category": "Snake",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 3
+            },
+            {
+                "title": "Flytrap Leshy",
+                "category": "Leshy",
+                "trait": "Plant",
+                "rarity": "Common",
+                "cardNumber": 4
+            },
+            {
+                "title": "Jungle Drake",
+                "category": "Drake",
+                "trait": "Dragon",
+                "rarity": "Common",
+                "cardNumber": 5
+            },
+            {
+                "title": "Awakened Tree",
+                "category": "Arboreal",
+                "trait": "Plant",
+                "rarity": "Common",
+                "cardNumber": 6
+            },
+            {
+                "title": "Giant Anaconda",
+                "category": "Snake",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 7
+            },
+            {
+                "title": "Brontosaurus",
+                "category": "Dinosaur",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 8
+            },
+            {
+                "title": "Assassin Vine",
+                "category": "Assassin Vine",
+                "trait": "Plant",
+                "rarity": "Common",
+                "cardNumber": 9
+            },
+            {
+                "title": "Gorilla",
+                "category": "Ape",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 10
+            },
+            {
+                "title": "Moonflower",
+                "category": "Moonflower",
+                "trait": "Plant",
+                "rarity": "Uncommon",
+                "cardNumber": 11
+            },
+            {
+                "title": "Quetz Couatl",
+                "category": "Couatl",
+                "trait": "Beast",
+                "rarity": "Uncommon",
+                "cardNumber": 12
+            },
+            {
+                "title": "Anadi Elder",
+                "category": "Anadi",
+                "trait": "Humanoid",
+                "rarity": "Uncommon",
+                "cardNumber": 13
+            },
+            {
+                "title": "Anadi Hunter",
+                "category": "Anadi",
+                "trait": "Humanoid",
+                "rarity": "Uncommon",
+                "cardNumber": 14
+            },
+            {
+                "title": "Maliadi",
+                "category": "Maliadi",
+                "trait": "Beast",
+                "rarity": "Uncommon",
+                "cardNumber": 15
+            },
+            {
+                "title": "Grootslang",
+                "category": "Grootslang",
+                "trait": "Beast",
+                "rarity": "Uncommon",
+                "cardNumber": 16
+            }
         ]
 
 }
