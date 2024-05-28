@@ -3046,6 +3046,79 @@
                 "rarity": "Unique",
                 "cardNumber": 22
             }
+        ],
+    "Sands of Death 2":
+        [
+            {
+                "title": "Black Scorpion",
+                "category": "Scorpion",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 1
+            },
+            {
+                "title": "Earth Mephit",
+                "category": "Elemental Mephit",
+                "trait": "Elemental",
+                "rarity": "Common",
+                "cardNumber": 2
+            },
+            {
+                "title": "Elemental Avalanche",
+                "category": "Earth Elemental",
+                "trait": "Elemental",
+                "rarity": "Common",
+                "cardNumber": 3
+            },
+            {
+                "title": "Gargoyle",
+                "category": "Gargoyle",
+                "trait": "Beast",
+                "rarity": "Common",
+                "cardNumber": 4
+            },
+            {
+                "title": "Grikkitog",
+                "category": "Grikkitog",
+                "trait": "Aberration",
+                "rarity": "Common",
+                "cardNumber": 5
+            },
+            {
+                "title": "Sand Sentry",
+                "category": "Elemental Earth",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 6
+            },
+            {
+                "title": "Stone Mauler",
+                "category": "Elemental Earth",
+                "trait": "Beast",
+                "rarity": "Common",
+                "cardNumber": 7
+            },
+            {
+                "title": "Zetogeki",
+                "category": "Zetogeki",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 8
+            },
+            {
+                "title": "Gluttonous Geode",
+                "category": "Elemental Earth",
+                "trait": "Elemental",
+                "rarity": "Common",
+                "cardNumber": 9
+            },
+            {
+                "title": "Earthen Destrier",
+                "category": "Elemental Earth",
+                "trait": "Elemental",
+                "rarity": "Common",
+                "cardNumber": 10
+            }
         ]
 
 }
