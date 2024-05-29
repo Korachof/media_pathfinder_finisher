@@ -3803,8 +3803,8 @@
                 "cardNumber": 5
             },
             {
-                "title": "Kothogaz, Dance of Disharmony",
-                "category": "Kothogaz, Dance of Disharmony",
+                "title": "The Great Flood",
+                "category": "The Great Flood",
                 "trait": "Beast",
                 "rarity": "Unique",
                 "cardNumber": 6
@@ -3895,6 +3895,52 @@
             {
                 "title": "Windchaser",
                 "category": "Windchaser",
+                "trait": "Beast",
+                "rarity": "Unique",
+                "cardNumber": 6
+            }
+        ],
+    "Legendary Monsters":
+        [
+            {
+                "title": "Demilich",
+                "category": "Lich",
+                "trait": "Undead",
+                "rarity": "Rare",
+                "cardNumber": 1
+            },
+            {
+                "title": "Nosferatu Overlord",
+                "category": "Vampire Nosferatu",
+                "trait": "Undead Vampire",
+                "rarity": "Rare",
+                "cardNumber": 2
+            },
+            {
+                "title": "The Shadow Prince",
+                "category": "The Shadow Prince",
+                "trait": "Illusion",
+                "rarity": "Rare",
+                "cardNumber": 3
+            },
+            {
+                "title": "Xotani",
+                "category": "Spawn of Rovagug",
+                "trait": "Beast",
+                "rarity": "Unique",
+                "cardNumber": 4
+            },
+            {
+                "title": "Kothogaz, Dance of Disharmony",
+                "category": "Kothogaz, Dance of Disharmony",
+                "trait": "Beast",
+                "rarity": "Unique",
+                "cardNumber": 5
+            }
+
+            {
+                "title": "Terrasque",
+                "category": "Spawn of Rovagug",
                 "trait": "Beast",
                 "rarity": "Unique",
                 "cardNumber": 6
