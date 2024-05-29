@@ -3809,6 +3809,51 @@
                 "rarity": "Unique",
                 "cardNumber": 6
             }
+        ],
+    "Formidable Beasts 2":
+        [
+            {
+                "title": "Cataclysm Beetle",
+                "category": "Beetle",
+                "trait": "Beast",
+                "rarity": "Rare",
+                "cardNumber": 1
+            },
+            {
+                "title": "Elder Cauthooj",
+                "category": "Cauthooj",
+                "trait": "Beast",
+                "rarity": "Rare",
+                "cardNumber": 2
+            },
+            {
+                "title": "Grisantian Lion",
+                "category": "Grisantian Lion",
+                "trait": "Beast",
+                "rarity": "Rare",
+                "cardNumber": 3
+            },
+            {
+                "title": "Magma Worm",
+                "category": "Cave Worm",
+                "trait": "Beast",
+                "rarity": "Rare",
+                "cardNumber": 4
+            },
+            {
+                "title": "All-Seeing Hajeck",
+                "category": "All-Seeing Hajeck",
+                "trait": "Beast",
+                "rarity": "Unique",
+                "cardNumber": 5
+            },
+            {
+                "title": "Freshly Bloomed Basilisk",
+                "category": "Basilisk",
+                "trait": "Beast",
+                "rarity": "Unique",
+                "cardNumber": 6
+            }
         ]
 
 }
