@@ -3719,6 +3719,51 @@
                 "rarity": "Unique",
                 "cardNumber": 6
             },
+        ],
+    "Demonic Pact":
+        [
+            {
+                "title": "Demonic Rabble",
+                "category": "Demon Throng",
+                "trait": "Demon",
+                "rarity": "Rare",
+                "cardNumber": 1
+            },
+            {
+                "title": "Wrath Riot",
+                "category": "Demon Throng",
+                "trait": "Demon",
+                "rarity": "Rare",
+                "cardNumber": 2
+            },
+            {
+                "title": "Fate's Prophet",
+                "category": "Fate's Prophet",
+                "trait": "Demon",
+                "rarity": "Unique",
+                "cardNumber": 3
+            },
+            {
+                "title": "Kimilekki",
+                "category": "Kimilekki",
+                "trait": "Demon",
+                "rarity": "Rare",
+                "cardNumber": 4
+            },
+            {
+                "title": "Morgaran",
+                "category": "Morgaran",
+                "trait": "Demon",
+                "rarity": "Rare",
+                "cardNumber": 5
+            },
+            {
+                "title": "The Bloodstorm",
+                "category": "The Bloodstorm",
+                "trait": "Demon",
+                "rarity": "Unique",
+                "cardNumber": 6
+            }
         ]
 
 }
