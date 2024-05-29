@@ -3854,6 +3854,51 @@
                 "rarity": "Unique",
                 "cardNumber": 6
             }
+        ],
+    "Formidable Beasts 3":
+        [
+            {
+                "title": "Red Commander Ant",
+                "category": "Gigantic Ant",
+                "trait": "Beast",
+                "rarity": "Rare",
+                "cardNumber": 1
+            },
+            {
+                "title": "Shimmernewt",
+                "category": "Shimmernewt",
+                "trait": "Beast",
+                "rarity": "Rare",
+                "cardNumber": 2
+            },
+            {
+                "title": "Ulgrem-Lurann",
+                "category": "Ulgrem-Lurann",
+                "trait": "Beast",
+                "rarity": "Rare",
+                "cardNumber": 3
+            },
+            {
+                "title": "Ouroboros",
+                "category": "Ouroboros",
+                "trait": "Astral Beast",
+                "rarity": "Rare",
+                "cardNumber": 4
+            },
+            {
+                "title": "Hooktongue Hydra",
+                "category": "Hydra",
+                "trait": "Beast",
+                "rarity": "Unique",
+                "cardNumber": 5
+            },
+            {
+                "title": "Windchaser",
+                "category": "Windchaser",
+                "trait": "Beast",
+                "rarity": "Unique",
+                "cardNumber": 6
+            }
         ]
 
 }
