@@ -85,7 +85,7 @@
         "cardNumber": 12
         },
         {
-        "title": "Gnoll Sargeant",
+        "title": "Gnoll Sergeant",
         "category": "Gnoll",
         "trait": "Humanoid",
         "rarity": "Common",
@@ -3517,6 +3517,58 @@
                 "rarity": "Unique",
                 "cardNumber": 22
             }
+        ],
+    "Swiftblood Fields":
+        [
+            {
+                "title": "Hyena",
+                "category": "Hyena",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 1
+            },
+            {
+                "title": "Gourd Leshy",
+                "category": "Leshy",
+                "trait": "Plant",
+                "rarity": "Common",
+                "cardNumber": 2
+            },
+            {
+                "title": "Bison",
+                "category": "Bison",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 3
+            },
+            {
+                "title": "Rhinoceros",
+                "category": "Rhinoceros",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 4
+            },
+            {
+                "title": "Gnoll Cultist",
+                "category": "Gnoll",
+                "trait": "Humanoid",
+                "rarity": "Common",
+                "cardNumber": 5
+            },
+            {
+                "title": "Hyaenodon",
+                "category": "Hyena",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 6
+            },
+            {
+                "title": "Stegosaurus",
+                "category": "Dinosaur",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 7
+            },
         ]
 
 }
