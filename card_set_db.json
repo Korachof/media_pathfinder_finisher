@@ -3370,6 +3370,153 @@
                 "rarity": "Common",
                 "cardNumber": 1
             },
+            {
+                "title": "Daeodon",
+                "category": "Boar",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 2
+            },
+            {
+                "title": "Troll King",
+                "category": "Troll",
+                "trait": "Giant",
+                "rarity": "Common",
+                "cardNumber": 3
+            },
+            {
+                "title": "Fire Yai",
+                "category": "Oni Fiend",
+                "trait": "Giant Humanoid",
+                "rarity": "Common",
+                "cardNumber": 4
+            },
+            {
+                "title": "Cloud Giant",
+                "category": "Giant",
+                "trait": "Giant",
+                "rarity": "Common",
+                "cardNumber": 5
+            },
+            {
+                "title": "Flame Drake",
+                "category": "Drake",
+                "trait": "Dragon",
+                "rarity": "Common",
+                "cardNumber": 6
+            },
+            {
+                "title": "Sylph Sneak",
+                "category": "Planar Scion, Geniekin",
+                "trait": "Humanoid",
+                "rarity": "Common",
+                "cardNumber": 7
+            },
+            {
+                "title": "Dezullon",
+                "category": "Dezullon",
+                "trait": "Plant",
+                "rarity": "Common",
+                "cardNumber": 8
+            },
+            {
+                "title": "Athach",
+                "category": "Athach",
+                "trait": "Giant Humanoid",
+                "rarity": "Common",
+                "cardNumber": 9
+            },
+            {
+                "title": "Pugwampi",
+                "category": "Gremlin",
+                "trait": "Fey",
+                "rarity": "Common",
+                "cardNumber": 10
+            },
+            {
+                "title": "Crag Linnorm",
+                "category": "Linnorm",
+                "trait": "Dragon",
+                "rarity": "Uncommon",
+                "cardNumber": 11
+            },
+            {
+                "title": "Cairn Linnorm",
+                "category": "Linnorm",
+                "trait": "Dragon",
+                "rarity": "Uncommon",
+                "cardNumber": 12
+            },
+            {
+                "title": "Dalos",
+                "category": "Dalos",
+                "trait": "Fey",
+                "rarity": "Uncommon",
+                "cardNumber": 13
+            },
+            {
+                "title": "Consonite Choir",
+                "category": "Elemental Earth",
+                "trait": "Elemental",
+                "rarity": "Uncommon",
+                "cardNumber": 14
+            },
+            {
+                "title": "Sludgespine Killers",
+                "category": "Gnoll",
+                "trait": "Humanoid",
+                "rarity": "Uncommon",
+                "cardNumber": 15
+            },
+            {
+                "title": "Skeletal Knight",
+                "category": "Skeleton",
+                "trait": "Undead",
+                "rarity": "Uncommon",
+                "cardNumber": 16
+            },
+            {
+                "title": "Vault Builder",
+                "category": "Xiomorn",
+                "trait": "Elemental",
+                "rarity": "Rare",
+                "cardNumber": 17
+            },
+            {
+                "title": "Vault Keeper",
+                "category": "Elemental Earth",
+                "trait": "Elemental",
+                "rarity": "Rare",
+                "cardNumber": 18
+            },
+            {
+                "title": "Dread Roc",
+                "category": "Roc",
+                "trait": "Animal",
+                "rarity": "Rare",
+                "cardNumber": 19
+            },
+            {
+                "title": "Gold Defender",
+                "category": "Golem",
+                "trait": "Construct",
+                "rarity": "Rare",
+                "cardNumber": 20
+            },
+            {
+                "title": "Talon Peak Roc",
+                "category": "Roc",
+                "trait": "Animal",
+                "rarity": "Unique",
+                "cardNumber": 21
+            },
+            {
+                "title": "Veshumirix",
+                "category": "Veshumirix",
+                "trait": "Dragon",
+                "rarity": "Unique",
+                "cardNumber": 22
+            }
         ]
 
 }
