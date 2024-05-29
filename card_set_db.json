@@ -3764,6 +3764,51 @@
                 "rarity": "Unique",
                 "cardNumber": 6
             }
+        ],
+    "Formidable Beasts":
+        [
+            {
+                "title": "Bandersnatch",
+                "category": "Bandersnatch",
+                "trait": "Beast",
+                "rarity": "Rare",
+                "cardNumber": 1
+            },
+            {
+                "title": "Chimeric Manticore",
+                "category": "Chimeric Manticore",
+                "trait": "Beast",
+                "rarity": "Rare",
+                "cardNumber": 2
+            },
+            {
+                "title": "Elder Sphinx",
+                "category": "Sphinx",
+                "trait": "Beast",
+                "rarity": "Rare",
+                "cardNumber": 3
+            },
+            {
+                "title": "Tidehawk",
+                "category": "Tidehawk",
+                "trait": "Beast",
+                "rarity": "Rare",
+                "cardNumber": 4
+            },
+            {
+                "title": "Aecora Silverfire",
+                "category": "Aecora Silverfire",
+                "trait": "Beast",
+                "rarity": "Unique",
+                "cardNumber": 5
+            },
+            {
+                "title": "Kothogaz, Dance of Disharmony",
+                "category": "Kothogaz, Dance of Disharmony",
+                "trait": "Beast",
+                "rarity": "Unique",
+                "cardNumber": 6
+            }
         ]
 
 }
