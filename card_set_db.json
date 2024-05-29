@@ -3462,9 +3462,9 @@
                 "cardNumber": 14
             },
             {
-                "title": "Sludgespine Killers",
-                "category": "Gnoll",
-                "trait": "Humanoid",
+                "title": "Charau-ka Dragon Priest",
+                "category": "Dragon Priest",
+                "trait": "Dragon Humanoid",
                 "rarity": "Uncommon",
                 "cardNumber": 15
             },
@@ -3569,6 +3569,111 @@
                 "rarity": "Common",
                 "cardNumber": 7
             },
+            {
+                "title": "Bulette",
+                "category": "Bulette",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 8
+            },
+            {
+                "title": "Hyena",
+                "category": "Hyena",
+                "trait": "Animal",
+                "rarity": "Common",
+                "cardNumber": 9
+            },
+            {
+                "title": "Bugbear Tormenter",
+                "category": "Bugbear",
+                "trait": "Humanoid",
+                "rarity": "Common",
+                "cardNumber": 10
+            },
+            {
+                "title": "Prairie Drake",
+                "category": "Drake",
+                "trait": "Dragon",
+                "rarity": "Uncommon",
+                "cardNumber": 11
+            },
+            {
+                "title": "Sludgespine Killers",
+                "category": "Gnoll",
+                "trait": "Humanoid",
+                "rarity": "Uncommon",
+                "cardNumber": 12
+            },
+            {
+                "title": "Brush Thylacine",
+                "category": "Thylacine",
+                "trait": "Animal",
+                "rarity": "Uncommon",
+                "cardNumber": 13
+            },
+            {
+                "title": "Afziaka Brute",
+                "category": "Afziaka",
+                "trait": "Animal",
+                "rarity": "Uncommon",
+                "cardNumber": 14
+            },
+            {
+                "title": "Teraphant",
+                "category": "Teraphant",
+                "trait": "Beast",
+                "rarity": "Uncommon",
+                "cardNumber": 15
+            },
+            {
+                "title": "Carrion Golem",
+                "category": "Golem",
+                "trait": "Construct",
+                "rarity": "Uncommon",
+                "cardNumber": 16
+            },
+            {
+                "title": "Solar Glass Golem",
+                "category": "Golem",
+                "trait": "Construct",
+                "rarity": "Rare",
+                "cardNumber": 17
+            },
+            {
+                "title": "Elysian Sheep",
+                "category": "Sheep",
+                "trait": "Animal",
+                "rarity": "Rare",
+                "cardNumber": 18
+            },
+            {
+                "title": "Murder of Crows",
+                "category": "Murder of Crows",
+                "trait": "Animal",
+                "rarity": "Rare",
+                "cardNumber": 19
+            },
+            {
+                "title": "Skeletal Tiger Lord",
+                "category": "Skeletal Tiger Lord",
+                "trait": "Undead",
+                "rarity": "Rare",
+                "cardNumber": 20
+            },
+            {
+                "title": "Hummingbird",
+                "category": "Gnoll",
+                "trait": "Humanoid",
+                "rarity": "Unique",
+                "cardNumber": 21
+            },
+            {
+                "title": "The Misbegotten Troll",
+                "category": "Troll",
+                "trait": "Giant",
+                "rarity": "Rare",
+                "cardNumber": 22
+            }
         ]
 
 }
