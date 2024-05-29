@@ -3671,9 +3671,54 @@
                 "title": "The Misbegotten Troll",
                 "category": "Troll",
                 "trait": "Giant",
-                "rarity": "Rare",
+                "rarity": "Unique",
                 "cardNumber": 22
             }
+        ],
+    "Celestial Power":
+        [
+            {
+                "title": "Bastion Archon",
+                "category": "Archon",
+                "trait": "Celestial",
+                "rarity": "Rare",
+                "cardNumber": 1
+            },
+            {
+                "title": "Giylea",
+                "category": "Archon",
+                "trait": "Celestial",
+                "rarity": "Rare",
+                "cardNumber": 2
+            },
+            {
+                "title": "Stone Spider",
+                "category": "Stone Spider",
+                "trait": "Celestial",
+                "rarity": "Rare",
+                "cardNumber": 3
+            },
+            {
+                "title": "Wheel Archon",
+                "category": "Archon",
+                "trait": "Celestial",
+                "rarity": "Rare",
+                "cardNumber": 4
+            },
+            {
+                "title": "Grand Defender",
+                "category": "Grand Defender",
+                "trait": "Celestial Construct",
+                "rarity": "Unique",
+                "cardNumber": 5
+            },
+            {
+                "title": "Stoneriver",
+                "category": "Stoneriver",
+                "trait": "Celestial",
+                "rarity": "Unique",
+                "cardNumber": 6
+            },
         ]
 
 }
