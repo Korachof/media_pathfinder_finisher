@@ -101,6 +101,24 @@ class CardPacks:
       self._contents.append(card)
 
 
+class CardExpansionPacks:
+    def __init__(self, card_set: CardSet):
+      self._card_set = card_set
+      self._COMMON_MAX = 11
+      self._UNCOMMON_MAX = 17
+      self._RARE_MAX = 21
+      self._UNIQUE_MAX = 23
+      self._contents = []
+      self.set_pack_registry()
+
+class CardAdvancedExpansionPacks:
+  def __init__(self, card_set: CardSet):
+      self._card_set = card_set
+      self._UNIQUE_NUM = 6
+      self._contents = []
+      self.set_pack_registry()
+
+
 class Cards:
   def __init__(self, title, category, trait, rarity, card_num, quantity):
     self._title = title
