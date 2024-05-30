@@ -3944,6 +3944,51 @@
                 "rarity": "Unique",
                 "cardNumber": 6
             }
+        ],
+    "Strange Animals":
+        [
+            {
+                "title": "Goblin Bat-Dog",
+                "category": "Goblin Bat-Dog",
+                "trait": "Animal",
+                "rarity": "Rare",
+                "cardNumber": 1
+            },
+            {
+                "title": "Mutant Giant Toad",
+                "category": "Mana Wastes Mutant",
+                "trait": "Animal",
+                "rarity": "Rare",
+                "cardNumber": 2
+            },
+            {
+                "title": "Shadow Worm",
+                "category": "Cave Worm",
+                "trait": "Animal",
+                "rarity": "Rare",
+                "cardNumber": 3
+            },
+            {
+                "title": "Xotanispawn",
+                "category": "Xotanispawn",
+                "trait": "Animal",
+                "rarity": "Rare",
+                "cardNumber": 4
+            },
+            {
+                "title": "River Elasmosaurus",
+                "category": "River Elasmosaurus",
+                "trait": "Animal",
+                "rarity": "Rare",
+                "cardNumber": 5
+            },
+            {
+                "title": "Barking Stag",
+                "category": "Barking Stag",
+                "trait": "Beast",
+                "rarity": "Rare",
+                "cardNumber": 6
+            }
         ]
 
 }
