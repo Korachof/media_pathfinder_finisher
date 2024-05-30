@@ -134,14 +134,11 @@ class CardExpansionPacks:
       # if they opened a Unique, give them the other one. They earned it!
       if card3 == 21:
         card3 = 22
-
       elif card3 == 22:
         card3 == 21
-
       elif card3 < 17:
       # If card3 is under 17, it is an uncommon. Replace with another.
         card3 = randrange(self._COMMON_MAX, self._UNCOMMON_MAX)
-
       else:
       # It is not uncommon or unique, so replace with a rare.
         card3 = randrange(self._UNCOMMON_MAX, self._RARE_MAX)
@@ -176,8 +173,21 @@ class CardExpansionPacks:
 
     return card3
   
-  def fill_exp_packs(self, card1, card2, card3):
-    pass
+  def fill_exp_packs(self, pack_registry):
+    set_list = self._card_set.get_set_list()
+    booster_pack = []
+
+    while len(pack_registry) > 0:
+      for key in set_list:
+        if set_list[key].get_card_num() in pack_registry:
+          booster_pack.append(set_list[key])
+          pack_registry.remove(set_list[key].get_card_num())
+
+    return self.set_contents(booster_pack)
+  
+  def set_contents(self, booster_pack):
+    for card in booster_pack:
+      self._contents.append(card)
     
 
 class CardAdvancedExpansionPacks:
