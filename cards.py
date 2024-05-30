@@ -102,14 +102,24 @@ class CardPacks:
 
 
 class CardExpansionPacks:
-    def __init__(self, card_set: CardSet):
-      self._card_set = card_set
-      self._COMMON_MAX = 11
-      self._UNCOMMON_MAX = 17
-      self._RARE_MAX = 21
-      self._UNIQUE_MAX = 23
-      self._contents = []
-      self.set_pack_registry()
+  def __init__(self, card_set: CardSet):
+    self._card_set = card_set
+    self._COMMON_MAX = 11
+    self._UNCOMMON_MAX = 17
+    self._RARE_MAX = 21
+    self._UNIQUE_MAX = 23
+    self._contents = []
+    self.set_pack_registry()
+
+  def get_set_name(self):
+    return self._card_set.get_name()
+
+  def get_card_set(self):
+    return self._card_set
+
+  def get_contents(self):
+    return self._contents
+
 
 class CardAdvancedExpansionPacks:
   def __init__(self, card_set: CardSet):
@@ -117,6 +127,15 @@ class CardAdvancedExpansionPacks:
       self._UNIQUE_NUM = 6
       self._contents = []
       self.set_pack_registry()
+
+  def get_set_name(self):
+    return self._card_set.get_name()
+
+  def get_card_set(self):
+    return self._card_set
+  
+  def get_contents(self):
+    return self._contents
 
 
 class Cards:
