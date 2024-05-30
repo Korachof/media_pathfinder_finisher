@@ -10,12 +10,15 @@ class CardSet:
     self.add_cards_from_db(self._set_contents)
 
   def get_name(self):
+    """Get Card Set name"""
     return self._name
 
   def get_set_list(self):
+    """get Card Set card list"""
     return self._set_list_hash
 
   def open_card_list_db(self):
+    """open the card list database"""
     with open("card_set_db.json") as card_set_file:
       card_list_data = json.load(card_set_file)
 
@@ -24,6 +27,7 @@ class CardSet:
     return card_list_data
     
   def add_cards_from_db(self, card_list_data):
+    """add cards from json database to hashmap"""
     for card in card_list_data[self._name]:
       self.add_card(
         card["title"],
@@ -33,6 +37,7 @@ class CardSet:
         card["cardNumber"])
 
   def add_card(self, title, category, trait, rarity, card_num):
+    """add card using attributes to hashmap"""
     self._set_list_hash[title] = Cards(title, category, trait, rarity, card_num, 1)
 
 
