@@ -3989,6 +3989,141 @@
                 "rarity": "Rare",
                 "cardNumber": 6
             }
+        ],
+    "Characters of Legend":
+        [
+            {
+                "title": "Blue Viper",
+                "category": "Ratfolk",
+                "trait": "Humanoid",
+                "rarity": "Unique",
+                "cardNumber": 1
+            },
+            {
+                "title": "Ekundayo",
+                "category": "Human",
+                "trait": "Humanoid",
+                "rarity": "Unique",
+                "cardNumber": 2
+            },
+            {
+                "title": "Grace 'the Rhino' Owano",
+                "category": "Human",
+                "trait": "Humanoid",
+                "rarity": "Unique",
+                "cardNumber": 3
+            },
+            {
+                "title": "Ji-Yook",
+                "category": "Kitsune",
+                "trait": "Humanoid",
+                "rarity": "Unique",
+                "cardNumber": 4
+            },
+            {
+                "title": "Lickweed",
+                "category": "Goblin",
+                "trait": "Humanoid",
+                "rarity": "Unique",
+                "cardNumber": 5
+            },
+            {
+                "title": "Mistress Dusklight",
+                "category": "Catfolk",
+                "trait": "Humanoid",
+                "rarity": "Unique",
+                "cardNumber": 6
+            }
+        ],
+    "Characters of Legend 2":
+        [
+            {
+                "title": "Aives the Smoke Dragon",
+                "category": "Tiefling",
+                "trait": "Humanoid",
+                "rarity": "Unique",
+                "cardNumber": 1
+            },
+            {
+                "title": "Bshez 'Sand Claws' Shak",
+                "category": "Human",
+                "trait": "Humanoid",
+                "rarity": "Unique",
+                "cardNumber": 2
+            },
+            {
+                "title": "Four Tooth",
+                "category": "Duergar",
+                "trait": "Humanoid",
+                "rarity": "Unique",
+                "cardNumber": 3
+            },
+            {
+                "title": "Ghodrak the Quick",
+                "category": "Goblin",
+                "trait": "Humanoid",
+                "rarity": "Unique",
+                "cardNumber": 4
+            },
+            {
+                "title": "Jesseri the Hailstorm",
+                "category": "Human",
+                "trait": "Humanoid",
+                "rarity": "Unique",
+                "cardNumber": 5
+            },
+            {
+                "title": "Queen Kawlinawk",
+                "category": "Queen Hawlinawk",
+                "trait": "Humanoid",
+                "rarity": "Unique",
+                "cardNumber": 6
+            }
+        ],
+    "Characters of Legend 3":
+        [
+            {
+                "title": "Ambrost Mugland",
+                "category": "Halfling",
+                "trait": "Humanoid",
+                "rarity": "Unique",
+                "cardNumber": 1
+            },
+            {
+                "title": "Anjelique Loveless",
+                "category": "Changeling Elf",
+                "trait": "Humanoid",
+                "rarity": "Unique",
+                "cardNumber": 2
+            },
+            {
+                "title": "Metuak",
+                "category": "Metuak",
+                "trait": "Fiend Humanoid",
+                "rarity": "Unique",
+                "cardNumber": 3
+            },
+            {
+                "title": "Prazil",
+                "category": "Kobold",
+                "trait": "Humanoid",
+                "rarity": "Unique",
+                "cardNumber": 4
+            },
+            {
+                "title": "Ran-to",
+                "category": "Goblin",
+                "trait": "Humanoid",
+                "rarity": "Unique",
+                "cardNumber": 5
+            },
+            {
+                "title": "Redacted, the Weaver in Dreams",
+                "category": "Redacted",
+                "trait": "Aberration Humanoid",
+                "rarity": "Unique",
+                "cardNumber": 6
+            }
         ]
 
 }
