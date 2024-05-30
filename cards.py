@@ -66,7 +66,7 @@ class CardPacks:
       card3 = randrange(1, self._COMMON_MAX)
     card4 = randrange(self._COMMON_MAX, self._UNCOMMON_MAX)
     while card4 == card1 or card4 == card2 or card4 == card3:
-      card4 = randrange(1, self._COMMON_MAX)
+      card4 = randrange(self._COMMON_MAX, self._UNCOMMON_MAX)
 
     card5= self.check_for_unique()
     return self.fill_packs([card1, card2, card3, card4, card5])
@@ -107,9 +107,9 @@ class CardExpansionPacks:
     self._COMMON_MAX = 11
     self._UNCOMMON_MAX = 17
     self._RARE_MAX = 21
-    self._UNIQUE_MAX = 23
+    self._UNIQUE_MAX = 6
     self._contents = []
-    self.set_pack_registry()
+    self.set_exp_pack_registry()
 
   def get_set_name(self):
     return self._card_set.get_name()
@@ -119,7 +119,66 @@ class CardExpansionPacks:
 
   def get_contents(self):
     return self._contents
+  
+  def set_exp_pack_registry(self):
+    """1 Common, 1 Uncommon/Rare/Unique, 1 wildcard
+    wildcard: 50% common, 25% uncommon, 20% rare, 5% Unique"""
+    card1 = randrange(1, self._COMMON_MAX)
+    card2 = self.check_for_unique()
+    card3 = self.wild_card_weight()
 
+    while card3 == card1:
+      card3 = randrange(1, self._COMMON_MAX)
+
+    while card3 == card2:
+      # if they opened a Unique, give them the other one. They earned it!
+      if card3 == 21:
+        card3 = 22
+
+      elif card3 == 22:
+        card3 == 21
+
+      elif card3 < 17:
+      # If card3 is under 17, it is an uncommon. Replace with another.
+        card3 = randrange(self._COMMON_MAX, self._UNCOMMON_MAX)
+
+      else:
+      # It is not uncommon or unique, so replace with a rare.
+        card3 = randrange(self._UNCOMMON_MAX, self._RARE_MAX)
+    
+    return self.fill_exp_packs([card1, card2, card3])
+
+  def check_for_unique(self):
+    card2 = randrange(self._COMMON_MAX, self._RARE_MAX)
+    if card2 == 17 or card2 == 18 or card2 == 19 or card2 == 20:
+      dice_roll = randrange(1, self._UNIQUE_MAX)
+      if dice_roll == 1:
+        card2 = 21
+      
+      elif dice_roll == 5:
+        card2 = 22
+
+    return card2
+  
+  def wild_card_weight(self):
+    card3 = randrange(1, 101)
+    if card3 < 51:
+      card3 = randrange(1, self._COMMON_MAX)
+    
+    elif card3 < 76:
+      card3 = randrange(self._COMMON_MAX, self._UNCOMMON_MAX)
+    
+    elif card3 < 96:
+      card3 = randrange(self._UNCOMMON_MAX, self._RARE_MAX)
+
+    else:
+      card3 = randrange(self._RARE_MAX, self._UNIQUE_MAX)
+
+    return card3
+  
+  def fill_exp_packs(self, card1, card2, card3):
+    pass
+    
 
 class CardAdvancedExpansionPacks:
   def __init__(self, card_set: CardSet):
