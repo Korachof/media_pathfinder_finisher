@@ -205,7 +205,7 @@ class User:
     self.increment_booster_pack(set_name)
 
   def add_advanced_expansion_booster_pack(self, set_name:str):
-    booster = cards.CardAdvancedExpansionPacks(self._carad_sets[set_name])
+    booster = cards.CardAdvancedExpansionPacks(self._card_sets[set_name])
 
     if set_name not in self._booster_pack_list:
       self._booster_pack_list[set_name] = [booster]
@@ -266,10 +266,14 @@ print(f"Number of Wildlife Mayhem Boosters is: {Korachof._booster_pack_quantity[
 
 print(Korachof.get_collectibles_list())
 Korachof.add_expansion_booster_pack("Arctic Passage")
-print(Korachof.add_expansion_booster_pack("Hazardous Waters 2"))
+Korachof.add_expansion_booster_pack("Hazardous Waters 2")
+Korachof.add_advanced_expansion_booster_pack("Characters of Legend 2")
+Korachof.add_advanced_expansion_booster_pack("Strange Animals")
 
 Korachof.select_booster_to_open("Arctic Passage")
 Korachof.select_booster_to_open("Hazardous Waters 2")
+Korachof.select_booster_to_open("Characters of Legend 2")
+Korachof.select_booster_to_open("Strange Animals")
 
 def odds_opening_rare(num_of_packs):
   odds = 0.917

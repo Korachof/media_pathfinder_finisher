@@ -129,11 +129,8 @@ class CardExpansionPacks:
     """1 Common, 1 Uncommon/Rare/Unique, 1 wildcard
     wildcard: 50% common, 25% uncommon, 20% rare, 5% Unique"""
     card1 = randrange(1, self._COMMON_MAX)
-    print(card1)
     card2 = self.check_for_unique()
-    print(card2)
     card3 = self.wild_card_weight()
-    print(card3)
 
     while card3 == card1:
       card3 = randrange(1, self._COMMON_MAX)
@@ -203,9 +200,9 @@ class CardExpansionPacks:
 class CardAdvancedExpansionPacks:
   def __init__(self, card_set: CardSet):
       self._card_set = card_set
-      self._UNIQUE_NUM = 6
+      self._ULTRA_RARE_NUM = 6
       self._contents = []
-      self.set_pack_registry()
+      self.set_adv_exp_pack_registry()
 
   def get_set_name(self):
     return self._card_set.get_name()
@@ -215,6 +212,52 @@ class CardAdvancedExpansionPacks:
   
   def get_contents(self):
     return self._contents
+  
+  def set_adv_exp_pack_registry(self):
+    """1 card pack, 33% chance of 2nd card.
+    1/6 chance of an ultra rare."""
+
+    card1 = randrange(1, self._ULTRA_RARE_NUM)
+    d3 = randrange(1, 4)
+    self.check_for_ultra_rare(card1)
+    
+    if d3 == 3:
+      card2 = randrange(1, self._ULTRA_RARE_NUM)
+      self.check_for_ultra_rare(card2)
+      
+      while card2 == card1:
+        card2 = randrange(1, self._ULTRA_RARE_NUM)
+        self.check_for_ultra_rare(card2)
+      
+      return self.fill_adv_exp_packs([card1, card2])
+    
+    return self.fill_adv_exp_packs([card1])
+
+  def check_for_ultra_rare(self, card):
+    d6 = randrange(1, 7)
+    if d6 == 6:
+      card = 6
+
+    return card
+  
+  def fill_adv_exp_packs(self, pack_registry):
+
+    set_list = self._card_set.get_set_list()
+
+    booster_pack = []
+
+    while len(pack_registry) > 0:
+      for key in set_list:
+        if set_list[key].get_card_num() in pack_registry:
+          booster_pack.append(set_list[key])
+          pack_registry.remove(set_list[key].get_card_num())
+
+    return self.set_contents(booster_pack)
+  
+  def set_contents(self, booster_pack):
+    for card in booster_pack:
+      self._contents.append(card)
+
 
 class Cards:
   def __init__(self, title, category, trait, rarity, card_num, quantity):
