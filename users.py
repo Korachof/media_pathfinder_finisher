@@ -125,9 +125,9 @@ class User:
 
       return filtered_list
 
-  def add_book(self, name: str, author: str, completion_hours: int, rating: int):
+  def add_book(self, name: str, author: str, page_count: int, completion_hours: int, rating: int):
     if f"{name}: {author}" not in self._book_list:
-      self._book_list[f"{name}: {author}"] = goal_objects.Books(name, author, completion_hours, completion_hours, 1, rating)
+      self._book_list[f"{name}: {author}"] = goal_objects.Books(name, author, page_count, completion_hours, completion_hours, 1, rating)
       return f"The Book {name} by {author} has been added"
     
     else:
@@ -191,6 +191,21 @@ class User:
 
     self.increment_booster_pack(set_name)
 
+  def add_expansion_booster_pack(self, set_name: str):
+    print("check 1")
+    booster = cards.CardExpansionPacks(self._card_sets[set_name])
+    print("check 2")
+    print("booster_pack_list")
+    if set_name not in self._booster_pack_list:
+      self._booster_pack_list[set_name] = [booster]
+
+    else:
+      self._booster_pack_list[set_name].append(booster)
+
+    print(f"The booster pack from {set_name} has been added.")
+
+    self.increment_booster_pack(set_name)
+
   def increment_booster_pack(self, set_name: str):
     if set_name in self._booster_pack_quantity:
       self._booster_pack_quantity[set_name] += 1
@@ -216,7 +231,7 @@ Korachof = User("Korachof", {}, {}, {}, {}, {}, {}, {})
 
 print(Korachof._card_sets)
 
-Korachof.add_book("Lost Gods", "Brom", 21, 8)
+Korachof.add_book("Lost Gods", "Brom", 500, 21, 8)
 
 print(Korachof.get_book_list()["Lost Gods: Brom"].get_name())
 
@@ -239,7 +254,11 @@ Korachof.select_booster_to_open("Monstrous Ground")
 print(f"Number of Wildlife Mayhem Boosters is: {Korachof._booster_pack_quantity['Wildlife Mayhem']}")
 
 print(Korachof.get_collectibles_list())
+Korachof.add_expansion_booster_pack("Arctic Passage")
+print(Korachof.add_expansion_booster_pack("Hazardous Waters 2"))
 
+Korachof.select_booster_to_open("Arctic Passage")
+Korachof.select_booster_to_open("Hazardous Waters 2")
 
 def odds_opening_rare(num_of_packs):
   odds = 0.917

@@ -1,0 +1,292 @@
+{
+    "Base Set 1":
+        [
+            {
+                "title": "Meal (Poor)",
+                "category": "Food",
+                "trait": "Services",
+                "rarity": "Common",
+                "cardNumber": 1
+            },
+            {
+                "title": "Mouse",
+                "category": "Animal",
+                "trait": "Animals and Gear",
+                "rarity": "Common",
+                "cardNumber": 2
+            },
+            {
+                "title": "Cat",
+                "category": "Animal",
+                "trait": "Animals and Gear",
+                "rarity": "Common",
+                "cardNumber": 3
+            },
+            {
+                "title": "Disguise Kit",
+                "category": "Cosmetics",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 4
+            },
+            {
+                "title": "Explorer's Clothing",
+                "category": "Clothing",
+                "trait": "Armor",
+                "rarity": "Common",
+                "cardNumber": 5
+            },
+            {
+                "title": "Grappling Hook",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 6
+            },
+            {
+                "title": "Ferret",
+                "category": "Animal",
+                "trait": "Animals and Gear",
+                "rarity": "Common",
+                "cardNumber": 7
+            },
+            {
+                "title": "Monkey's Fist",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Common",
+                "cardNumber": 8
+            },
+            {
+                "title": "Scourge",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Common",
+                "cardNumber": 9
+            },
+            {
+                "title": "Writing Set",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 10
+            },
+            {
+                "title": "Bo Staff",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Common",
+                "cardNumber": 11
+            },
+            {
+                "title": "Gauntlet",
+                "category": "Simple",
+                "trait": "Weapon",
+                "rarity": "Common",
+                "cardNumber": 12
+            },
+            {
+                "title": "Simple Puzzle Box",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 13
+            },
+            {
+                "title": "Knuckle Duster",
+                "category": "Simple",
+                "trait": "Weapon",
+                "rarity": "Common",
+                "cardNumber": 14
+            },
+            {
+                "title": "Turtle",
+                "category": "Animal",
+                "trait": "Animals and Gear",
+                "rarity": "Common",
+                "cardNumber": 15
+            },
+            {
+                "title": "Light Mace",
+                "category": "Simple",
+                "trait": "Weapon",
+                "rarity": "Common",
+                "cardNumber": 16
+            },
+            {
+                "title": "Bloodeye Coffee",
+                "category": "Poison",
+                "trait": "Alchemical Concoction",
+                "rarity": "Common",
+                "cardNumber": 17
+            },
+            {
+                "title": "Dueling Cape",
+                "category": "Accessory",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 18
+            },
+            {
+                "title": "Pig",
+                "category": "Animal",
+                "trait": "Animals and Gear",
+                "rarity": "Common",
+                "cardNumber": 19
+            },
+            {
+                "title": "Material Component Pouch",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 20
+            },
+            {
+                "title": "The Old Mage Deck",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 21
+            },
+            {
+                "title": "Chest",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 22
+            },
+            {
+                "title": "Hooded Lantern",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 23
+            },
+            {
+                "title": "Fox",
+                "category": "Animal",
+                "trait": "Animals and Gear",
+                "rarity": "Common",
+                "cardNumber": 24
+            },
+            {
+                "title": "Shortsword",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Common",
+                "cardNumber": 25
+            },
+            {
+                "title": "Handheld Musical Instrument",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 26
+            },
+            {
+                "title": "Bottle of Fine Wine",
+                "category": "Beverages",
+                "trait": "Services",
+                "rarity": "Common",
+                "cardNumber": 27
+            },
+            {
+                "title": "Buckler",
+                "category": "Shield",
+                "trait": "Armor",
+                "rarity": "Common",
+                "cardNumber": 28
+            },
+            {
+                "title": "Griffon Cane",
+                "category": "Griffon Cane",
+                "trait": "Assistive Items",
+                "rarity": "Common",
+                "cardNumber": 29
+            },
+            {
+                "title": "Lance",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Common",
+                "cardNumber": 30
+            },
+            {
+                "title": "Longsword",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Common",
+                "cardNumber": 31
+            },
+            {
+                "title": "Marked Playing Cards",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 32
+            },
+            {
+                "title": "Paint Set",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 33
+            },
+            {
+                "title": "Religious Text",
+                "category": "Book",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 34
+            },
+            {
+                "title": "Trident",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Common",
+                "cardNumber": 35
+            },
+            {
+                "title": "Armored Cloak",
+                "category": "Clothes",
+                "trait": "Armor",
+                "rarity": "Common",
+                "cardNumber": 36
+            },
+            {
+                "title": "Canary Informant",
+                "category": "Animal",
+                "trait": "Services",
+                "rarity": "Common",
+                "cardNumber": 37
+            },
+            {
+                "title": "Hide Armor",
+                "category": "Medium",
+                "trait": "Armor",
+                "rarity": "Common",
+                "cardNumber": 38
+            },
+            {
+                "title": "Hide Shield",
+                "category": "Shield",
+                "trait": "Armor",
+                "rarity": "Common",
+                "cardNumber": 39
+            },
+            {
+                "title": "Horse",
+                "category": "Animal",
+                "trait": "Animals and Gear",
+                "rarity": "Common",
+                "cardNumber": 40
+            },
+            {
+                "title": "Jellyfish Lamp",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 41
+            }
+        ]
+}

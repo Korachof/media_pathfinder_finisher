@@ -129,8 +129,11 @@ class CardExpansionPacks:
     """1 Common, 1 Uncommon/Rare/Unique, 1 wildcard
     wildcard: 50% common, 25% uncommon, 20% rare, 5% Unique"""
     card1 = randrange(1, self._COMMON_MAX)
+    print(card1)
     card2 = self.check_for_unique()
+    print(card2)
     card3 = self.wild_card_weight()
+    print(card3)
 
     while card3 == card1:
       card3 = randrange(1, self._COMMON_MAX)
@@ -174,12 +177,14 @@ class CardExpansionPacks:
       card3 = randrange(self._UNCOMMON_MAX, self._RARE_MAX)
 
     else:
-      card3 = randrange(self._RARE_MAX, self._UNIQUE_MAX)
+      card3 = randrange(self._RARE_MAX, 23)
 
     return card3
   
   def fill_exp_packs(self, pack_registry):
+
     set_list = self._card_set.get_set_list()
+
     booster_pack = []
 
     while len(pack_registry) > 0:
@@ -210,7 +215,6 @@ class CardAdvancedExpansionPacks:
   
   def get_contents(self):
     return self._contents
-
 
 class Cards:
   def __init__(self, title, category, trait, rarity, card_num, quantity):
