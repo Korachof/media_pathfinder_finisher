@@ -116,7 +116,7 @@
             {
                 "title": "Bloodeye Coffee",
                 "category": "Poison",
-                "trait": "Alchemical Concoction",
+                "trait": "Alchemical Item",
                 "rarity": "Common",
                 "cardNumber": 17
             },
@@ -200,7 +200,7 @@
             {
                 "title": "Griffon Cane",
                 "category": "Griffon Cane",
-                "trait": "Assistive Items",
+                "trait": "Assistive Item",
                 "rarity": "Common",
                 "cardNumber": 29
             },
@@ -333,13 +333,13 @@
             {
                 "title": "Infused Stone",
                 "category": "Valuable",
-                "trait": "Trade Goods",
+                "trait": "Trade Good",
                 "rarity": "Common",
                 "cardNumber": 48
             },
             {
                 "title": "Safe Wilderness Guide",
-                "category": "Equipment",
+                "category": "Book",
                 "trait": "Services",
                 "rarity": "Common",
                 "cardNumber": 49
@@ -357,6 +357,216 @@
                 "trait": "Armor",
                 "rarity": "Common",
                 "cardNumber": 51
+            },
+            {
+                "title": "Scale Mail",
+                "category": "Medium",
+                "trait": "Armor",
+                "rarity": "Common",
+                "cardNumber": 52
+            },
+            {
+                "title": "Buoyancy Vest",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 53
+            },
+            {
+                "title": "Healer's Toolkit",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 54
+            },
+            {
+                "title": "Long Hammer",
+                "category": "Martial",
+                "trait": "Dwarf Weapon",
+                "rarity": "Common",
+                "cardNumber": 55
+            },
+            {
+                "title": "Chain Mail",
+                "category": "Medium",
+                "trait": "Armor",
+                "rarity": "Common",
+                "cardNumber": 56
+            },
+            {
+                "title": "Cow",
+                "category": "Animal",
+                "trait": "Animals and Gear",
+                "rarity": "Common",
+                "cardNumber": 57
+            },
+            {
+                "title": "Light Chariot",
+                "category": "Chariot",
+                "trait": "Vehicle",
+                "rarity": "Common",
+                "cardNumber": 58
+            },
+            {
+                "title": "Tower Shield",
+                "category": "Shield",
+                "trait": "Armor",
+                "rarity": "Common",
+                "cardNumber": 59
+            },
+            {
+                "title": "Composite Longbow",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Common",
+                "cardNumber": 60
+            },
+            {
+                "title": "Spyglass",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 61
+            },
+            {
+                "title": "Tin Ingot",
+                "category": "Valuable",
+                "trait": "Trade Good",
+                "rarity": "Common",
+                "cardNumber": 62
+            },
+            {
+                "title": "Axolotl",
+                "category": "Animal",
+                "trait": "Animals and Gear",
+                "rarity": "Common",
+                "cardNumber": 63
+            },
+            {
+                "title": "Item Cache",
+                "category": "Equipment",
+                "trait": "Services",
+                "rarity": "Common",
+                "cardNumber": 64
+            },
+            {
+                "title": "Snake Oil",
+                "category": "Consumable",
+                "trait": "Alchemical Item",
+                "rarity": "Common",
+                "cardNumber": 65
+            },
+            {
+                "title": "Lesser Acid Flask",
+                "category": "Bomb",
+                "trait": "Alchemical Item",
+                "rarity": "Common",
+                "cardNumber": 66
+            },
+            {
+                "title": "Alarm Snare",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 67
+            },
+            {
+                "title": "Lesser Bottled Lightning",
+                "category": "Bomb",
+                "trait": "Alchemical Item",
+                "rarity": "Common",
+                "cardNumber": 68
+            },
+            {
+                "title": "Traveling Companion's Chair",
+                "category": "Equipment",
+                "trait": "Assistive Item",
+                "rarity": "Common",
+                "cardNumber": 69
+            },
+            {
+                "title": "Loaded Dice",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 70
+            },
+            {
+                "title": "Everlight Crystal",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 71
+            },
+            {
+                "title": "Navigator's Star",
+                "category": "Tattoo",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 72
+            },
+            {
+                "title": "Swarmsuit",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 73
+            },
+            {
+                "title": "Wagon",
+                "category": "Equipment",
+                "trait": "Vehicle",
+                "rarity": "Common",
+                "cardNumber": 74
+            },
+            {
+                "title": "Lesser Darkvision Elixir",
+                "category": "Consumable",
+                "trait": "Alchemical Item",
+                "rarity": "Common",
+                "cardNumber": 75
+            },
+            {
+                "title": "Hunter's Bane",
+                "category": "Talisman",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 76
+            },
+            {
+                "title": "Jade Cate",
+                "category": "Talisman",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 77
+            },
+            {
+                "title": "Oil of Weightlessness",
+                "category": "Consumable",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 78
+            },
+            {
+                "title": "Toad Tears",
+                "category": "Poison",
+                "trait": "Alchemical Item",
+                "rarity": "Common",
+                "cardNumber": 79
+            },
+            {
+                "title": "Apparition Gloves",
+                "category": "Equipment",
+                "trait": "Assistive Item",
+                "rarity": "Common",
+                "cardNumber": 80
+            },
+            {
+                "title": "Flask of Fellowship",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 81
             },
 
         ]
