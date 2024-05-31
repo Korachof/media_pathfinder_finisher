@@ -287,6 +287,78 @@
                 "trait": "Adventuring Gear",
                 "rarity": "Common",
                 "cardNumber": 41
-            }
+            },
+            {
+                "title": "Domestic Opossum",
+                "category": "Animal",
+                "trait": "Animals and Gear",
+                "rarity": "Common",
+                "cardNumber": 42
+            },
+            {
+                "title": "Scythe",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Common",
+                "cardNumber": 43
+            },
+            {
+                "title": "Alchemist's Toolkit",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 44
+            },
+            {
+                "title": "Steel Shield",
+                "category": "Shield",
+                "trait": "Armor",
+                "rarity": "Common",
+                "cardNumber": 45
+            },
+            {
+                "title": "Hourglass",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 46
+            },
+            {
+                "title": "Meteor Hammer",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Common",
+                "cardNumber": 47
+            },
+            {
+                "title": "Infused Stone",
+                "category": "Valuable",
+                "trait": "Trade Goods",
+                "rarity": "Common",
+                "cardNumber": 48
+            },
+            {
+                "title": "Safe Wilderness Guide",
+                "category": "Equipment",
+                "trait": "Services",
+                "rarity": "Common",
+                "cardNumber": 49
+            },
+            {
+                "title": "Heavy Crossbow",
+                "category": "Simple",
+                "trait": "Weapon",
+                "rarity": "Common",
+                "cardNumber": 50
+            },
+            {
+                "title": "Leaf Weave",
+                "category": "Light",
+                "trait": "Armor",
+                "rarity": "Common",
+                "cardNumber": 51
+            },
+
         ]
+
 }
