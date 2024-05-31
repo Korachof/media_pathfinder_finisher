@@ -192,10 +192,21 @@ class User:
     self.increment_booster_pack(set_name)
 
   def add_expansion_booster_pack(self, set_name: str):
-    print("check 1")
     booster = cards.CardExpansionPacks(self._card_sets[set_name])
-    print("check 2")
-    print("booster_pack_list")
+  
+    if set_name not in self._booster_pack_list:
+      self._booster_pack_list[set_name] = [booster]
+
+    else:
+      self._booster_pack_list[set_name].append(booster)
+
+    print(f"The booster pack from {set_name} has been added.")
+
+    self.increment_booster_pack(set_name)
+
+  def add_advanced_expansion_booster_pack(self, set_name:str):
+    booster = cards.CardAdvancedExpansionPacks(self._carad_sets[set_name])
+
     if set_name not in self._booster_pack_list:
       self._booster_pack_list[set_name] = [booster]
 

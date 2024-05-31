@@ -777,7 +777,21 @@
                 "trait": "Magical",
                 "rarity": "Common",
                 "cardNumber": 111
-            }
+            },
+            {
+                "title": "Trinity Geode",
+                "category": "Spellheart",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 112
+            },
+            {
+                "title": "Unbreakable Heart",
+                "category": "Tattoo",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 113
+            },
         ]
 
 }
