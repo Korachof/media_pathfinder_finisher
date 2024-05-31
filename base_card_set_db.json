@@ -465,8 +465,8 @@
             },
             {
                 "title": "Alarm Snare",
-                "category": "Equipment",
-                "trait": "Adventuring Gear",
+                "category": "Snare",
+                "trait": "Trap",
                 "rarity": "Common",
                 "cardNumber": 67
             },
@@ -568,7 +568,216 @@
                 "rarity": "Common",
                 "cardNumber": 81
             },
-
+            {
+                "title": "Goz Mask",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 82
+            },
+            {
+                "title": "Fortress Plate",
+                "category": "Heavy",
+                "trait": "Armor",
+                "rarity": "Common",
+                "cardNumber": 83
+            },
+            {
+                "title": "Fierce Teeth",
+                "category": "Tattoo",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 84
+            },
+            {
+                "title": "Wondrous Onyx Dog Figurine",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 85
+            },
+            {
+                "title": "Handwraps of Mighty Blows",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 86
+            },
+            {
+                "title": "Hot Air Balloon",
+                "category": "Equipment",
+                "trait": "Vehicle",
+                "rarity": "Common",
+                "cardNumber": 87
+            },
+            {
+                "title": "Toothwort Extract",
+                "category": "Consumable",
+                "trait": "Alchemical Item",
+                "rarity": "Common",
+                "cardNumber": 88
+            },
+            {
+                "title": "Moderate Alchemist's Fire",
+                "category": "Bomb",
+                "trait": "Alchemical Item",
+                "rarity": "Common",
+                "cardNumber": 89
+            },
+            {
+                "title": "Candle of Inflamed Passions",
+                "category": "Consumable",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 90
+            },
+            {
+                "title": "Extendable Tail",
+                "category": "Mechanical",
+                "trait": "Assistive Item",
+                "rarity": "Common",
+                "cardNumber": 91
+            },
+            {
+                "title": "Soothing Scents",
+                "category": "Catalyst",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 92
+            },
+            {
+                "title": "Witch's Finger",
+                "category": "Consumable",
+                "trait": "Alchemical Item",
+                "rarity": "Common",
+                "cardNumber": 93
+            },
+            {
+                "title": "Detonating Gears Snare",
+                "category": "Snare",
+                "trait": "Trap",
+                "rarity": "Common",
+                "cardNumber": 94
+            },
+            {
+                "title": "Lesser Healing Potion",
+                "category": "Potion",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 95
+            },
+            {
+                "title": "Retrieval Prism",
+                "category": "Talisman",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 96
+            },
+            {
+                "title": "Portable Ram",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 97
+            },
+            {
+                "title": "Magnifying Glass",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 98
+            },
+            {
+                "title": "Mage's Hat",
+                "category": "Headwear",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 99
+            },
+            {
+                "title": "Persona Mask",
+                "category": "Mask",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 100
+            },
+            {
+                "title": "Bracers of Missile Deflection",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 101
+            },
+            {
+                "title": "Aerial Cloak",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 102
+            },
+            {
+                "title": "Battle Medic's Baton",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 103
+            },
+            {
+                "title": "Hunter's Bow",
+                "category": "Martial",
+                "trait": "Magical Weapon",
+                "rarity": "Common",
+                "cardNumber": 104
+            },
+            {
+                "title": "One Hundred Victories",
+                "category": "Tattoo",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 105
+            },
+            {
+                "title": "Retribution Axe",
+                "category": "Martial",
+                "trait": "Magical Weapon",
+                "rarity": "Common",
+                "cardNumber": 106
+            },
+            {
+                "title": "Staff of Air",
+                "category": "Stave",
+                "trait": "Magical Weapon",
+                "rarity": "Common",
+                "cardNumber": 107
+            },
+            {
+                "title": "Staff of Earth",
+                "category": "Stave",
+                "trait": "Magical Weapon",
+                "rarity": "Common",
+                "cardNumber": 108
+            },
+            {
+                "title": "Staff of Fire",
+                "category": "Stave",
+                "trait": "Magical Weapon",
+                "rarity": "Common",
+                "cardNumber": 109
+            },
+            {
+                "title": "Staff of Water",
+                "category": "Stave",
+                "trait": "Magical Weapon",
+                "rarity": "Common",
+                "cardNumber": 110
+            },
+            {
+                "title": "Tracker's Goggles",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 111
+            }
         ]
 
 }
