@@ -205,12 +205,19 @@ class CardAdvancedExpansionPacks:
       self.set_adv_exp_pack_registry()
 
   def get_set_name(self):
+    """Get the set name
+    returns: str"""
+
     return self._card_set.get_name()
 
   def get_card_set(self):
+    """Get card set
+    returns dict"""
     return self._card_set
   
   def get_contents(self):
+    """Get contents of set
+    returns list"""
     return self._contents
   
   def set_adv_exp_pack_registry(self):
@@ -233,7 +240,11 @@ class CardAdvancedExpansionPacks:
     
     return self.fill_adv_exp_packs([card1])
 
-  def check_for_ultra_rare(self, card):
+  def check_for_ultra_rare(self, card: int):
+    """Check to see if the card is ultra rare.
+    1/6 chance. Do not change values.
+    return: int"""
+
     d6 = randrange(1, 7)
     if d6 == 6:
       card = 6
@@ -241,6 +252,9 @@ class CardAdvancedExpansionPacks:
     return card
   
   def fill_adv_exp_packs(self, pack_registry):
+    """Use card numbers from pack registry to fill
+    booster packs with cards with those numbers.
+    returns list"""
 
     set_list = self._card_set.get_set_list()
 
@@ -255,6 +269,10 @@ class CardAdvancedExpansionPacks:
     return self.set_contents(booster_pack)
   
   def set_contents(self, booster_pack):
+    """Set the contents of the booster pack by appending
+    the card object to the pack contents list
+    returns: None"""
+
     for card in booster_pack:
       self._contents.append(card)
 
