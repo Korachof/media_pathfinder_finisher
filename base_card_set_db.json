@@ -791,6 +791,160 @@
                 "trait": "Magical",
                 "rarity": "Common",
                 "cardNumber": 113
+            },
+            {
+                "title": "Diving Suit",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 114
+            },
+            {
+                "title": "Dragon Turtle Scale",
+                "category": "Talisman",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 115
+            },
+            {
+                "title": "Shrinking Potion",
+                "category": "Potion",
+                "trait": "Alchemical Item",
+                "rarity": "Common",
+                "cardNumber": 116
+            },
+            {
+                "title": "Brightshade",
+                "category": "Poison",
+                "trait": "Alchemical Item",
+                "rarity": "Common",
+                "cardNumber": 117
+            },
+            {
+                "title": "Mortar of Hidden Meaning",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 118
+            },
+            {
+                "title": "Animal Staff",
+                "category": "Stave",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 119
+            },
+            {
+                "title": "Five-Feather Wreath",
+                "category": "Spellheart",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 120
+            },
+            {
+                "title": "Demon Mask",
+                "category": "Mask",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 121
+            },
+            {
+                "title": "Alchemist Goggles",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 122
+            },
+            {
+                "title": "Goblin-Eye Orb",
+                "category": "Talisman",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 123
+            },
+            {
+                "title": "Elven Absinthe",
+                "category": "Poison",
+                "trait": "Alchemical Item",
+                "rarity": "Common",
+                "cardNumber": 124
+            },
+            {
+                "title": "Frozen Lava",
+                "category": "Consumable",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 125
+            },
+            {
+                "title": "Hippogriff in a Jar",
+                "category": "Consumable",
+                "trait": "Alchemical Item",
+                "rarity": "Common",
+                "cardNumber": 126
+            },
+            {
+                "title": "Skeleton Key",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 127
+            },
+            {
+                "title": "Low-Grade Silver Armor",
+                "category": "Heavy",
+                "trait": "Armor",
+                "rarity": "Common",
+                "cardNumber": 128
+            },
+            {
+                "title": "Druid's Crown",
+                "category": "Accessory",
+                "trait": "Primal",
+                "rarity": "Common",
+                "cardNumber": 129
+            },
+            {
+                "title": "Verdant Staff",
+                "category": "Stave",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 130
+            },
+            {
+                "title": "Dragonscale Staff",
+                "category": "Stave",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 131
+            },
+            {
+                "title": "Lion's Shield",
+                "category": "Shield",
+                "trait": "Magical Armor",
+                "rarity": "Common",
+                "cardNumber": 132
+            },
+            {
+                "title": "Guardian Staff",
+                "category": "Stave",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 133
+            },
+            {
+                "title": "Twinning Staff",
+                "category": "Stave",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 134
+            },
+            {
+                "title": "Owlbear Egg",
+                "category": "Consumable",
+                "trait": "Alchemical Item",
+                "rarity": "Common",
+                "cardNumber": 135
             }
         ]
 
