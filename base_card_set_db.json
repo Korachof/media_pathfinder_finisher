@@ -945,7 +945,119 @@
                 "trait": "Alchemical Item",
                 "rarity": "Common",
                 "cardNumber": 135
-            }
+            },
+            {
+                "title": "Ensnaring Disk",
+                "category": "Talisman",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 136
+            },
+            {
+                "title": "Grudgestone",
+                "category": "Talisman",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 137
+            },
+            {
+                "title": "Staff of Nature's Cunning",
+                "category": "Stave",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 138
+            },
+            {
+                "title": "Silver Buckler",
+                "category": "Shield",
+                "trait": "Armor",
+                "rarity": "Common",
+                "cardNumber": 139
+            },
+            {
+                "title": "Jar of Shifting Sands",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 140
+            },
+            {
+                "title": "Enigma Mirror",
+                "category": "Spellheart",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 141
+            },
+            {
+                "title": "Collar of the Eternal Bond",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 142
+            },
+            {
+                "title": "Zombie Staff",
+                "category": "Stave",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 143
+            },
+            {
+                "title": "Beast Staff",
+                "category": "Stave",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 144
+            },
+            {
+                "title": "Wolfjaw Armor",
+                "category": "Light",
+                "trait": "Primal Armor",
+                "rarity": "Common",
+                "cardNumber": 145
+            },
+            {
+                "title": "Magic Wand",
+                "category": "Wand",
+                "trait": "Magical Weapon",
+                "rarity": "Common",
+                "cardNumber": 146
+            },
+            {
+                "title": "Quenching Potion",
+                "category": "Potion",
+                "trait": "Alchemical Item",
+                "rarity": "Common",
+                "cardNumber": 147
+            },
+            {
+                "title": "Potion of Shared Life",
+                "category": "Potion",
+                "trait": "Alchemical Item",
+                "rarity": "Common",
+                "cardNumber": 148
+            },
+            {
+                "title": "Jade Bauble",
+                "category": "Talisman",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 149
+            },
+            {
+                "title": "Potion of Flying",
+                "category": "Potion",
+                "trait": "Alchemical Item",
+                "rarity": "Common",
+                "cardNumber": 150
+            },
+            {
+                "title": "Book of Warding Prayers",
+                "category": "Book",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 151
+            },
         ]
 
 }
