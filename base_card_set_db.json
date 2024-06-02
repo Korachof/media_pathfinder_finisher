@@ -514,7 +514,7 @@
             },
             {
                 "title": "Wagon",
-                "category": "Equipment",
+                "category": "Wagon",
                 "trait": "Vehicle",
                 "rarity": "Common",
                 "cardNumber": 74
@@ -605,7 +605,7 @@
             },
             {
                 "title": "Hot Air Balloon",
-                "category": "Equipment",
+                "category": "Aircraft",
                 "trait": "Vehicle",
                 "rarity": "Common",
                 "cardNumber": 87
@@ -1057,6 +1057,264 @@
                 "trait": "Adventuring Gear",
                 "rarity": "Common",
                 "cardNumber": 151
+            },{
+                "title": "Flaming Star",
+                "category": "Spellheart",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 152
+            },
+            {
+                "title": "Rime Crystal",
+                "category": "Spellheart",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 153
+            },
+            {
+                "title": "Tome of Scintillating Sleet",
+                "category": "Book",
+                "trait": "Primal",
+                "rarity": "Common",
+                "cardNumber": 154
+            },
+            {
+                "title": "Brightbloom Posy",
+                "category": "Spellheart",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 155
+            },
+            {
+                "title": "Eye of the Unseen",
+                "category": "Accessory",
+                "trait": "Assistive Item",
+                "rarity": "Common",
+                "cardNumber": 156
+            },
+            {
+                "title": "Horrid Figurine",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 157
+            },
+            {
+                "title": "Drums of War",
+                "category": "Stave",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 158
+            },
+            {
+                "title": "Hundred-Moth Caress",
+                "category": "Martial",
+                "trait": "Magical Weapon",
+                "rarity": "Common",
+                "cardNumber": 159
+            },
+            {
+                "title": "Lightweave Scarf",
+                "category": "Spellheart",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 160
+            },
+            {
+                "title": "Skittering Mask",
+                "category": "Mask",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 161
+            },
+            {
+                "title": "Vampire-Fang Morningstar",
+                "category": "Martial",
+                "trait": "Magical Weapon",
+                "rarity": "Common",
+                "cardNumber": 162
+            },
+            {
+                "title": "Longship",
+                "category": "Ship",
+                "trait": "Vehicle",
+                "rarity": "Common",
+                "cardNumber": 163
+            },
+            {
+                "title": "Trident of Lightning",
+                "category": "Consumable",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 164
+            },
+            {
+                "title": "Storm Breath",
+                "category": "Consumable",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 165
+            },
+            {
+                "title": "Octopus Potion",
+                "category": "Potion",
+                "trait": "Alchemical Item",
+                "rarity": "Common",
+                "cardNumber": 166
+            },
+            {
+                "title": "Basilisk Eye",
+                "category": "Talisman",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 167
+            },
+            {
+                "title": "Frozen Lava of Pale Mountain",
+                "category": "Consumable",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 168
+            },
+            {
+                "title": "Collar of Empathy",
+                "category": "Accessory",
+                "trait": "Primal",
+                "rarity": "Common",
+                "cardNumber": 169
+            },
+            {
+                "title": "Nemesis Name",
+                "category": "Tattoo",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 170
+            },
+            {
+                "title": "Helm of Underwater Action",
+                "category": "Headwear",
+                "trait": "Magical Armor",
+                "rarity": "Common",
+                "cardNumber": 171
+            },
+            {
+                "title": "Messenger's Ring",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 172
+            },
+            {
+                "title": "Sailing Ship",
+                "category": "Ship",
+                "trait": "Vehicle",
+                "rarity": "Common",
+                "cardNumber": 173
+            },
+            {
+                "title": "Wolfsbane",
+                "category": "Poison",
+                "trait": "Alchemical Item",
+                "rarity": "Common",
+                "cardNumber": 174
+            },
+            {
+                "title": "Mummified Bat",
+                "category": "Talisman",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 175
+            },
+            {
+                "title": "Elemental Gem",
+                "category": "Consumable",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 176
+            },
+            {
+                "title": "Kraken Figurehead",
+                "category": "Figurehead",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 177
+            },
+            {
+                "title": "Wildwood Ink",
+                "category": "Tattoo",
+                "trait": "Primal",
+                "rarity": "Common",
+                "cardNumber": 178
+            },
+            {
+                "title": "Batsbreath Cane",
+                "category": "Equipment",
+                "trait": "Assistive Item",
+                "rarity": "Common",
+                "cardNumber": 179
+            },
+            {
+                "title": "Jyoti's Feather",
+                "category": "Spellheart",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 180
+            },
+            {
+                "title": "Breastplate of Command",
+                "category": "Medium",
+                "trait": "Magical Armor",
+                "rarity": "Common",
+                "cardNumber": 181
+            },
+            {
+                "title": "Crown of Witchcraft",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 182
+            },
+            {
+                "title": "Living Mantle",
+                "category": "Accessory",
+                "trait": "Primal",
+                "rarity": "Common",
+                "cardNumber": 183
+            },
+            {
+                "title": "Galley",
+                "category": "Ship",
+                "trait": "Vehicle",
+                "rarity": "Common",
+                "cardNumber": 184
+            },
+            {
+                "title": "Necrotic Bomb",
+                "category": "Bomb",
+                "trait": "Alchemical Item",
+                "rarity": "Common",
+                "cardNumber": 185
+            },
+            {
+                "title": "Drakeheart Mutagen",
+                "category": "Consumable",
+                "trait": "Alchemical Item",
+                "rarity": "Common",
+                "cardNumber": 186
+            },
+            {
+                "title": "Lion Claw",
+                "category": "Talisman",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 187
+            },
+            {
+                "title": "Hexing Jar",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 188
             },
         ]
 
