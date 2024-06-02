@@ -1316,6 +1316,90 @@
                 "rarity": "Common",
                 "cardNumber": 188
             },
+            {
+                "title": "Resonatng Ammunition",
+                "category": "Consumable",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 189
+            },
+            {
+                "title": "Horn of Exorcism",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 190
+            },
+            {
+                "title": "Master Magus Ring",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 191
+            },
+            {
+                "title": "Bracers of Devotion",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 192
+            },
+            {
+                "title": "Buzzsaw Axe",
+                "category": "Martial",
+                "trait": "Magical Weapon",
+                "rarity": "Common",
+                "cardNumber": 193
+            },
+            {
+                "title": "Eidolon Cape",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 194
+            },
+            {
+                "title": "Golden Goose",
+                "category": "Cursed Item",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 195
+            },
+            {
+                "title": "Stunning Snare",
+                "category": "Snare",
+                "trait": "Adventuring Gear",
+                "rarity": "Common",
+                "cardNumber": 196
+            },
+            {
+                "title": "Slumber Wine",
+                "category": "Poison",
+                "trait": "Alchemical Item",
+                "rarity": "Common",
+                "cardNumber": 197
+            },
+            {
+                "title": "Animal Repellent",
+                "category": "Consumable",
+                "trait": "Alchemical Item",
+                "rarity": "Common",
+                "cardNumber": 198
+            },
+            {
+                "title": "Incense of Distilled Death",
+                "category": "Consumable",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 199
+            },
+            {
+                "title": "Phoenix Flask",
+                "category": "Potion",
+                "trait": "Magical",
+                "rarity": "Common",
+                "cardNumber": 200
+            }
         ]
 
 }
