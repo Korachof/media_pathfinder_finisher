@@ -1490,6 +1490,342 @@
                 "trait": "Adventuring Gear",
                 "rarity": "Uncommon",
                 "cardNumber": 213
+            },
+            {
+                "title": "Wrist Launcher",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 214
+            },
+            {
+                "title": "Elven Curve Blade",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 215
+            },
+            {
+                "title": "War Lance",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 216
+            },
+            {
+                "title": "Air Repeater",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 217
+            },
+            {
+                "title": "Glass Cutter",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 218
+            },
+            {
+                "title": "Knight's Standard",
+                "category": "Accessory",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 219
+            },
+            {
+                "title": "Thunder Sling",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 220
+            },
+            {
+                "title": "Flintlock Pistol",
+                "category": "Martial",
+                "trait": "Concussive Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 221
+            },
+            {
+                "title": "Black Powder Knuckle Dusters",
+                "category": "Martial",
+                "trait": "Concussive Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 222
+            },
+            {
+                "title": "Glider",
+                "category": "Equipment",
+                "trait": "Vehicle",
+                "rarity": "Uncommon",
+                "cardNumber": 223
+            },
+            {
+                "title": "Alchemical Crossbow",
+                "category": "Martial",
+                "trait": "Alchemical Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 224
+            },
+            {
+                "title": "Bioluminescence Bomb",
+                "category": "Bomb",
+                "trait": "Alchemical Item",
+                "rarity": "Uncommon",
+                "cardNumber": 225
+            },
+            {
+                "title": "Clockwork Goggles",
+                "category": "Accessory",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 226
+            },
+            {
+                "title": "Emergency Disguise",
+                "category": "Consumable",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 227
+            },
+            {
+                "title": "Journeybread",
+                "category": "Consumable",
+                "trait": "Alchemical Item",
+                "rarity": "Uncommon",
+                "cardNumber": 228
+            },
+            {
+                "title": "Lastwall Soup",
+                "category": "Consumable",
+                "trait": "Alchemical Item",
+                "rarity": "Uncommon",
+                "cardNumber": 229
+            },
+            {
+                "title": "Self-Immolating Note",
+                "category": "Consumable",
+                "trait": "Alchemical Item",
+                "rarity": "Uncommon",
+                "cardNumber": 230
+            },
+            {
+                "title": "Flare Beacon",
+                "category": "Consumable",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 231
+            },
+            {
+                "title": "Throwing Shield",
+                "category": "Shield",
+                "trait": "Armor",
+                "rarity": "Uncommon",
+                "cardNumber": 232
+            },
+            {
+                "title": "Traveler's Cloak",
+                "category": "Accessory",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 233
+            },
+            {
+                "title": "Rhythm Bone",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 234
+            },
+            {
+                "title": "Glittering Scarab",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 235
+            },
+            {
+                "title": "Hellknight Breastplate",
+                "category": "Medium",
+                "trait": "Armor",
+                "rarity": "Uncommon",
+                "cardNumber": 236
+            },
+            {
+                "title": "Clockwork Bookshelf",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 237
+            },
+            {
+                "title": "Blade Launcher",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 238
+            },
+            {
+                "title": "Backpack Catapult",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 239
+            },
+            {
+                "title": "Velocipede",
+                "category": "Equipment",
+                "trait": "Vehicle",
+                "rarity": "Uncommon",
+                "cardNumber": 240
+            },
+            {
+                "title": "Clockwork Monkey",
+                "category": "Snare",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 241
+            },
+            {
+                "title": "Moonlit Ink",
+                "category": "Consumable",
+                "trait": "Alchemical Item",
+                "rarity": "Uncommon",
+                "cardNumber": 242
+            },
+            {
+                "title": "Spirit Trap",
+                "category": "Snare",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 243
+            },
+            {
+                "title": "Ember Dust",
+                "category": "Consumable",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 244
+            },
+            {
+                "title": "Lover's Knot",
+                "category": "Talisman",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 245
+            },
+            {
+                "title": "Moon Radish Soup",
+                "category": "Consumable",
+                "trait": "Alchemical Item",
+                "rarity": "Uncommon",
+                "cardNumber": 246
+            },
+            {
+                "title": "Dweomerweave Robe",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 247
+            },
+            {
+                "title": "Necklace of Knives",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 248
+            },
+            {
+                "title": "Camouflage Suit",
+                "category": "Accessory",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 249
+            },
+            {
+                "title": "Violet Venom",
+                "category": "Poison",
+                "trait": "Alchemical Item",
+                "rarity": "Uncommon",
+                "cardNumber": 250
+            },
+            {
+                "title": "Portable Altar",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 251
+            },
+            {
+                "title": "Mariner's Astrolabe",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 252
+            },
+            {
+                "title": "Mirror Robe",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 253
+            },
+            {
+                "title": "Pickled Demon Tongue",
+                "category": "Spellheart",
+                "trait": "Divine",
+                "rarity": "Uncommon",
+                "cardNumber": 254
+            },
+            {
+                "title": "Sand Diver",
+                "category": "Equipment",
+                "trait": "Vehicle",
+                "rarity": "Uncommon",
+                "cardNumber": 255
+            },
+            {
+                "title": "Invisibility Potion",
+                "category": "Potion",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 256
+            },
+            {
+                "title": "Deck of Mischief",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 257
+            },
+            {
+                "title": "Stargazer's Spyglass",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 258
+            },
+            {
+                "title": "Wovenwood Shield",
+                "category": "Shield",
+                "trait": "Armor",
+                "rarity": "Uncommon",
+                "cardNumber": 259
+            },
+            {
+                "title": "Poisoner's Staff",
+                "category": "Stave",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 260
+            },
+            {
+                "title": "Rhinoceros Mask",
+                "category": "Mask",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 261
             }
         ]
 
