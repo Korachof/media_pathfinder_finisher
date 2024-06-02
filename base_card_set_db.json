@@ -1826,6 +1826,76 @@
                 "trait": "Magical",
                 "rarity": "Uncommon",
                 "cardNumber": 261
+            },
+            {
+                "title": "Drake Rifle",
+                "category": "Martial",
+                "trait": "Magical Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 262
+            },
+            {
+                "title": "Vengeful Arm",
+                "category": "Tattoo",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 263
+            },
+            {
+                "title": "Siege Tower",
+                "category": "Equipment",
+                "trait": "Vehicle",
+                "rarity": "Uncommon",
+                "cardNumber": 264
+            },
+            {
+                "title": "Ressurection Tea",
+                "category": "Potion",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 265
+            },
+            {
+                "title": "Beckoning Cat Amulet",
+                "category": "Talisman",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 266
+            },
+            {
+                "title": "Cape of Illumination",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 267
+            },
+            {
+                "title": "Thundercrasher",
+                "category": "Martial",
+                "trait": "Arcane Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 268
+            },
+            {
+                "title": "Ring of the Tiger",
+                "category": "Accessory",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 269
+            },
+            {
+                "title": "Solar Shellflower",
+                "category": "Martial",
+                "trait": "Arcane Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 270
+            },
+            {
+                "title": "Thunder Helm",
+                "category": "Headwear",
+                "trait": "Magical Armor",
+                "rarity": "Uncommon",
+                "cardNumber": 271
             }
         ]
 
