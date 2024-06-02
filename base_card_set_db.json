@@ -1406,7 +1406,91 @@
                 "trait": "Weapon",
                 "rarity": "Uncommon",
                 "cardNumber": 201
-            }
+            },
+            {
+                "title": "Nunchaku",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 202
+            },
+            {
+                "title": "Thundermace",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 203
+            },
+            {
+                "title": "Waterproof Carrying Case",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 204
+            },
+            {
+                "title": "False Bottom Mug",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 205
+            },
+            {
+                "title": "Scorpion Whip",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 206
+            },
+            {
+                "title": "Thorn Whip",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 207
+            },
+            {
+                "title": "Ogre Hook",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 208
+            },
+            {
+                "title": "Traitor's Ring",
+                "category": "Accessory",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 209
+            },
+            {
+                "title": "Katana",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 210
+            },
+            {
+                "title": "Pantograph Gauntlet",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 211
+            },
+            {
+                "title": "Concealment Coin",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 212
+            },
+            {
+                "title": "Grappling Gun",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 213
+            },
         ]
 
 }
