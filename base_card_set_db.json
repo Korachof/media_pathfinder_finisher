@@ -1399,6 +1399,13 @@
                 "trait": "Magical",
                 "rarity": "Common",
                 "cardNumber": 200
+            },
+            {
+                "title": "Tonfa",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 201
             }
         ]
 
