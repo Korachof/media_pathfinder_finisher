@@ -68,7 +68,7 @@ class CardPacks:
       card2 = randrange(1, self._COMMON_MAX)
     card3 = randrange(1, self._UNCOMMON_MAX)
     while card3 == card1 or card3 == card2:
-      card3 = randrange(1, self._COMMON_MAX)
+      card3 = randrange(1, self._UNCOMMON_MAX)
     card4 = randrange(self._COMMON_MAX, self._UNCOMMON_MAX)
     while card4 == card1 or card4 == card2 or card4 == card3:
       card4 = randrange(self._COMMON_MAX, self._UNCOMMON_MAX)
