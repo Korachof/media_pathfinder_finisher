@@ -1896,6 +1896,153 @@
                 "trait": "Magical Armor",
                 "rarity": "Uncommon",
                 "cardNumber": 271
+            },
+            {
+                "title": "Armored Carriage",
+                "category": "Equipment",
+                "trait": "Vehicle",
+                "rarity": "Uncommon",
+                "cardNumber": 272
+            },
+            {
+                "title": "Firefly",
+                "category": "Equipment",
+                "trait": "Vehicle",
+                "rarity": "Uncommon",
+                "cardNumber": 273
+            },
+            {
+                "title": "Bathysphere",
+                "category": "Equipment",
+                "trait": "Vehicle",
+                "rarity": "Uncommon",
+                "cardNumber": 274
+            },
+            {
+                "title": "Truth Potion",
+                "category": "Potion",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 275
+            },
+            {
+                "title": "Black Powder Keg",
+                "category": "Consumable",
+                "trait": "Alchemical Item",
+                "rarity": "Uncommon",
+                "cardNumber": 276
+            },
+            {
+                "title": "Peace in Dreams Tea",
+                "category": "Potion",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 277
+            },
+            {
+                "title": "Pathfinder's Pouch",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 278
+            },
+            {
+                "title": "Ghoul Hide",
+                "category": "Light",
+                "trait": "Armor",
+                "rarity": "Uncommon",
+                "cardNumber": 279
+            },
+            {
+                "title": "Ringmaster's Staff",
+                "category": "Stave",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 280
+            },
+            {
+                "title": "Staff of Unblinking Eye",
+                "category": "Stave",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 281
+            },
+            {
+                "title": "Twilight Lantern",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 282
+            },
+            {
+                "title": "Bloodletting Kukri",
+                "category": "Martial",
+                "trait": "Magical Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 283
+            },
+            {
+                "title": "Obsidian Edge",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 284
+            },
+            {
+                "title": "Sentinel Horn",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 285
+            },
+            {
+                "title": "Spike Launcher",
+                "category": "Martial",
+                "trait": "Magical Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 286
+            },
+            {
+                "title": "Staff of the Dreamlands",
+                "category": "Stave",
+                "trait": "Magical Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 287
+            },
+            {
+                "title": "Warcaller's Chime of Blasting",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 288
+            },
+            {
+                "title": "Fire and Iceberg",
+                "category": "Consumable",
+                "trait": "Alchemical Item",
+                "rarity": "Uncommon",
+                "cardNumber": 289
+            },
+            {
+                "title": "Fairy Bullet",
+                "category": "Consumable",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 290
+            },
+            {
+                "title": "Blooming Lotus Seed Pod",
+                "category": "Consumable",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 291
+            },
+            {
+                "title": "Faerie Dragon Liqueur",
+                "category": "Potion",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 292
             }
         ]
 
