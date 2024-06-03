@@ -2169,6 +2169,13 @@
                 "trait": "Adventuring Gear",
                 "rarity": "Uncommon",
                 "cardNumber": 310
+            },
+            {
+                "title": "Warpglass Ingot",
+                "category": "Valuable",
+                "trait": "Material",
+                "rarity": "Rare",
+                "cardNumber": 311
             }
         ]
 
