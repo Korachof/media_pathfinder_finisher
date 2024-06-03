@@ -2078,6 +2078,97 @@
                 "trait": "Weapon",
                 "rarity": "Uncommon",
                 "cardNumber": 297
+            },
+            {
+                "title": "Spiral Rapier",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 298
+            },
+            {
+                "title": "Water Purifier",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 299
+            },
+            {
+                "title": "Wish Blade",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 300
+            },
+            {
+                "title": "Dagger Pistol",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 301
+            },
+            {
+                "title": "Dragon Mouth Pistol",
+                "category": "Martial",
+                "trait": "Concussive Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 302
+            },
+            {
+                "title": "Armor Polishing Kit",
+                "category": "Consumable",
+                "trait": "Alchemical Item",
+                "rarity": "Uncommon",
+                "cardNumber": 303
+            },
+            {
+                "title": "Mantis Shell",
+                "category": "Light",
+                "trait": "Armor",
+                "rarity": "Uncommon",
+                "cardNumber": 304
+            },
+            {
+                "title": "Polytool",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 305
+            },
+            {
+                "title": "Stone of Encouragement",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 306
+            },
+            {
+                "title": "Empathy Charm",
+                "category": "Accessory",
+                "trait": "Assistive Item",
+                "rarity": "Uncommon",
+                "cardNumber": 307
+            },
+            {
+                "title": "Furnace of Endings",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Uncommon",
+                "cardNumber": 308
+            },
+            {
+                "title": "Scholarly Journal",
+                "category": "Book",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 309
+            },
+            {
+                "title": "Survey Map",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Uncommon",
+                "cardNumber": 310
             }
         ]
 
