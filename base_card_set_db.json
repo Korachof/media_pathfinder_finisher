@@ -2176,6 +2176,125 @@
                 "trait": "Material",
                 "rarity": "Rare",
                 "cardNumber": 311
+            },
+            {
+                "title": "Soulspeaker",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 312
+            },
+            {
+                "title": "Alchemist's Flamethrower",
+                "category": "Equipment",
+                "trait": "Alchemical Item",
+                "rarity": "Rare",
+                "cardNumber": 313
+            },
+            {
+                "title": "Steam Cart",
+                "category": "Equipment",
+                "trait": "Vehicle",
+                "rarity": "Rare",
+                "cardNumber": 314
+            },
+            {
+                "title": "Luckless Dice",
+                "category": "Cursed Item",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 315
+            },
+            {
+                "title": "Silversoul Bomb",
+                "category": "Bomb",
+                "trait": "Alchemical Item",
+                "rarity": "Rare",
+                "cardNumber": 316
+            },
+            {
+                "title": "Draft of Stellar Radiance",
+                "category": "Potion",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 317
+            },
+            {
+                "title": "Prey Mutagen",
+                "category": "Consumable",
+                "trait": "Alchemical Item",
+                "rarity": "Rare",
+                "cardNumber": 318
+            },
+            {
+                "title": "Swamp Lily Quilt",
+                "category": "Consumable",
+                "trait": "Alchemical Item",
+                "rarity": "Rare",
+                "cardNumber": 319
+            },
+            {
+                "title": "Broken Tusk Pendant",
+                "category": "Accessory",
+                "trait": "Primal",
+                "rarity": "Rare",
+                "cardNumber": 320
+            },
+            {
+                "title": "Hag Eye",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 321
+            },
+            {
+                "title": "Spider Lily Tattoo",
+                "category": "Tattoo",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 322
+            },
+            {
+                "title": "Fire-Douse Snare",
+                "category": "Snare",
+                "trait": "Adventuring Gear",
+                "rarity": "Rare",
+                "cardNumber": 323
+            },
+            {
+                "title": "Clinging Ooze Snare",
+                "category": "Snare",
+                "trait": "Adventuring Gear",
+                "rarity": "Rare",
+                "cardNumber": 324
+            },
+            {
+                "title": "Cape of Justice",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 325
+            },
+            {
+                "title": "Hillcross Glider",
+                "category": "Equipment",
+                "trait": "Vehicle",
+                "rarity": "Rare",
+                "cardNumber": 326
+            },
+            {
+                "title": "Desiccating Scepter",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 327
+            },
+            {
+                "title": "Sun Wheel",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 328
             }
         ]
 
