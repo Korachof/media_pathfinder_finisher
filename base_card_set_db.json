@@ -2043,6 +2043,41 @@
                 "trait": "Magical",
                 "rarity": "Uncommon",
                 "cardNumber": 292
+            },
+            {
+                "title": "Boomerang",
+                "category": "Simple",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 293
+            },
+            {
+                "title": "Butterfly Sword",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 294
+            },
+            {
+                "title": "Gnome Hooked Hammer",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 295
+            },
+            {
+                "title": "Dwarven Waraxe",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 296
+            },
+            {
+                "title": "Fangwire",
+                "category": "Martial",
+                "trait": "Weapon",
+                "rarity": "Uncommon",
+                "cardNumber": 297
             }
         ]
 
