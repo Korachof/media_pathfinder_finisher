@@ -2295,6 +2295,272 @@
                 "trait": "Magical",
                 "rarity": "Rare",
                 "cardNumber": 328
+            },
+            {
+                "title": "True Name Amulet",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 329
+            },
+            {
+                "title": "Bort's Blessing",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 330
+            },
+            {
+                "title": "Shrieking Key",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 331
+            },
+            {
+                "title": "Singing Sword",
+                "category": "Martial",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 332
+            },
+            {
+                "title": "Bellflower Toolbelt",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 333
+            },
+            {
+                "title": "Stag's Helm",
+                "category": "Headwear",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 334
+            },
+            {
+                "title": "Cauldron of Flying",
+                "category": "Equipment",
+                "trait": "Vehicle",
+                "rarity": "Rare",
+                "cardNumber": 335
+            },
+            {
+                "title": "Succubus Kiss",
+                "category": "Poison",
+                "trait": "Alchemical Item",
+                "rarity": "Rare",
+                "cardNumber": 336
+            },
+            {
+                "title": "Branch of the Great Sugi",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 337
+            },
+            {
+                "title": "Ghost Scarf",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 338
+            },
+            {
+                "title": "Cloak of Immolation",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 339
+            },
+            {
+                "title": "Draconic Toxin Bottle",
+                "category": "Consumable",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 340
+            },
+            {
+                "title": "Tallowheart Mass",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 341
+            },
+            {
+                "title": "Gray Prince",
+                "category": "Martial",
+                "trait": "Magical Weapon",
+                "rarity": "Rare",
+                "cardNumber": 342
+            },
+            {
+                "title": "Bottomless Purse",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 343
+            },
+            {
+                "title": "Sunken Pistol",
+                "category": "Martial",
+                "trait": "Arcane Weapon",
+                "rarity": "Rare",
+                "cardNumber": 344
+            },
+            {
+                "title": "Rebirth Potion",
+                "category": "Potion",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 345
+            },
+            {
+                "title": "Printing Press",
+                "category": "Equipment",
+                "trait": "Adventuring Gear",
+                "rarity": "Rare",
+                "cardNumber": 346
+            },
+            {
+                "title": "Wraithweave Patch",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 347
+            },
+            {
+                "title": "Grisly Scythe",
+                "category": "Martial",
+                "trait": "Magical Weapon",
+                "rarity": "Rare",
+                "cardNumber": 348
+            },
+            {
+                "title": "Djezet Shield",
+                "category": "Shield",
+                "trait": "Armor",
+                "rarity": "Rare",
+                "cardNumber": 349
+            },
+            {
+                "title": "Erraticannon",
+                "category": "Martial",
+                "trait": "Magical Weapon",
+                "rarity": "Rare",
+                "cardNumber": 350
+            },
+            {
+                "title": "Clockwork Bumblebee",
+                "category": "Equipment",
+                "trait": "Vehicle",
+                "rarity": "Rare",
+                "cardNumber": 351
+            },
+            {
+                "title": "Wrestler's Armbands",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 352
+            },
+            {
+                "title": "Thousand-Year Dragonroot",
+                "category": "Consumable",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 353
+            },
+            {
+                "title": "Star Chart Tattoo",
+                "category": "Tattoo",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 354
+            },
+            {
+                "title": "Barbed Vest",
+                "category": "Cursed Item",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 355
+            },
+            {
+                "title": "Ring of Truth",
+                "category": "Cursed Item",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 356
+            },
+            {
+                "title": "Thoughtwhip Claw",
+                "category": "Tattoo",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 357
+            },
+            {
+                "title": "Tiger's Claw",
+                "category": "Martial",
+                "trait": "Primal Weapon",
+                "rarity": "Rare",
+                "cardNumber": 358
+            },
+            {
+                "title": "Thundering Fury Dadao",
+                "category": "Martial",
+                "trait": "Magical Weapon",
+                "rarity": "Rare",
+                "cardNumber": 359
+            },
+            {
+                "title": "Bag of Devouring",
+                "category": "Cursed Item",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 360
+            },
+            {
+                "title": "Elder Seed",
+                "category": "Consumable",
+                "trait": "Primal",
+                "rarity": "Rare",
+                "cardNumber": 361
+            },
+            {
+                "title": "Kindled Tome",
+                "category": "Book",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 362
+            },
+            {
+                "title": "Shadow Ash",
+                "category": "Consumable",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 363
+            },
+            {
+                "title": "Lich Soul Cage",
+                "category": "Equipment",
+                "trait": "Arcane",
+                "rarity": "Rare",
+                "cardNumber": 364
+            },
+            {
+                "title": "Siccatite Armor",
+                "category": "Heavy",
+                "trait": "Armor",
+                "rarity": "Rare",
+                "cardNumber": 365
+            },
+            {
+                "title": "Staff of Arcane Might",
+                "category": "Stave",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 366
             }
         ]
 
