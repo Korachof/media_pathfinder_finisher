@@ -2736,6 +2736,76 @@
                 "trait": "Divine",
                 "rarity": "Rare",
                 "cardNumber": 390
+            },
+            {
+                "title": "Ursine Avenger Hood",
+                "category": "Headwear",
+                "trait": "Primal",
+                "rarity": "Unique",
+                "cardNumber": 391
+            },
+            {
+                "title": "Watch of Lost Ages",
+                "category": "Relic",
+                "trait": "Magical",
+                "rarity": "Unique",
+                "cardNumber": 392
+            },
+            {
+                "title": "Horn of Rust",
+                "category": "Relic",
+                "trait": "Magical",
+                "rarity": "Unique",
+                "cardNumber": 393
+            },
+            {
+                "title": "Sparkwarden",
+                "category": "Relic",
+                "trait": "Magical",
+                "rarity": "Unique",
+                "cardNumber": 394
+            },
+            {
+                "title": "Crown of the Kobold King",
+                "category": "Headwear",
+                "trait": "Magical",
+                "rarity": "Unique",
+                "cardNumber": 395
+            },
+            {
+                "title": "Hex Blaster",
+                "category": "Relic",
+                "trait": "Magical Weapon",
+                "rarity": "Unique",
+                "cardNumber": 396
+            },
+            {
+                "title": "Mammoth Bow",
+                "category": "Relic",
+                "trait": "Magical Weapon",
+                "rarity": "Unique",
+                "cardNumber": 397
+            },
+            {
+                "title": "Grimoire of Unknown Necessities",
+                "category": "Book",
+                "trait": "Magical",
+                "rarity": "Unique",
+                "cardNumber": 398
+            },
+            {
+                "title": "Wyrm Drinker",
+                "category": "Stave",
+                "trait": "Magical",
+                "rarity": "Unique",
+                "cardNumber": 399
+            },
+            {
+                "title": "Blade of Fallen Stars",
+                "category": "Relic",
+                "trait": "Relic Weapon",
+                "rarity": "Unique",
+                "cardNumber": 400
             }
         ]
 
