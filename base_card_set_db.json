@@ -2561,7 +2561,63 @@
                 "trait": "Magical",
                 "rarity": "Rare",
                 "cardNumber": 366
-            }
+            },
+            {
+                "title": "Palette of Masterstrokes",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 367
+            },
+            {
+                "title": "Abysium Armor",
+                "category": "Medium",
+                "trait": "Armor",
+                "rarity": "Rare",
+                "cardNumber": 368
+            },
+            {
+                "title": "Four-Tiger Blade",
+                "category": "Martial",
+                "trait": "Divine Weapon",
+                "rarity": "Rare",
+                "cardNumber": 369
+            },
+            {
+                "title": "Scarlet Queen",
+                "category": "Martial",
+                "trait": "Magical Weapon",
+                "rarity": "Rare",
+                "cardNumber": 370
+            },
+            {
+                "title": "Airship",
+                "category": "Equipment",
+                "trait": "Vehicle",
+                "rarity": "Rare",
+                "cardNumber": 370
+            },
+            {
+                "title": "Arboreal Staff",
+                "category": "Stave",
+                "trait": "Primal",
+                "rarity": "Rare",
+                "cardNumber": 371
+            },
+            {
+                "title": "Phantom Piano",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 372
+            },
+            {
+                "title": "Forgotten Shell",
+                "category": "Heavy",
+                "trait": "Armor",
+                "rarity": "Rare",
+                "cardNumber": 373
+            },
         ]
 
 }
