@@ -2618,6 +2618,125 @@
                 "rarity": "Rare",
                 "cardNumber": 373
             },
+            {
+                "title": "Pistol of Wonder",
+                "category": "Martial",
+                "trait": "Magical Weapon",
+                "rarity": "Rare",
+                "cardNumber": 374
+            },
+            {
+                "title": "Void Fragment",
+                "category": "Consumable",
+                "trait": "Material",
+                "rarity": "Rare",
+                "cardNumber": 375
+            },
+            {
+                "title": "Storm Chair",
+                "category": "Equipment",
+                "trait": "Armor",
+                "rarity": "Rare",
+                "cardNumber": 376
+            },
+            {
+                "title": "Steam Giant",
+                "category": "Equipment",
+                "trait": "Vehicle",
+                "rarity": "Rare",
+                "cardNumber": 377
+            },
+            {
+                "title": "Mind-Swap Potion",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 378
+            },
+            {
+                "title": "Demilich Eye Gem",
+                "category": "Accessory",
+                "trait": "Arcane",
+                "rarity": "Rare",
+                "cardNumber": 379
+            },
+            {
+                "title": "Oculus of Abaddon",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 380
+            },
+            {
+                "title": "Unfathomable Stargazer",
+                "category": "Cursed Item",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 381
+            },
+            {
+                "title": "Abysium Shield",
+                "category": "Shield",
+                "trait": "Armor",
+                "rarity": "Rare",
+                "cardNumber": 382
+            },
+            {
+                "title": "Fiddle of the Maestro",
+                "category": "Stave",
+                "trait": "Adventuring Gear",
+                "rarity": "Rare",
+                "cardNumber": 383
+            },
+            {
+                "title": "Gift of the Poisoned Heart",
+                "category": "Cursed Item",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 384
+            },
+            {
+                "title": "Tattletale Orb",
+                "category": "Cursed Item",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 385
+            },
+            {
+                "title": "Cauldron of Nightmares",
+                "category": "Equipment",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 386
+            },
+            {
+                "title": "Clockwork Helm",
+                "category": "Headwear",
+                "trait": "Magical Armor",
+                "rarity": "Rare",
+                "cardNumber": 387
+            },
+            {
+                "title": "Gearblade",
+                "category": "Martial",
+                "trait": "Magical Weapon",
+                "rarity": "Rare",
+                "cardNumber": 388
+            },
+            {
+                "title": "Cape of the Open Sky",
+                "category": "Accessory",
+                "trait": "Magical",
+                "rarity": "Rare",
+                "cardNumber": 389
+            },
+            {
+                "title": "Celestial Peach",
+                "category": "Consumable",
+                "trait": "Divine",
+                "rarity": "Rare",
+                "cardNumber": 390
+            }
         ]
 
 }
