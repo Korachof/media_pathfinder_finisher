@@ -15,7 +15,9 @@ class User:
     self._collectibles_list = collectibles_list
     self._card_sets = {}
     self._card_file = self.open_card_list_db()
-    self.update_card_sets(self._card_file)
+    self._base_card_file = self.open_base_card_list_db()
+    self.update_card_sets("standard", self._card_file)
+    self.update_card_sets("base", self._base_card_file)
 
   def get_name(self):
     return self._name
@@ -231,13 +233,23 @@ class User:
     card_set_file.close()
     
     return card_list_data
-
-  def update_card_sets(self, card_list_data):
-    for key in card_list_data:
-      self._card_sets[key] = cards.CardSet(key, card_list_data)
-    
-
   
+  def open_base_card_list_db(self):
+    with open("base_card_set_db.json") as card_set_file:
+      card_list_data = json.load(card_set_file)
+
+    card_set_file.close()
+    
+    return card_list_data
+
+  def update_card_sets(self, set_type, card_list_data):
+    if set_type == "base":
+      for key in card_list_data:
+        self._card_sets[key] = cards.CardSet(key, "base_card_set_db.json", card_list_data)
+    elif set_type == "standard":
+      for key in card_list_data:
+        self._card_sets[key] = cards.CardSet(key, "card_set_db.json", card_list_data)
+
 Korachof = User("Korachof", {}, {}, {}, {}, {}, {}, {})
 
 print(Korachof._card_sets)

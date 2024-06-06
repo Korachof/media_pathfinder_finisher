@@ -3,11 +3,12 @@ from random import randrange
 
 
 class CardSet:
-  def __init__(self, name, set_contents):
+  def __init__(self, name, card_db, set_contents):
     self._name = name
+    self._card_db = card_db
     self._set_list_hash = {}
     self._set_contents = set_contents
-    self.add_cards_from_db(self._set_contents)
+    self.add_cards_from_db()
 
   def get_name(self):
     """Get Card Set name"""
@@ -19,16 +20,17 @@ class CardSet:
 
   def open_card_list_db(self):
     """open the card list database"""
-    with open("card_set_db.json") as card_set_file:
-      card_list_data = json.load(card_set_file)
+    if self._set_type == "standard":
+      with open(f"{self._card_db}") as card_set_file:
+        card_list_data = json.load(card_set_file)
 
     card_set_file.close()
     
     return card_list_data
     
-  def add_cards_from_db(self, card_list_data):
+  def add_cards_from_db(self):
     """add cards from json database to hashmap"""
-    for card in card_list_data[self._name]:
+    for card in self._set_contents[self._name]:
       self.add_card(
         card["title"],
         card["category"],
