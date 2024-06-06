@@ -226,6 +226,26 @@ class User:
     else:
       self._booster_pack_quantity[set_name] = 1
 
+  def add_base_set_booster_pack(self, set_name:str):
+    booster = cards.CardBaseSetBoosterPacks(self._card_sets[set_name])
+
+    if set_name not in self._booster_pack_list:
+      self._booster_pack_list[set_name] = [booster]
+
+    else:
+      self._booster_pack_list[set_name].append(booster)
+
+    print(f"The booster pack from {set_name} has been added.")
+
+    self.increment_booster_pack(set_name)
+
+  def increment_booster_pack(self, set_name: str):
+    if set_name in self._booster_pack_quantity:
+      self._booster_pack_quantity[set_name] += 1
+
+    else:
+      self._booster_pack_quantity[set_name] = 1
+
   def open_card_list_db(self):
     with open("card_set_db.json") as card_set_file:
       card_list_data = json.load(card_set_file)
@@ -281,11 +301,17 @@ Korachof.add_expansion_booster_pack("Arctic Passage")
 Korachof.add_expansion_booster_pack("Hazardous Waters 2")
 Korachof.add_advanced_expansion_booster_pack("Characters of Legend 2")
 Korachof.add_advanced_expansion_booster_pack("Strange Animals")
+Korachof.add_base_set_booster_pack("Base Set 1")
+Korachof.add_base_set_booster_pack("Base Set 1")
+Korachof.add_base_set_booster_pack("Base Set 1")
+Korachof.add_base_set_booster_pack("Base Set 1")
 
 Korachof.select_booster_to_open("Arctic Passage")
 Korachof.select_booster_to_open("Hazardous Waters 2")
 Korachof.select_booster_to_open("Characters of Legend 2")
 Korachof.select_booster_to_open("Strange Animals")
+Korachof.select_booster_to_open("Base Set 1")
+Korachof.select_booster_to_open("Base Set 1")
 
 def odds_opening_rare(num_of_packs):
   odds = 0.917
