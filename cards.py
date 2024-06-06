@@ -277,6 +277,66 @@ class CardAdvancedExpansionPacks:
       self._contents.append(card)
 
 
+class CardBaseSetBoosterPacks:
+  def __init__(self, card_set: CardSet):
+      self._card_set = card_set
+      self._COMMON_MAX = 201
+      self._UNCOMMON_MAX = 311
+      self._RARE_MAX = 391
+      self._UNIQUE_MAX = 401
+      self._pack_registry = self.set_pack_registry()
+      self._contents = self.fill_base_set_packs()
+
+  def get_set_name(self):
+    """Get the set name
+    returns: str"""
+
+    return self._card_set.get_name()
+
+  def get_card_set(self):
+    """Get card set
+    returns dict"""
+    return self._card_set
+  
+  def get_contents(self):
+    """Get contents of set
+    returns list"""
+    return self._contents
+  
+  def set_pack_registry(self):
+    """Fill the contents of the pack"""
+
+    card1 = randrange(1, self._COMMON_MAX)
+    card2 = randrange(1, self._COMMON_MAX)
+    card3 = randrange(1, self._UNCOMMON_MAX)
+    card4 = randrange(self._COMMON_MAX, self._UNCOMMON_MAX)
+    unique_check = randrange(1, 15)
+    if unique_check == 15:
+      card5 = randrange(self._RARE_MAX, self._UNIQUE_MAX)
+
+    else:
+      card5 = randrange(self._UNCOMMON_MAX, self._RARE_MAX)
+
+    return [card1, card2, card3, card4, card5]
+
+  def fill_base_set_packs(self):
+    """Use card numbers from pack registry to fill
+    booster packs with cards with those numbers.
+    returns list"""
+
+    set_list = self._card_set.get_set_list()
+
+    booster_pack = []
+
+    while len(self._pack_registry) > 0:
+      for key in set_list:
+        if set_list[key].get_card_num() in self._pack_registry:
+          booster_pack.append(set_list[key])
+          self._pack_registry.remove(set_list[key].get_card_num())
+
+    return booster_pack
+
+
 class Cards:
   def __init__(self, title, category, trait, rarity, card_num, quantity):
     self._title = title
