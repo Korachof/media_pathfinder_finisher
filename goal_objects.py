@@ -8,9 +8,6 @@ class Books:
     self._total_hours = total_hours
     self._times_finished = times_finished
     self._rating = rating
-    self._standard_sets = ["Underrealm Gateway"]
-    self._expansion_sets = ["Hazardous Waters", "Hidden Jungle"]
-    self._advanced_sets = ["Formidable Beasts", "Characters of Legend"]
 
   def get_name(self):
     """Returns the Book name as STR"""
@@ -40,6 +37,18 @@ class Books:
     """Returns the book rating as INT"""
     return self._rating
   
+  def get_standard_sets(self):
+    """Returns the standard sets list as LIST"""
+    return self._standard_sets
+  
+  def get_expansion_sets(self):
+    """Returns the expansion sets list as LIST"""
+    return self._expansion_sets
+
+  def get_advanced_sets(self):
+    """Returns the advanced sets list as LIST"""
+    return self._advanced_sets
+
   def add_total_hours(self, additional_hours: int):
     """Add additional_hours to total_hours and return new total hours as INT"""
     self._total_hours += additional_hours
@@ -70,9 +79,6 @@ class Movies:
     self._MAX_REWARD3 = 180
 #   self._MAX_REWARD4 = >210
     self._HARDCORE_TO_THE_MEGA_FINISHED_REWARD = 7
-    self._standard_sets = ["Wildlife Mayhem"]
-    self._expansion_sets = ["Hazardous Waters 2", "Sands of Death"]
-    self._advanced_sets = ["Legendary Monsters", "Characters of Legend 2"]
 
   def get_title(self):
     """Returns the Movie title as STR"""
@@ -130,9 +136,6 @@ class VideoGames:
     self._MAX_REWARD4 = 120
 #   self._MAX_REWARD5 = >120
     self._HARDCORE_TO_THE_MEGA_TOTAL_HOURS = 200
-    self._standard_sets = ["Extraplanar Activity"]
-    self._expansion_sets = ["Hazardous Waters 3", "Swiftblood Fields"]
-    self._advanced_sets = ["Formidable Beasts 2", "Celestial Power"]
 
   def get_title(self):
     """Returns the Video Game title as STR"""
@@ -232,9 +235,6 @@ class TvShowSeason:
     self._total_hours = total_hours
     self._times_finished = times_finished
     self._rating = rating
-    self._standard_sets = ["Monstrous Ground"]
-    self._expansion_sets = ["Hazardous Waters 4", "Sands of Death 2"]
-    self._advanced_sets = ["Demonic Pact", "Strange Animals"]
 
   def get_tv_show(self):
     """Returns the TV Show Season Tv Show name as STR"""

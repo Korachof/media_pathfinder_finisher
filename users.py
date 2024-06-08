@@ -1,6 +1,9 @@
 import goal_objects
 import cards
 import json
+from random import choice
+
+# Globals
 
 class User:
   def __init__(self, name: str, book_list: dict, movie_list: dict, game_list: dict, tv_list: dict, event_list: dict, booster_pack_list: dict, collectibles_list: dict):
@@ -18,6 +21,7 @@ class User:
     self._base_card_file = self.open_base_card_list_db()
     self.update_card_sets("standard", self._card_file)
     self.update_card_sets("base", self._base_card_file)
+    self._CURRENT_BASE_SET = "Base Set 1"
 
   def get_name(self):
     return self._name
@@ -130,17 +134,33 @@ class User:
   def add_book(self, name: str, author: str, page_count: int, completion_hours: int, rating: int):
     if f"{name}: {author}" not in self._book_list:
       self._book_list[f"{name}: {author}"] = goal_objects.Books(name, author, page_count, completion_hours, completion_hours, 1, rating)
+      self.find_book_card_set(page_count)
       return f"The Book {name} by {author} has been added"
-    
+
     else:
       self._book_list[f"{name}: {author}"].add_total_hours(completion_hours)
       self._book_list[f"{name}: {author}"].incr_times_finished()
       self._book_list[f"{name}: {author}"].update_rating(rating)
       return f"The Book {name} by {author} has been updated"
+
+  def find_book_card_set(self, page_count):
+    if page_count < 151:
+      set = [choice(["Underrealm Gateway"]), 5]
+    elif page_count < 301:
+      set = [choice(["Hazardous Waters"]), 3]
+    elif page_count < 451:
+      set = [choice(["Hidden Jungle"]), 3]
+    elif page_count < 601:
+      set = [choice(["Formidable Beasts"]), 1]
+    elif page_count > 600:
+      set = [choice(["Characters of Legend"]), 1]
+  
+    self.get_booster_pack_type((set))
     
   def add_movie(self, title: str, director: str, year: int, completion_hours: int, rating: int):
     if f"{title}: {director}: {year}" not in self._movie_list:
       self._movie_list[f"{title}: {director}: {year}"] = goal_objects.Movies(title, director, year, completion_hours, completion_hours, 1, rating)
+      self.find_movie_card_set(completion_hours)
       return f"The Movie {title} by {director} from {year} has been added"
     
     else:
@@ -149,9 +169,38 @@ class User:
       self._movie_list[f"{title}: {director}: {year}"].update_rating(rating)
       return f"The Movie {title} by {director} from {year} has been updated"
     
+  def find_movie_card_set(self, runtime):
+    if runtime < 71:
+      set = [choice(["Wildlife Mayhem"]), 5]
+    elif runtime < 101:
+      set = [choice(["Hazardous Waters 2"]), 3]
+    elif runtime < 151:
+      set = [choice(["Sands of Death"]), 3]
+    elif runtime < 191:
+      set = [choice(["Legendary Monsters"]), 1]
+    elif runtime > 190:
+      set = [choice(["Characters of Legend 2"]), 1]
+
+    self.get_booster_pack_type((set))
+
+  def get_booster_pack_type(self, set_info):
+    if set_info[1] == 5:
+      self.add_booster_pack(set_info[0])
+      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)
+    elif set_info[1] == 3:
+      self.add_expansion_booster_pack(set_info[0])
+      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)
+      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)
+    elif set_info[1] == 1:
+      self.add_advanced_expansion_booster_pack(set_info[0])
+      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)
+      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)
+      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)   
+
   def add_video_game(self, title: str, publisher: str, year: int, game_system: str, completion_hours: int, rating: int):
     if f"{title}: {publisher}: {year}" not in self._game_list:
       self._game_list[f"{title}: {publisher}: {year}"] = goal_objects.VideoGames(title, publisher, year, game_system, completion_hours, completion_hours, 1, rating)
+      self.find_video_game_card_set(completion_hours)
       return f"The Video Game {title} by {publisher} from {year} has been added"
     
     else:
@@ -159,6 +208,20 @@ class User:
       self._game_list[f"{title}: {publisher}: {year}"].incr_times_finished()
       self._game_list[f"{title}: {publisher}: {year}"].update_rating(rating)
       return f"The Video Game {title} by {publisher} from {year} has been updated"
+    
+  def find_video_game_card_set(self, completion_hours):
+    if completion_hours < 16:
+      set = [choice(["Extraplanar Activity"]), 5]
+    elif completion_hours < 41:
+      set = [choice(["Hazardous Waters 3"]), 3]
+    elif completion_hours < 81:
+      set = [choice(["Swiftblood Fields"]), 3]
+    elif completion_hours < 121:
+      set = [choice(["Formidable Beasts 2"]), 1]
+    elif completion_hours > 120:
+      set = [choice(["Celestial Power"]), 1]
+
+    self.get_booster_pack_type((set))
     
   def add_tv_show(self, title: str, creator: str, seasons_list):
     if f"{title}: {creator}" not in self._tv_list:
@@ -179,7 +242,22 @@ class User:
     
     else:
       self._tv_list[f"{tv_show}: {creator}"].add_season(goal_objects.TvShowSeason(tv_show, season_num, completion_hours, completion_hours, 1, rating))
+      self.find_tv_season_card_set(completion_hours)
       return f"Season {season_num} of {tv_show} by {creator} has been created"
+    
+  def find_tv_season_card_set(self, completion_hours):
+    if completion_hours < 281:
+      set = [choice(["Monstrous Ground"]), 5]
+    elif completion_hours < 481:
+      set = [choice(["Hazardous Waters 4"]), 3]
+    elif completion_hours < 681:
+      set = [choice(["Sands of Death 2"]), 3]
+    elif completion_hours < 881:
+      set = [choice(["Demonic Pact"]), 1]
+    elif completion_hours > 880:
+      set = [choice(["Strange Animals"]), 1]
+
+    self.get_booster_pack_type((set))
     
   def add_booster_pack(self, set_name: str):
     booster = cards.CardPacks(self._card_sets[set_name])
@@ -295,6 +373,8 @@ Korachof.select_booster_to_open("Wildlife Mayhem")
 Korachof.select_booster_to_open("Monstrous Ground")
 
 print(f"Number of Wildlife Mayhem Boosters is: {Korachof._booster_pack_quantity['Wildlife Mayhem']}")
+print(f"Number of Wildlife Mayhem Boosters is: {Korachof._booster_pack_quantity['Formidable Beasts']}")
+
 
 print(Korachof.get_collectibles_list())
 Korachof.add_expansion_booster_pack("Arctic Passage")
