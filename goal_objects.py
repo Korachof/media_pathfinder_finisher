@@ -67,9 +67,10 @@ class Books:
 
 class Movies:
   """Creates a Movie object to represent a finished movie by the user."""
-  def __init__(self, title: str, director: str, completion_minutes: int, total_minutes: int, times_finished: int, rating: int):
+  def __init__(self, title: str, director: str, year: int, completion_minutes: int, total_minutes: int, times_finished: int, rating: int):
     self._title = title
     self._director = director
+    self._year = year
     self._completion_minutes = completion_minutes
     self._total_minutes = total_minutes
     self._times_finished = times_finished
@@ -87,6 +88,10 @@ class Movies:
   def get_director(self):
     """Returns the Movie Director as STR"""
     return self._director
+  
+  def get_year(self):
+    """Returns the Movie year as INT"""
+    return self._year
 
   def get_completion_minutes(self):
     """Returns the Movie first completion hours as INT"""
@@ -183,9 +188,10 @@ class VideoGames:
 
 class TvShow:
   """Creates a TV Show object to represent a tv show with at least one finished season by the user."""
-  def __init__(self, title: str, creator: str, seasons_list: list):
+  def __init__(self, title: str, creator: str, first_season_rating: int, seasons_list: list):
     self._title = title
     self._creator = creator
+    self._first_season_rating = first_season_rating
     self._seasons_list = seasons_list
     self._avg_rating = self.get_avg_rating()
 
@@ -217,9 +223,11 @@ class TvShow:
   
   def get_avg_rating(self):
     """Returns the average rating of all the seasons as FLOAT to two decimal points"""
+    if len(self.get_seasons_list()) == 0:
+      return self._first_season_rating
+
     seasons_list = self.get_seasons_list()
     num_of_seasons = len(seasons_list)
-    rating = 0
 
     for season in seasons_list:
       rating += season.get_rating()

@@ -181,21 +181,7 @@ class User:
     elif runtime > 190:
       set = [choice(["Characters of Legend 2"]), 1]
 
-    self.get_booster_pack_type((set))
-
-  def get_booster_pack_type(self, set_info):
-    if set_info[1] == 5:
-      self.add_booster_pack(set_info[0])
-      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)
-    elif set_info[1] == 3:
-      self.add_expansion_booster_pack(set_info[0])
-      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)
-      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)
-    elif set_info[1] == 1:
-      self.add_advanced_expansion_booster_pack(set_info[0])
-      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)
-      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)
-      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)   
+    self.get_booster_pack_type((set)) 
 
   def add_video_game(self, title: str, publisher: str, year: int, game_system: str, completion_hours: int, rating: int):
     if f"{title}: {publisher}: {year}" not in self._game_list:
@@ -222,23 +208,39 @@ class User:
       set = [choice(["Celestial Power"]), 1]
 
     self.get_booster_pack_type((set))
+
+  def get_booster_pack_type(self, set_info):
+    if set_info[1] == 5:
+      self.add_booster_pack(set_info[0])
+      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)
+    elif set_info[1] == 3:
+      self.add_expansion_booster_pack(set_info[0])
+      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)
+      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)
+    elif set_info[1] == 1:
+      self.add_advanced_expansion_booster_pack(set_info[0])
+      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)
+      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)
+      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)  
     
-  def add_tv_show(self, title: str, creator: str, seasons_list):
+  def add_tv_show(self, title: str, creator: str, first_season_rating: int, seasons_list):
     if f"{title}: {creator}" not in self._tv_list:
-      self._tv_list[f"{title}: {creator}"] = goal_objects.TvShow(title, creator, seasons_list)
+      self._tv_list[f"{title}: {creator}"] = goal_objects.TvShow(title, creator, first_season_rating, seasons_list)
       return f"The TV Show {title} by {creator} has been added"
     
     else:
       return f"The TV Show {title} by {creator} already exists"
 
   def add_tv_season(self, tv_show: str, creator: str, season_num: int, completion_hours: int, rating: int):
-    self.add_tv_show(tv_show, creator, {})
+    self.add_tv_show(tv_show, creator, rating, [])
 
-    if self._tv_list[f"{tv_show}: {creator}"].get_seasons_list()[season_num]:
-      self._tv_list[f"{tv_show}: {creator}"].add_total_hours(completion_hours)
-      self._tv_list[f"{tv_show}: {creator}"].incr_times_finished()
-      self._tv_list[f"{tv_show}: {creator}"].update_rating(rating)
-      return f"Season {season_num} of {tv_show} by {creator} has been updated"
+
+    for season in self._tv_list[f"{tv_show}: {creator}"].get_seasons_list():
+      if season == season_num:
+        self._tv_list[f"{tv_show}: {creator}"].add_total_hours(completion_hours)
+        self._tv_list[f"{tv_show}: {creator}"].incr_times_finished()
+        self._tv_list[f"{tv_show}: {creator}"].update_rating(rating)
+        return f"Season {season_num} of {tv_show} by {creator} has been updated"
     
     else:
       self._tv_list[f"{tv_show}: {creator}"].add_season(goal_objects.TvShowSeason(tv_show, season_num, completion_hours, completion_hours, 1, rating))
@@ -258,7 +260,25 @@ class User:
       set = [choice(["Strange Animals"]), 1]
 
     self.get_booster_pack_type((set))
+
+  def add_event(name: str, location: str, date: str, completion_hours: int, choose_event_keyword, rating: int):
+    pass
     
+  def choose_event_keyword(self):
+    keyword_options = ["date", "sports", "family event"]
+    keyword_select = "start"
+    count = 1
+    for keyword in keyword_options:
+      print(f"{count}) {keyword}")
+      count += 1
+
+    while type(keyword_select) > len(keyword_options):
+      keyword_select = int(input("Type the number of the keyword that corresponds with this event and press Enter: "))
+
+    event_keyword = keyword_options[keyword_select - 1]
+
+    return event_keyword
+
   def add_booster_pack(self, set_name: str):
     booster = cards.CardPacks(self._card_sets[set_name])
     if set_name not in self._booster_pack_list:
@@ -353,6 +373,8 @@ Korachof = User("Korachof", {}, {}, {}, {}, {}, {}, {})
 print(Korachof._card_sets)
 
 Korachof.add_book("Lost Gods", "Brom", 500, 21, 8)
+Korachof.add_movie("Jurassic Park", "Steven Spielberg", 1993, 122, 6)
+Korachof.add_tv_season("Suits", "Aaron Korsh", 2, 744, 6)
 
 print(Korachof.get_book_list()["Lost Gods: Brom"].get_name())
 
@@ -402,3 +424,6 @@ def odds_opening_rare(num_of_packs):
   return odds
 
 print(odds_opening_rare(3))
+
+
+Korachof.choose_event_keyword()
