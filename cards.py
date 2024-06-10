@@ -111,10 +111,7 @@ class CardPacks:
 class CardExpansionPacks:
   def __init__(self, card_set: CardSet):
     self._card_set = card_set
-    self._COMMON_MAX = 11
-    self._UNCOMMON_MAX = 17
-    self._RARE_MAX = 21
-    self._UNIQUE_MAX = 6
+    
     self._contents = []
     self.set_exp_pack_registry()
 
