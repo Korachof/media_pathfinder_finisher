@@ -147,6 +147,64 @@ class StandardCardPacks(CardPacks):
         return card5
     
 
+class ExpansionCardPacks(CardPacks):
+    """child class of CardPacks"""
+    def __init__(self, card_set:CardSet):
+        self.set_pack_registry()
+        super().__init__(self, card_set)
+
+    def set_exp_pack_registry(self):
+        """1 Common, 1 Uncommon/Rare/Unique, 1 wildcard
+        wildcard: 50% common, 25% uncommon, 20% rare, 5% Unique"""
+        card1 = randrange(1, self._COMMON_MAX)
+        card2 = self.check_for_unique()
+        card3 = self.wild_card_weight()
+
+        while card3 == card1:
+            card3 = randrange(1, self._COMMON_MAX)
+
+        while card3 == card2:
+            # if they opened a Unique, give them the other one. They earned it!
+            if card3 == 21:
+                card3 = 22
+            elif card3 == 22:
+                card3 == 21
+            elif card3 < 17:
+                # If card3 is under 17, it is an uncommon. Replace with another.
+                card3 = randrange(self._COMMON_MAX, self._UNCOMMON_MAX)
+            else:
+                # It is not uncommon or unique, so replace with a rare.
+                card3 = randrange(self._UNCOMMON_MAX, self._RARE_MAX)
+    
+        return self.fill_exp_packs([card1, card2, card3])
+
+    def check_for_unique(self):
+        card2 = randrange(self._COMMON_MAX, self._RARE_MAX)
+        if card2 == 17 or card2 == 18 or card2 == 19 or card2 == 20:
+            dice_roll = randrange(1, self._UNIQUE_MAX)
+        if dice_roll == 1:
+            card2 = 21
+        elif dice_roll == 5:
+            card2 = 22
+
+        return card2
+  
+    def wild_card_weight(self):
+        card3 = randrange(1, 101)
+        if card3 < 51:
+            card3 = randrange(1, self._COMMON_MAX)
+    
+        elif card3 < 76:
+            card3 = randrange(self._COMMON_MAX, self._UNCOMMON_MAX)
+    
+        elif card3 < 96:
+            card3 = randrange(self._UNCOMMON_MAX, self._RARE_MAX)
+        else:
+            card3 = randrange(self._RARE_MAX, 23)
+
+        return card3
+
+
 class Cards:
     def __init__(self, title, category, trait, rarity, card_num, quantity):
         self._title = title
