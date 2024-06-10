@@ -1,29 +1,24 @@
 import unittest
-import cards
-import users
 import goal_objects
 
+goalobject = goal_objects.GoalObjects("Talked to the Elf Guy", 2024, "6/9/2024", 3, 6)
 
-class TestBookGoalObject(unittest.TestCase):
+class TestGoalObject(unittest.TestCase):
 
-    def test_create_book1(self):
-        book1 = goal_objects.Books("Cat in the Hat", "Dr. Seuss", 61, 1, 1, 1, 5)
+    def test_object_title(self):
+        self.assertEqual(goalobject.get_title(), "Talked to the Elf Guy")
 
-    def test_create_book2(self):
-        book2 = goal_objects.Books("Romeo & Juliet", "William Shakespeare", 138, 1, 1, 1, 4)
+    def test_object_year_created(self):
+        self.assertEqual(goalobject.get_year_created(), 2024)
     
-    def test_create_book3(self):
-        book3 = goal_objects.Books("Perdido Street Station", "China Mieville", 640, 1, 1, 1, 7)
+    def test_object_year_finished(self):
+        self.assertEqual(goalobject.get_date_finished(), "6/9/2024")
 
+    def test_object_total_hours(self):
+        self.assertEqual(goalobject.get_total_hours(), 3)
 
-    def test_book_name1(self):
-        self.assertEqual(book1.get_name(), "Cat in the Hat")
-
-    def test_book_name2(self):
-        self.assertEqual(self._book2.get_name(), "Romeo & Juliet")
-
-    def test_book_name3(self):
-        self.assertEqual(self._book3.get_name(), "Perdido Street Station")
+    def test_object_rating(self):
+        self.assertEqual(goalobject.get_rating(), 6)
 
 
 class TestUsers(unittest.TestCase):
