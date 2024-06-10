@@ -1,7 +1,6 @@
 import unittest
 import goal_objects
 
-goalobject = goal_objects.GoalObjects("Talked to the Elf Guy", 2024, "6/9/2024", 3, 6)
 
 class TestGoalObject(unittest.TestCase):
 
@@ -20,11 +19,22 @@ class TestGoalObject(unittest.TestCase):
     def test_object_rating(self):
         self.assertEqual(goalobject.get_rating(), 6)
 
+    def test_add_total_hours(self):
+        goalobject2 = goal_objects.GoalObjects("Terry the Sheep", 2018, "6/2/2018", 5, 6)
+        self.assertEqual(goalobject2.add_total_hours(15), 20)
+    
+    def test_update_rating(self):
+        self.assertEqual(goalobject.update_rating(7), 7)
+
+    def test_rating_updates(self):
+        self.assertEqual(goalobject.update_rating(2), goalobject.get_rating())
+
 
 class TestUsers(unittest.TestCase):
     pass
 
 
 if __name__ == "__main__":
+    goalobject = goal_objects.GoalObjects("Talked to the Elf Guy", 2024, "6/9/2024", 3, 6)
     unittest.main()
 
