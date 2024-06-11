@@ -4,6 +4,12 @@ import json
 from random import choice
 
 # Globals
+CURRENT_BASE_SET = "Base Set 1"
+BOOK_CARD_SET_LIST = [["Underrealm Gateway"], ["Hazardous Waters"], ["Hidden Jungle"], ["Formidable Beasts"], ["Characters of Legend"]]
+MOVIE_CARD_SET_LIST = [["Wildlife Mayhem"], ["Hazardous Waters 2"], ["Sands of Death"], ["Legendary Monsters"], ["Characters of Legend 2"]]
+VIDEO_GAME_CARD_SET_LIST = [["Extraplanar Activity"], ["Hazardous Waters 3"], ["Swiftblade Fields"], ["Formidable Beasts 2"], ["Celestial Power"]]
+SEASON_CARD_SET_LIST = [["Monstrous Ground"], ["Hazardous Waters 4"], ["Sands of Death 2"], ["Demonic Pact"], ["Strange Animals"]]
+
 
 class User:
   def __init__(self, name: str, book_list: dict, movie_list: dict, game_list: dict, tv_list: dict, event_list: dict, booster_pack_list: dict, collectibles_list: dict):
@@ -21,7 +27,7 @@ class User:
     self._base_card_file = self.open_base_card_list_db()
     self.update_card_sets("standard", self._card_file)
     self.update_card_sets("base", self._base_card_file)
-    self._CURRENT_BASE_SET = "Base Set 1"
+    
 
   def get_name(self):
     return self._name
@@ -212,16 +218,16 @@ class User:
   def get_booster_pack_type(self, set_info):
     if set_info[1] == 5:
       self.add_booster_pack(set_info[0])
-      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)
+      self.add_base_set_booster_pack(CURRENT_BASE_SET)
     elif set_info[1] == 3:
       self.add_expansion_booster_pack(set_info[0])
-      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)
-      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)
+      self.add_base_set_booster_pack(CURRENT_BASE_SET)
+      self.add_base_set_booster_pack(CURRENT_BASE_SET)
     elif set_info[1] == 1:
       self.add_advanced_expansion_booster_pack(set_info[0])
-      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)
-      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)
-      self.add_base_set_booster_pack(self._CURRENT_BASE_SET)  
+      self.add_base_set_booster_pack(CURRENT_BASE_SET)
+      self.add_base_set_booster_pack(CURRENT_BASE_SET)
+      self.add_base_set_booster_pack(CURRENT_BASE_SET)  
     
   def add_tv_show(self, title: str, creator: str, first_season_rating: int, seasons_list):
     if f"{title}: {creator}" not in self._tv_list:
