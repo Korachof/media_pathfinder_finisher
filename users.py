@@ -3,12 +3,29 @@ import cards
 import json
 from random import choice
 
-# Globals
+# Global Constants
+# Card Set Lists
 CURRENT_BASE_SET = "Base Set 1"
 BOOK_CARD_SET_LIST = [["Underrealm Gateway"], ["Hazardous Waters"], ["Hidden Jungle"], ["Formidable Beasts"], ["Characters of Legend"]]
 MOVIE_CARD_SET_LIST = [["Wildlife Mayhem"], ["Hazardous Waters 2"], ["Sands of Death"], ["Legendary Monsters"], ["Characters of Legend 2"]]
 VIDEO_GAME_CARD_SET_LIST = [["Extraplanar Activity"], ["Hazardous Waters 3"], ["Swiftblade Fields"], ["Formidable Beasts 2"], ["Celestial Power"]]
-SEASON_CARD_SET_LIST = [["Monstrous Ground"], ["Hazardous Waters 4"], ["Sands of Death 2"], ["Demonic Pact"], ["Strange Animals"]]
+SHOW_CARD_SET_LIST = [["Monstrous Ground"], ["Hazardous Waters 4"], ["Sands of Death 2"], ["Demonic Pact"], ["Strange Animals"]]
+EVENT_CARD_SET_LIST= [["Arctic Passage"], ["Hazardous Waters 4"], ["Mountain Clash"], ["Formidable Beasts 3"], ["Characters of Legend 3"]]
+# Lists containing attributes to connect to the right Card Set List
+BOOK_SET_REQ_LIST = [151, 301, 451, 601, 600]
+MOVIE_SET_REQ_LIST = [71, 101, 151, 191, 190]
+VIDEO_GAME_SET_REQ_LIST = [16, 41, 81, 121, 120]
+SHOW_SET_REQ_LIST = [281, 481, 681, 881, 880]
+SOCIAL_EVENT_SET_REQ_LIST = [60, 120, 180, 240]
+
+def find_card_set(self, attribute, set_list, req_list):
+  set_list_index = 0
+  for req in req_list:
+    if req == attribute:
+      set = [choice(set_list[set_list_index]), 1]
+  
+    self.get_booster_pack_type((set))
+
 
 
 class User:
