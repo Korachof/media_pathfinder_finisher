@@ -90,6 +90,7 @@ class User:
       print(f"You do not have any booster packs of this type")
       return
 
+  
     for card in booster_pack.get_contents():
       if booster_pack.get_set_name() in self._collectibles_list:
         if card.get_name() in self._collectibles_list[booster_pack.get_set_name()]:

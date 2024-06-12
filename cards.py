@@ -110,7 +110,7 @@ class StandardCardPacks(CardPacks):
     """child class of CardPacks"""
     def __init__(self, card_set:CardSet):
         self.set_pack_registry()
-        super().__init__(self, card_set)
+        super().__init__(card_set)
 
     def set_pack_registry(self):
         """Sets the card numbers for the cards in the pack
@@ -150,7 +150,7 @@ class ExpansionCardPacks(CardPacks):
     """child class of CardPacks"""
     def __init__(self, card_set:CardSet):
         self.set_pack_registry()
-        super().__init__(self, card_set)
+        super().__init__(card_set)
 
     def set_pack_registry(self):
         """1 Common, 1 Uncommon/Rare/Unique, 1 wildcard
@@ -208,7 +208,7 @@ class AdvancedCardPacks(CardPacks):
     """child class of CardPacks"""
     def __init__(self, card_set:CardSet):
         self.set_pack_registry()
-        super().__init__(self, card_set)
+        super().__init__(card_set)
 
     def set_pack_registry(self):
         """1 card pack, 33% chance of 2nd card.
@@ -244,7 +244,7 @@ class BaseSetCardPacks(CardPacks):
     """child class of CardPacks"""
     def __init__(self, card_set:CardSet):
         self.set_pack_registry()
-        super().__init__(self, card_set)
+        super().__init__(card_set)
 
     def set_pack_registry(self):
         """Fill the contents of the pack"""
