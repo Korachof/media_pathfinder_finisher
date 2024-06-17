@@ -23,12 +23,12 @@ PACK_TYPE_LIST = [cards.StandardCardPacks, cards.ExpansionCardPacks, cards.Advan
 
 
 class User:
-    def __init__(self, name: str, book_dict: dict, movie_dict: dict, game_dict: dict, tv_dict: dict, event_dict: dict, booster_pack_dict: dict, collectibles_dict: dict):
+    def __init__(self, name: str, book_dict: dict, movie_dict: dict, game_dict: dict, show_dict: dict, event_dict: dict, booster_pack_dict: dict, collectibles_dict: dict):
         self._name = name
         self._book_dict = book_dict
         self._movie_dict = movie_dict
         self._game_dict = game_dict
-        self._tv_dict = tv_dict
+        self._show_dict = show_dict
         self._event_dict = event_dict
         self._booster_pack_dict = booster_pack_dict
         self._booster_pack_quantity = {}
@@ -84,8 +84,28 @@ class User:
         return qty
     
 # User booster pack methods
+
+    def find_card_set(self, attribute, set_list, req_list):
+        """find the card set that matches the attribute
+        parameter: attribute (INT)
+        parameter: set_list (LIST)
+        parameter: req_list (LIST)
+        returns """
+        set_list_index = 0
+        for req in itertools.islice(req_list, 4):
+            if attribute < req:
+                set = [choice(set_list[set_list_index]), set_list_index]
+                return self.get_booster_pack_type((set))
+            set_list_index += 1
+
+        if attribute > req_list[4]:
+                set = [choice(set_list[4]), 4]
+                return self.get_booster_pack_type((set))
     
     def get_booster_pack_type(self, set_info):
+        """Finds the booster pack type based on the given attributes
+        parameter: set_info (LIST) [set_title (STR), set_info_index (INT)]
+        returns: None (calls add_booster_pack directly)"""
         if set_info[1] == 0 or set_info[1] == 1:
             self.add_booster_pack(set_info[0], set_info[1])
             self.add_base_set_booster_pack(CURRENT_BASE_SET)
@@ -100,6 +120,9 @@ class User:
             self.add_base_set_booster_pack(CURRENT_BASE_SET)  
 
     def add_booster_pack(self, set_name: str, set_type_index):
+        """Add booster pack to User profile
+        parameter: set_name (STR)
+        set_type_index (INT)"""
         booster = PACK_TYPE_LIST[set_type_index](self._card_sets[set_name])
         if set_name not in self._booster_pack_dict:
             self._booster_pack_dict[set_name] = [booster]
@@ -110,6 +133,8 @@ class User:
         self.increment_booster_pack(set_name)
 
     def add_base_set_booster_pack(self, set_name:str):
+        """Add Base Set booster pack to User Profile
+        parameter: set_name"""
         booster = cards.BaseSetCardPacks(self._card_sets[set_name])
 
         if set_name not in self._booster_pack_dict:
@@ -121,6 +146,9 @@ class User:
         self.increment_booster_pack(set_name)
 
     def increment_booster_pack(self, set_name: str):
+        """Increment the number of booster packs of the designated name
+        parameter: set_name (STR)
+        returns: None (+= booster_pack_quanity[set_name])"""
         if set_name in self._booster_pack_quantity:
             self._booster_pack_quantity[set_name] += 1
 
@@ -163,28 +191,10 @@ class User:
 
         del booster_pack
 
-        self.get_booster_pack_type((set))
-
 # User card set methods
-
-    def find_card_set(self, attribute, set_list, req_list):
-        """find the card set that matches the attribute
-        parameter: attribute (INT)
-        parameter: set_list (LIST)
-        parameter: req_list (LIST)
-        returns """
-        set_list_index = 0
-        for req in itertools.islice(req_list, 4):
-            if attribute < req:
-                set = [choice(set_list[set_list_index]), set_list_index]
-                return self.get_booster_pack_type((set))
-            set_list_index += 1
-
-        if attribute > req_list[4]:
-                set = [choice(set_list[4]), 4]
-                return self.get_booster_pack_type((set))
         
     def open_card_list_db(self):
+        """Open card list database and return it as DICT"""
         with open("card_set_db.json") as card_set_file:
             card_list_data = json.load(card_set_file)
 
@@ -193,6 +203,7 @@ class User:
         return card_list_data
   
     def open_base_card_list_db(self):
+        """open base card list database and return it as DICT"""
         with open("base_card_set_db.json") as card_set_file:
             card_list_data = json.load(card_set_file)
 
@@ -201,6 +212,7 @@ class User:
         return card_list_data
 
     def update_card_sets(self, set_type, card_list_data):
+        """update the card sets to match all the current sets from the databases"""
         if set_type == "base":
             for key in card_list_data:
                 self._card_sets[key] = cards.CardSet(key, "base_card_set_db.json", card_list_data)
@@ -208,23 +220,99 @@ class User:
             for key in card_list_data:
                 self._card_sets[key] = cards.CardSet(key, "card_set_db.json", card_list_data)
 
+# Add media objects methods
+
+    def add_book(self, name: str, author: str, page_count: int, year: int, date_finished: str, completion_hours: int, rating: int):
+        """adds book object to the user book dictionary"""
+        if f"{name}: {author}" not in self._book_dict:
+            self._book_dict[f"{name}: {author}"] = goal_objects.Books(name, year, date_finished, completion_hours, rating, author, page_count, 1)
+            self.find_card_set(page_count, BOOK_CARD_SET_LIST, BOOK_SET_REQ_LIST)
+            return f"The Book {name} by {author} has been added"
+
+        else:
+            self._book_dict[f"{name}: {author}"].add_total_hours(completion_hours)
+            self._book_dict[f"{name}: {author}"].incr_times_finished()
+            self._book_dict[f"{name}: {author}"].update_rating(rating)
+            return f"The Book {name} by {author} has been updated"
+        
+    def add_movie(self, title: str, director: str, year: int, date_finished: str, completion_hours: int, rating: int):
+        """adds movie object to the user movie dictionary"""
+        if f"{title}: {director}: {year}" not in self._movie_dict:
+            self._movie_dict[f"{title}: {director}: {year}"] = goal_objects.Movies(title, year, date_finished, completion_hours, rating, director, completion_hours, 1)
+            self.find_card_set(completion_hours, MOVIE_CARD_SET_LIST, MOVIE_CARD_SET_LIST)
+            return f"The Movie {title} by {director} from {year} has been added"
+    
+        else:
+            self._movie_dict[f"{title}: {director}: {year}"].add_total_hours(completion_hours)
+            self._movie_dict[f"{title}: {director}: {year}"].incr_times_finished()
+            self._movie_dict[f"{title}: {director}: {year}"].update_rating(rating)
+            return f"The Movie {title} by {director} from {year} has been updated"
+        
+    def add_video_game(self, title: str, publisher: str, year: int, game_system: str, completion_hours: int, rating: int):
+        """adds video game object to the user video game dictionary"""
+        if f"{title}: {publisher}: {year}" not in self._game_list:
+            self._game_dict[f"{title}: {publisher}: {year}"] = goal_objects.VideoGames(title, publisher, year, game_system, completion_hours, completion_hours, 1, rating)
+            self.find_card_set(completion_hours)
+            return f"The Video Game {title} by {publisher} from {year} has been added"
+    
+        else:
+            self._game_dict[f"{title}: {publisher}: {year}"].add_total_hours(completion_hours)
+            self._game_dict[f"{title}: {publisher}: {year}"].incr_times_finished()
+            self._game_dict[f"{title}: {publisher}: {year}"].update_rating(rating)
+            return f"The Video Game {title} by {publisher} from {year} has been updated"
+        
+    def add_seasonal_show(self, title: str, year: int, date_finished: str, total_mins, rating: int, creator: str, seasons_dict: dict):
+        """adds season show object to the user show dictionary as key"""
+        if f"{title}: {creator}" not in self._show_dict:
+            self._show_dict[f"{title}: {creator}"] = goal_objects.SeasonalShows(title, year, date_finished, total_mins, rating, creator, seasons_dict)
+            return f"The TV Show {title} by {creator} has been added"
+    
+        else:
+            return f"The TV Show {title} by {creator} already exists"
+
+    def add_season(self, show_name: str, year_created, date_finished, total_mins: int, rating: int, season_num: int, completion_hours: int, creator: str):
+        """adds season object to the user show dictionary as element"""
+        self.add_seasonal_show(show_name, year_created, date_finished, total_mins, rating, creator, {})
+
+        for season in self._show_dict[f"{show_name}: {creator}"].get_seasons_dict():
+            if season == season_num:
+                self._show_dict[f"{show_name}: {creator}"].add_total_hours(completion_hours)
+                self._show_dict[f"{show_name}: {creator}"].incr_times_finished()
+                self._show_dict[f"{show_name}: {creator}"].update_rating(rating)
+                return f"Season {season_num} of {show_name} by {creator} has been updated"
+        
+            else:
+                self._show_dict[f"{show_name}: {creator}"].add_season(goal_objects.SeasonalShows(show_name, season_num, completion_hours, completion_hours, 1, rating))
+                self.find_card_set(completion_hours)
+                return f"Season {season_num} of {show_name} by {creator} has been created"
+
 # User filter methods
 
     def filter_booster_packs_by_set(self, set_name: str):
+        """Filters the booster packs by set name
+        parameter: set_name (STR)
+        returns: set_list (LIST)"""
         set_list = []
-        for pack in self._booster_pack_list[set_name]:
+        for pack in self._booster_pack_dict[set_name]:
             set_list.append(pack)
 
         return set_list
 
     def filter_collectibles_by_set(self, set_name: str):
+        """Filters the collectibles by set name
+        parameter: set_name (STR)
+        returns: set_list (LIST)"""
         set_list = []
-        for card in self._collectibles_list[set_name]:
+        for card in self._collectibles_dict[set_name]:
             set_list.append(card)
     
         return set_list
   
     def filter_collectibles_by_title(self, set_list, card_title: str):
+        """Filters the collectibles by title
+        parameter: set_list (LIST)
+        parameter: card_title (STR)
+        returns: filtered_list (LIST)"""
         filtered_list = []
         for card in set_list:
             if card["title"] == card_title:
@@ -233,6 +321,10 @@ class User:
         return filtered_list
   
     def filter_collectibles_by_category(self, set_list, category_name: str):
+        """Filters the collectible by category
+        parameter: set_list (LIST)
+        parameter: category_name (STR)
+        returns: filtered_list (LIST)"""
         filtered_list = []
         for card in set_list:
             if card["category"] == category_name:
@@ -241,6 +333,10 @@ class User:
         return filtered_list
 
     def filter_collectibles_by_trait(self, set_list, trait_name: str):
+        """Filters the collectibles by trait
+        parameter: set_list (LIST)
+        parameter: trait_name (STR)
+        returns: filtered_list (LIST)"""
         filtered_list = []
         for card in set_list:
             if card["trait"] == trait_name:
@@ -249,6 +345,10 @@ class User:
         return filtered_list
     
     def filter_collectibles_by_rarity(self, set_list, rarity_name: str):
+        """Filters the collectibles by rarity
+        parameter: set_list (LIST)
+        parameter: rarity_name (STR)
+        returns: filtered_list (LIST)"""
         filtered_list = []
         for card in set_list:
             if card["rarity"] == rarity_name:

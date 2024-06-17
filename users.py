@@ -231,7 +231,7 @@ class User:
     elif completion_hours > 120:
       set = [choice(["Celestial Power"]), 1]
 
-    self.get_booster_pack_type((set))
+    self.get_booster_pack_type(set)
 
   def get_booster_pack_type(self, set_info):
     if set_info[1] == 5:

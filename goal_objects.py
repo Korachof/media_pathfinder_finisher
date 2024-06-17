@@ -1,10 +1,10 @@
 class GoalObjects():
     """Parent class for all child goal object classes"""
-    def __init__(self, title: str, year_created: int, date_finished: str, total_hours: int, rating: int):
+    def __init__(self, title: str, year_created: int, date_finished: str, total_mins: int, rating: int):
         self._title = title
         self._year_created = year_created
         self._date_finished = date_finished
-        self._total_hours = total_hours
+        self._total_mins = total_mins
         self._rating = rating
 
     def get_title(self):
@@ -19,9 +19,9 @@ class GoalObjects():
         """returns: the goal object date finished (STR)"""
         return self._date_finished
 
-    def get_total_hours(self):
+    def get_total_mins(self):
         """returns: the goal object total hours (INT)"""
-        return self._total_hours
+        return self._total_mins
 
     def get_rating(self):
         """returns: the goal object rating (INT)"""
@@ -40,11 +40,11 @@ class GoalObjects():
 
 class Books(GoalObjects):
     """child class to goal objects parent class"""
-    def __init__(self, title: str, year_created: int, date_finished: str, total_hours: int, rating: int, author: str, page_count: int, times_finished: int):
+    def __init__(self, title: str, year_created: int, date_finished: str, total_mins: int, rating: int, author: str, page_count: int, times_finished: int):
         self._author = author
         self._page_count = page_count
         self._times_finished = times_finished
-        super().__init__(title, year_created, date_finished, total_hours, rating)
+        super().__init__(title, year_created, date_finished, total_mins, rating)
 
     def get_author(self):
         """returns: the book object's author (STR)"""
@@ -61,11 +61,11 @@ class Books(GoalObjects):
 
 class Movies(GoalObjects):
     """child class to goal objects parent class"""
-    def __init__(self, title: str, year_created: int, date_finished: str, total_hours: int, rating: int, director: str, runtime: int, times_watched: int):
+    def __init__(self, title: str, year_created: int, date_finished: str, total_mins: int, rating: int, director: str, runtime: int, times_watched: int):
         self._director = director
         self._runtime = runtime
         self._times_watched = times_watched
-        super().__init__(title, year_created, date_finished, total_hours, rating)
+        super().__init__(title, year_created, date_finished, total_mins, rating)
 
     def get_director(self):
         """returns: the movie object's director (STR)"""
@@ -87,12 +87,12 @@ class Movies(GoalObjects):
 
 class VideoGames(GoalObjects):
     """child class to goal objects parent class"""
-    def __init__(self, title: str, completion_hours: int, year_created: int, date_finished: str, total_hours: int, rating: int, publisher: str, all_achievements: bool, times_finished: int):
+    def __init__(self, title: str, year_created: int, date_finished: str, total_mins: int, rating: int, publisher: str, completion_hours: int, all_achievements: bool, times_finished: int):
         self._publisher = publisher
         self._completion_hours = completion_hours
         self._all_achievements = all_achievements
         self._times_finished = times_finished
-        super().__init__(title, year_created, date_finished, completion_hours, total_hours, rating)
+        super().__init__(title, year_created, date_finished, total_mins, rating)
 
     def get_publisher(self):
         """returns: video game object's publisher (STR)"""
@@ -118,9 +118,9 @@ class VideoGames(GoalObjects):
 
 class Shows(GoalObjects):
     """child class to goal objects parent class"""
-    def __init__(self, title: str, year_created: int, date_finished: str, total_hours: int, rating: int, creator: str):
+    def __init__(self, title: str, year_created: int, date_finished: str, total_mins: int, rating: int, creator: str):
         self._creator = creator
-        super().__init__(title, year_created, date_finished, total_hours, rating)
+        super().__init__(title, year_created, date_finished, total_mins, rating)
 
     def get_creator(self):
         """returns: show object's creator (STR)"""
@@ -129,10 +129,10 @@ class Shows(GoalObjects):
 
 class SeasonalShows(Shows):
     """child class to goal objects parent class"""
-    def __init__(self, title: str, year_created: int, date_finished: str, total_hours: int, rating: int, creator: str, seasons_dict: dict):
+    def __init__(self, title: str, year_created: int, date_finished: str, total_mins: int, rating: int, creator: str, seasons_dict: dict):
         self._seasons_dict = seasons_dict
         self._season_avg = self.find_avg_rating()
-        super().__init__(title, year_created, total_hours, date_finished, rating, creator)
+        super().__init__(title, year_created, total_mins, date_finished, rating, creator)
 
     def get_seasons_dict(self):
         """returns: the seasonal show object's seasons dictionary (DICT)"""
@@ -152,11 +152,16 @@ class SeasonalShows(Shows):
             return round(rating_avg, 2)
 
 
-class Seasons(Shows):
-    def __init__(self, title: str, year_created: int, date_finished: str, total_hours: int, rating: int, creator: str, season_num: int, times_finished: int):
+class Seasons(GoalObjects):
+    def __init__(self, title: str, year_created: int, date_finished: str, total_mins: int, rating: int, season_num: int, times_finished: int):
+        self._show_name = title         # title of the show
         self._season_num = season_num
         self._times_finished = times_finished
-        super().__init__(title, year_created, total_hours, date_finished, rating, creator)
+        super().__init__(title, year_created, date_finished, total_mins, rating)
+
+    def get_show_name(self):
+        """returns: season object's show name (STR)"""
+        return self._show_name
 
     def get_season_num(self):
         """returns: show season object's season number (INT)"""
@@ -170,10 +175,10 @@ class Seasons(Shows):
 
 class SocialEvents(GoalObjects):
     """child class to goal objects parent class"""
-    def __init__(self, title: str, year_created: int, date_finished: str, total_hours: int, rating: int, event_type: str, location: str):
+    def __init__(self, title: str, year_created: int, date_finished: str, total_mins: int, rating: int, event_type: str, location: str):
         self._event_type = event_type
         self._location = location
-        super().__init__(title, year_created, date_finished, total_hours, rating)
+        super().__init__(title, year_created, date_finished, total_mins, rating)
 
     def get_event_type(self):
         """returns: social event object's event type (STR)"""
