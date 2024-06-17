@@ -222,41 +222,41 @@ class User:
 
 # Add media objects methods
 
-    def add_book(self, name: str, author: str, page_count: int, year: int, date_finished: str, completion_hours: int, rating: int):
+    def add_book(self, name: str, author: str, page_count: int, year: int, date_finished: str, completion_mins: int, rating: int):
         """adds book object to the user book dictionary"""
         if f"{name}: {author}" not in self._book_dict:
-            self._book_dict[f"{name}: {author}"] = goal_objects.Books(name, year, date_finished, completion_hours, rating, author, page_count, 1)
+            self._book_dict[f"{name}: {author}"] = goal_objects.Books(name, year, date_finished, completion_mins, rating, author, page_count, 1)
             self.find_card_set(page_count, BOOK_CARD_SET_LIST, BOOK_SET_REQ_LIST)
             return f"The Book {name} by {author} has been added"
 
         else:
-            self._book_dict[f"{name}: {author}"].add_total_hours(completion_hours)
+            self._book_dict[f"{name}: {author}"].add_total_hours(completion_mins)
             self._book_dict[f"{name}: {author}"].incr_times_finished()
             self._book_dict[f"{name}: {author}"].update_rating(rating)
             return f"The Book {name} by {author} has been updated"
         
-    def add_movie(self, title: str, director: str, year: int, date_finished: str, completion_hours: int, rating: int):
+    def add_movie(self, title: str, director: str, year: int, date_finished: str, completion_mins: int, rating: int):
         """adds movie object to the user movie dictionary"""
         if f"{title}: {director}: {year}" not in self._movie_dict:
-            self._movie_dict[f"{title}: {director}: {year}"] = goal_objects.Movies(title, year, date_finished, completion_hours, rating, director, completion_hours, 1)
-            self.find_card_set(completion_hours, MOVIE_CARD_SET_LIST, MOVIE_CARD_SET_LIST)
+            self._movie_dict[f"{title}: {director}: {year}"] = goal_objects.Movies(title, year, date_finished, completion_mins, rating, director, completion_mins, 1)
+            self.find_card_set(completion_mins, MOVIE_CARD_SET_LIST, MOVIE_CARD_SET_LIST)
             return f"The Movie {title} by {director} from {year} has been added"
     
         else:
-            self._movie_dict[f"{title}: {director}: {year}"].add_total_hours(completion_hours)
+            self._movie_dict[f"{title}: {director}: {year}"].add_total_hours(completion_mins)
             self._movie_dict[f"{title}: {director}: {year}"].incr_times_finished()
             self._movie_dict[f"{title}: {director}: {year}"].update_rating(rating)
             return f"The Movie {title} by {director} from {year} has been updated"
         
-    def add_video_game(self, title: str, publisher: str, year: int, game_system: str, completion_hours: int, rating: int):
+    def add_video_game(self, title: str, year: int, date_finished: str, completion_mins: int, rating: int, publisher: str, all_achievements: bool):
         """adds video game object to the user video game dictionary"""
         if f"{title}: {publisher}: {year}" not in self._game_list:
-            self._game_dict[f"{title}: {publisher}: {year}"] = goal_objects.VideoGames(title, publisher, year, game_system, completion_hours, completion_hours, 1, rating)
-            self.find_card_set(completion_hours)
+            self._game_dict[f"{title}: {publisher}: {year}"] = goal_objects.VideoGames(title, year, date_finished, completion_mins, rating, publisher, completion_mins, all_achievements, 1)
+            self.find_card_set(completion_mins, VIDEO_GAME_CARD_SET_LIST, VIDEO_GAME_SET_REQ_LIST)
             return f"The Video Game {title} by {publisher} from {year} has been added"
     
         else:
-            self._game_dict[f"{title}: {publisher}: {year}"].add_total_hours(completion_hours)
+            self._game_dict[f"{title}: {publisher}: {year}"].add_total_hours(completion_mins)
             self._game_dict[f"{title}: {publisher}: {year}"].incr_times_finished()
             self._game_dict[f"{title}: {publisher}: {year}"].update_rating(rating)
             return f"The Video Game {title} by {publisher} from {year} has been updated"
@@ -270,21 +270,24 @@ class User:
         else:
             return f"The TV Show {title} by {creator} already exists"
 
-    def add_season(self, show_name: str, year_created, date_finished, total_mins: int, rating: int, season_num: int, completion_hours: int, creator: str):
+    def add_season(self, show_name: str, year_created, date_finished, total_mins: int, rating: int, season_num: int, completion_mins: int, creator: str):
         """adds season object to the user show dictionary as element"""
         self.add_seasonal_show(show_name, year_created, date_finished, total_mins, rating, creator, {})
 
         for season in self._show_dict[f"{show_name}: {creator}"].get_seasons_dict():
             if season == season_num:
-                self._show_dict[f"{show_name}: {creator}"].add_total_hours(completion_hours)
+                self._show_dict[f"{show_name}: {creator}"].add_total_hours(completion_mins)
                 self._show_dict[f"{show_name}: {creator}"].incr_times_finished()
                 self._show_dict[f"{show_name}: {creator}"].update_rating(rating)
                 return f"Season {season_num} of {show_name} by {creator} has been updated"
         
             else:
-                self._show_dict[f"{show_name}: {creator}"].add_season(goal_objects.SeasonalShows(show_name, season_num, completion_hours, completion_hours, 1, rating))
-                self.find_card_set(completion_hours)
+                self._show_dict[f"{show_name}: {creator}"].add_season(goal_objects.SeasonalShows(show_name, season_num, completion_mins, completion_mins, 1, rating))
+                self.find_card_set(completion_mins, SHOW_CARD_SET_LIST, SHOW_SET_REQ_LIST)
                 return f"Season {season_num} of {show_name} by {creator} has been created"
+            
+    def add_social_event(self, title: str):
+        pass
 
 # User filter methods
 
