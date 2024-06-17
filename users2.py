@@ -11,13 +11,13 @@ BOOK_CARD_SET_LIST = [["Underrealm Gateway"], ["Hazardous Waters"], ["Hidden Jun
 MOVIE_CARD_SET_LIST = [["Wildlife Mayhem"], ["Hazardous Waters 2"], ["Sands of Death"], ["Legendary Monsters"], ["Characters of Legend 2"]]
 VIDEO_GAME_CARD_SET_LIST = [["Extraplanar Activity"], ["Hazardous Waters 3"], ["Swiftblade Fields"], ["Formidable Beasts 2"], ["Celestial Power"]]
 SHOW_CARD_SET_LIST = [["Monstrous Ground"], ["Hazardous Waters 4"], ["Sands of Death 2"], ["Demonic Pact"], ["Strange Animals"]]
-EVENT_CARD_SET_LIST= [["Arctic Passage"], ["Hazardous Waters 4"], ["Mountain Clash"], ["Formidable Beasts 3"], ["Characters of Legend 3"]]
+SOCIAL_EVENT_CARD_SET_LIST= [["Arctic Passage"], ["Hazardous Waters 4"], ["Mountain Clash"], ["Formidable Beasts 3"], ["Characters of Legend 3"]]
 # Lists containing attributes to connect to the right Card Set List
 BOOK_SET_REQ_LIST = [151, 301, 451, 601, 600]
 MOVIE_SET_REQ_LIST = [71, 101, 151, 191, 190]
 VIDEO_GAME_SET_REQ_LIST = [16, 41, 81, 121, 120]
 SHOW_SET_REQ_LIST = [281, 481, 681, 881, 880]
-SOCIAL_EVENT_SET_REQ_LIST = [60, 120, 180, 240]
+SOCIAL_EVENT_SET_REQ_LIST = [90, 150, 210, 270]
 # Pack Type List
 PACK_TYPE_LIST = [cards.StandardCardPacks, cards.ExpansionCardPacks, cards.AdvancedCardPacks, cards.BaseSetCardPacks]
 
@@ -261,7 +261,7 @@ class User:
             self._game_dict[f"{title}: {publisher}: {year}"].update_rating(rating)
             return f"The Video Game {title} by {publisher} from {year} has been updated"
         
-    def add_seasonal_show(self, title: str, year: int, date_finished: str, total_mins, rating: int, creator: str, seasons_dict: dict):
+    def add_seasonal_show(self, title: str, year: int, date_finished: str, total_mins: int, rating: int, creator: str, seasons_dict: dict):
         """adds season show object to the user show dictionary as key"""
         if f"{title}: {creator}" not in self._show_dict:
             self._show_dict[f"{title}: {creator}"] = goal_objects.SeasonalShows(title, year, date_finished, total_mins, rating, creator, seasons_dict)
@@ -286,8 +286,16 @@ class User:
                 self.find_card_set(completion_mins, SHOW_CARD_SET_LIST, SHOW_SET_REQ_LIST)
                 return f"Season {season_num} of {show_name} by {creator} has been created"
             
-    def add_social_event(self, title: str):
-        pass
+    def add_social_event(self, title: str, year: int, date, total_mins: int, rating: int, event_type, location):
+        """adds social event object to the user social event dictionary"""
+        if f"{title}: {date}" not in self._event_dict:
+            self._event_dict[f"{title}: {date}"] = goal_objects.SocialEvents(title, year, date, total_mins, rating, event_type, location)
+            self.find_card_set(total_mins, SOCIAL_EVENT_CARD_SET_LIST, SOCIAL_EVENT_SET_REQ_LIST)
+            return f"The Social Event {title} on {date} has been added"
+        
+        else: 
+            self._game_dict[f"{title}: {year}"].update_rating(rating)
+            return f"The Social Event {title} from {year} has been updated"
 
 # User filter methods
 
