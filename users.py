@@ -89,8 +89,7 @@ class User:
         """find the card set that matches the attribute
         parameter: attribute (INT)
         parameter: set_list (LIST)
-        parameter: req_list (LIST)
-        returns """
+        parameter: req_list (LIST)"""
         set_list_index = 0
         for req in itertools.islice(req_list, 4):
             if attribute < req:
@@ -239,7 +238,7 @@ class User:
         """adds movie object to the user movie dictionary"""
         if f"{title}: {director}: {year}" not in self._movie_dict:
             self._movie_dict[f"{title}: {director}: {year}"] = goal_objects.Movies(title, year, date_finished, completion_mins, rating, director, completion_mins, 1)
-            self.find_card_set(completion_mins, MOVIE_CARD_SET_LIST, MOVIE_CARD_SET_LIST)
+            self.find_card_set(completion_mins, MOVIE_CARD_SET_LIST, MOVIE_SET_REQ_LIST)
             return f"The Movie {title} by {director} from {year} has been added"
     
         else:

@@ -47,7 +47,7 @@ def profile_menu(user_profile):
     if user_input == "1":
         add_book_form(user_profile)
     elif user_input == "2":
-        pass
+        add_movie_form(user_profile)
     
 def add_book_form(user_profile):
     print("Please select an option below by typing the corresponding number and pressing ENTER\n")
@@ -63,13 +63,45 @@ def add_book_form(user_profile):
         print("Please add the relevant information below next to each field and press ENTER\n")
         title = input("Book Title: ")
         author = input("Author: ")
-        page_count = input("Page Count: ")
+        int_check = 0
+        while int_check == 0:
+            try:
+                page_count = int(input("Page Count (numbers only): "))
+            except:
+                print("Integers only please.")
+
+            else:
+                int_check = 1
         year = input("Year Published: ")
         date_finished = input("Date Finished (month/day/4-digit year): ")
-        hours = input("Approximate Hours Read Before Completion (numbers only): ")
+        hours = int(input("Approximate Hours Read Before Completion (numbers only): "))
+        rating = input("Rating (1-5, 5 being best): ")
+        user_profile.add_book(title, author, page_count, year, date_finished, hours, rating)
+        users.User.add_book()
+
+    elif user_input == "2":
+        profile_menu()
+
+def add_movie_form(user_profile):
+    print("Please select an option below by typing the corresponding number and pressing ENTER\n")
+    print("1) Add Movie Details")
+    print("2) Go Back to Previous Menu")
+
+    user_input = None
+
+    while user_input != "1" and user_input != "2":
+        user_input = input()
+
+    if user_input == "1":
+        print("Please add the relevant information below next to each field and press ENTER\n")
+        title = input("Movie Title: ")
+        director = input("Director: ")
+        year = input("Year Published: ")
+        date_finished = input("Date Finished (month/day/4-digit year): ")
+        runtime = input("Runtime (mins): ")
         rating = input("Rating (1-5, 5 being best): ")
 
-        user_profile.add_book(title, author, page_count, year, date_finished, hours, rating)
+        user_profile.add_movie(title, director, year, date_finished, runtime, rating)
 
     elif user_input == "2":
         profile_menu()
